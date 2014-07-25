@@ -1,7 +1,0 @@
-# Partial Tkenv config file -- see $HOME/.tkenvrc as well
-inspector "SubstationTest" "SubstationTest" "2" "194x337+-7+-8:normal"
-inspector "SubstationTest.iSubstationTopology.feederBay[0].breaker[0]" "Ied" "2" "252x350+10+476:normal"
-inspector "SubstationTest.iSubstationTopology" "Star" "2" "778x488+699+36:normal"
-inspector "Anel" "Anel" "2" "607x337+-7+16:normal"
-inspector "SubstationTest.iSubstationTopology.client" "StandardHost" "2" "291x345+97+442:normal"
-

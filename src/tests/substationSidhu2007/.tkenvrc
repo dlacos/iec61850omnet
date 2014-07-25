@@ -1,5 +1,0 @@
-# Partial Tkenv config file -- see $HOME/.tkenvrc as well
-inspector "SubstationSidhu2007" "SubstationSidhu2007" "2" "737x337+-7+16:normal"
-inspector "simulation.scheduled-events.pk-361-401" "Ieee8021QFrame" "1" "460x314+-1+80:normal"
-inspector "simulation.scheduled-events.pk-541-401" "EthernetIIFrame" "1" "460x314+214+384:normal"
-
