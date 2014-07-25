@@ -1,0 +1,685 @@
+version 2
+run General-0-20130822-14:07:59-6270
+attr configname General
+attr datetime 20130822-14:07:59
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Substation
+attr processid 6270
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 61  Substation.iSubstationTopology.feederBay[0].breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 65  Substation.iSubstationTopology.feederBay[0].breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 98  Substation.iSubstationTopology.feederBay[0].control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 102  Substation.iSubstationTopology.feederBay[0].control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 135  Substation.iSubstationTopology.feederBay[0].control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 139  Substation.iSubstationTopology.feederBay[0].control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 231  Substation.iSubstationTopology.feederBay[0].mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 235  Substation.iSubstationTopology.feederBay[0].mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 268  Substation.iSubstationTopology.feederBay[1].breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 272  Substation.iSubstationTopology.feederBay[1].breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 305  Substation.iSubstationTopology.feederBay[1].control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 309  Substation.iSubstationTopology.feederBay[1].control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 342  Substation.iSubstationTopology.feederBay[1].control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 346  Substation.iSubstationTopology.feederBay[1].control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 438  Substation.iSubstationTopology.feederBay[1].mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 442  Substation.iSubstationTopology.feederBay[1].mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 475  Substation.iSubstationTopology.transformerBay[0].breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 479  Substation.iSubstationTopology.transformerBay[0].breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 512  Substation.iSubstationTopology.transformerBay[0].control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 516  Substation.iSubstationTopology.transformerBay[0].control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 549  Substation.iSubstationTopology.transformerBay[0].control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 553  Substation.iSubstationTopology.transformerBay[0].control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 645  Substation.iSubstationTopology.transformerBay[0].mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 649  Substation.iSubstationTopology.transformerBay[0].mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 682  Substation.iSubstationTopology.transformerBay[1].breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 686  Substation.iSubstationTopology.transformerBay[1].breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 719  Substation.iSubstationTopology.transformerBay[1].control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 723  Substation.iSubstationTopology.transformerBay[1].control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 756  Substation.iSubstationTopology.transformerBay[1].control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 760  Substation.iSubstationTopology.transformerBay[1].control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 852  Substation.iSubstationTopology.transformerBay[1].mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 856  Substation.iSubstationTopology.transformerBay[1].mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 5  Substation.iSubstationTopology.switch.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 16  Substation.iSubstationTopology.switch.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 27  Substation.iSubstationTopology.switch.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 149  Substation.iSubstationTopology.feederBay[0].switch.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 160  Substation.iSubstationTopology.feederBay[0].switch.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 171  Substation.iSubstationTopology.feederBay[0].switch.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 182  Substation.iSubstationTopology.feederBay[0].switch.eth[3]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 193  Substation.iSubstationTopology.feederBay[0].switch.eth[4]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 204  Substation.iSubstationTopology.feederBay[0].switch.eth[5]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 356  Substation.iSubstationTopology.feederBay[1].switch.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 367  Substation.iSubstationTopology.feederBay[1].switch.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 378  Substation.iSubstationTopology.feederBay[1].switch.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 389  Substation.iSubstationTopology.feederBay[1].switch.eth[3]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 400  Substation.iSubstationTopology.feederBay[1].switch.eth[4]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 411  Substation.iSubstationTopology.feederBay[1].switch.eth[5]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 563  Substation.iSubstationTopology.transformerBay[0].switch.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 574  Substation.iSubstationTopology.transformerBay[0].switch.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 585  Substation.iSubstationTopology.transformerBay[0].switch.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 596  Substation.iSubstationTopology.transformerBay[0].switch.eth[3]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 607  Substation.iSubstationTopology.transformerBay[0].switch.eth[4]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 618  Substation.iSubstationTopology.transformerBay[0].switch.eth[5]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 770  Substation.iSubstationTopology.transformerBay[1].switch.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 781  Substation.iSubstationTopology.transformerBay[1].switch.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 792  Substation.iSubstationTopology.transformerBay[1].switch.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 803  Substation.iSubstationTopology.transformerBay[1].switch.eth[3]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 814  Substation.iSubstationTopology.transformerBay[1].switch.eth[4]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 825  Substation.iSubstationTopology.transformerBay[1].switch.eth[5]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 0  Substation.iSubstationTopology.switch.eth[0]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 11  Substation.iSubstationTopology.switch.eth[1]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 869  Substation.iSubstationTopology.workstation.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 870  Substation.iSubstationTopology.workstation.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 22  Substation.iSubstationTopology.switch.eth[2]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 144  Substation.iSubstationTopology.feederBay[0].switch.eth[0]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 155  Substation.iSubstationTopology.feederBay[0].switch.eth[1]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 166  Substation.iSubstationTopology.feederBay[0].switch.eth[2]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 177  Substation.iSubstationTopology.feederBay[0].switch.eth[3]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 188  Substation.iSubstationTopology.feederBay[0].switch.eth[4]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 199  Substation.iSubstationTopology.feederBay[0].switch.eth[5]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 351  Substation.iSubstationTopology.feederBay[1].switch.eth[0]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 362  Substation.iSubstationTopology.feederBay[1].switch.eth[1]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 373  Substation.iSubstationTopology.feederBay[1].switch.eth[2]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 384  Substation.iSubstationTopology.feederBay[1].switch.eth[3]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 395  Substation.iSubstationTopology.feederBay[1].switch.eth[4]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 406  Substation.iSubstationTopology.feederBay[1].switch.eth[5]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 558  Substation.iSubstationTopology.transformerBay[0].switch.eth[0]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 569  Substation.iSubstationTopology.transformerBay[0].switch.eth[1]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 580  Substation.iSubstationTopology.transformerBay[0].switch.eth[2]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 591  Substation.iSubstationTopology.transformerBay[0].switch.eth[3]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 602  Substation.iSubstationTopology.transformerBay[0].switch.eth[4]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 613  Substation.iSubstationTopology.transformerBay[0].switch.eth[5]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 765  Substation.iSubstationTopology.transformerBay[1].switch.eth[0]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 776  Substation.iSubstationTopology.transformerBay[1].switch.eth[1]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 787  Substation.iSubstationTopology.transformerBay[1].switch.eth[2]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 798  Substation.iSubstationTopology.transformerBay[1].switch.eth[3]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 809  Substation.iSubstationTopology.transformerBay[1].switch.eth[4]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 820  Substation.iSubstationTopology.transformerBay[1].switch.eth[5]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 178  Substation.iSubstationTopology.feederBay[0].switch.eth[3]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 179  Substation.iSubstationTopology.feederBay[0].switch.eth[3]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 810  Substation.iSubstationTopology.transformerBay[1].switch.eth[4]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 811  Substation.iSubstationTopology.transformerBay[1].switch.eth[4]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 71  Substation.iSubstationTopology.feederBay[0].control[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 72  Substation.iSubstationTopology.feederBay[0].control[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 108  Substation.iSubstationTopology.feederBay[0].control[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 109  Substation.iSubstationTopology.feederBay[0].control[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 34  Substation.iSubstationTopology.feederBay[0].breaker[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 35  Substation.iSubstationTopology.feederBay[0].breaker[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 1  Substation.iSubstationTopology.switch.eth[0]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 2  Substation.iSubstationTopology.switch.eth[0]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 385  Substation.iSubstationTopology.feederBay[1].switch.eth[3]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 386  Substation.iSubstationTopology.feederBay[1].switch.eth[3]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 211  Substation.iSubstationTopology.feederBay[0].mu.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 212  Substation.iSubstationTopology.feederBay[0].mu.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 278  Substation.iSubstationTopology.feederBay[1].control[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 279  Substation.iSubstationTopology.feederBay[1].control[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 315  Substation.iSubstationTopology.feederBay[1].control[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 316  Substation.iSubstationTopology.feederBay[1].control[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 241  Substation.iSubstationTopology.feederBay[1].breaker[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 242  Substation.iSubstationTopology.feederBay[1].breaker[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 189  Substation.iSubstationTopology.feederBay[0].switch.eth[4]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 190  Substation.iSubstationTopology.feederBay[0].switch.eth[4]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 592  Substation.iSubstationTopology.transformerBay[0].switch.eth[3]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 593  Substation.iSubstationTopology.transformerBay[0].switch.eth[3]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 418  Substation.iSubstationTopology.feederBay[1].mu.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 419  Substation.iSubstationTopology.feederBay[1].mu.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 485  Substation.iSubstationTopology.transformerBay[0].control[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 486  Substation.iSubstationTopology.transformerBay[0].control[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 522  Substation.iSubstationTopology.transformerBay[0].control[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 523  Substation.iSubstationTopology.transformerBay[0].control[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 448  Substation.iSubstationTopology.transformerBay[0].breaker[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 449  Substation.iSubstationTopology.transformerBay[0].breaker[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 396  Substation.iSubstationTopology.feederBay[1].switch.eth[4]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 397  Substation.iSubstationTopology.feederBay[1].switch.eth[4]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 799  Substation.iSubstationTopology.transformerBay[1].switch.eth[3]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 800  Substation.iSubstationTopology.transformerBay[1].switch.eth[3]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 625  Substation.iSubstationTopology.transformerBay[0].mu.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 626  Substation.iSubstationTopology.transformerBay[0].mu.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 692  Substation.iSubstationTopology.transformerBay[1].control[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 693  Substation.iSubstationTopology.transformerBay[1].control[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 729  Substation.iSubstationTopology.transformerBay[1].control[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 730  Substation.iSubstationTopology.transformerBay[1].control[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 655  Substation.iSubstationTopology.transformerBay[1].breaker[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 656  Substation.iSubstationTopology.transformerBay[1].breaker[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 603  Substation.iSubstationTopology.transformerBay[0].switch.eth[4]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 604  Substation.iSubstationTopology.transformerBay[0].switch.eth[4]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 12  Substation.iSubstationTopology.switch.eth[1]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 13  Substation.iSubstationTopology.switch.eth[1]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 832  Substation.iSubstationTopology.transformerBay[1].mu.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 833  Substation.iSubstationTopology.transformerBay[1].mu.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+0	60	0.00000576	64
+1	93	0.00000576	64
+2	93	0.00000576	64
+5	7	0	64
+11	61	0.00000576	64
+12	112	0.00000576	64
+13	112	0.00000576	64
+16	8	0	64
+22	63	0.00000576	64
+27	9	0	64
+34	92	0.00000576	64
+35	92	0.00000576	64
+61	0	0	0
+65	0	0	0
+71	90	0.00000576	64
+72	90	0.00000576	64
+98	0	0	0
+102	0	0	0
+108	91	0.00000576	64
+109	91	0.00000576	64
+135	0	0	0
+139	0	0	0
+144	64	0.00000576	64
+149	10	0	64
+155	65	0.00000576	64
+160	11	0	64
+166	66	0.00000576	64
+171	12	0	64
+177	67	0.00000576	64
+178	88	0.00000576	64
+179	88	0.00000576	64
+182	13	0	64
+188	68	0.00000576	64
+189	99	0.00000576	64
+190	99	0.00000576	64
+193	14	0	64
+199	69	0.00000576	64
+204	15	0	64
+211	95	0.00000576	64
+212	95	0.00000576	64
+231	0	0	0
+235	0	0	0
+241	98	0.00000576	64
+242	98	0.00000576	64
+268	0	0	0
+272	0	0	0
+278	96	0.00000576	64
+279	96	0.00000576	64
+305	0	0	0
+309	0	0	0
+315	97	0.00000576	64
+316	97	0.00000576	64
+342	0	0	0
+346	0	0	0
+351	70	0.00000576	64
+356	16	0	64
+362	71	0.00000576	64
+367	17	0	64
+373	72	0.00000576	64
+378	18	0	64
+384	73	0.00000576	64
+385	94	0.00000576	64
+386	94	0.00000576	64
+389	19	0	64
+395	74	0.00000576	64
+396	105	0.00000576	64
+397	105	0.00000576	64
+400	20	0	64
+406	75	0.00000576	64
+411	21	0	64
+418	101	0.00000576	64
+419	101	0.00000576	64
+438	0	0	0
+442	0	0	0
+448	104	0.00000576	64
+449	104	0.00000576	64
+475	0	0	0
+479	0	0	0
+485	102	0.00000576	64
+486	102	0.00000576	64
+512	0	0	0
+516	0	0	0
+522	103	0.00000576	64
+523	103	0.00000576	64
+549	0	0	0
+553	0	0	0
+558	76	0.00000576	64
+563	22	0	64
+569	77	0.00000576	64
+574	23	0	64
+580	78	0.00000576	64
+585	24	0	64
+591	79	0.00000576	64
+592	100	0.00000576	64
+593	100	0.00000576	64
+596	25	0	64
+602	80	0.00000576	64
+603	111	0.00000576	64
+604	111	0.00000576	64
+607	26	0	64
+613	81	0.00000576	64
+618	27	0	64
+625	107	0.00000576	64
+626	107	0.00000576	64
+645	0	0	0
+649	0	0	0
+655	110	0.00000576	64
+656	110	0.00000576	64
+682	0	0	0
+686	0	0	0
+692	108	0.00000576	64
+693	108	0.00000576	64
+719	0	0	0
+723	0	0	0
+729	109	0.00000576	64
+730	109	0.00000576	64
+756	0	0	0
+760	0	0	0
+765	82	0.00000576	64
+770	28	0	64
+776	83	0.00000576	64
+781	29	0	64
+787	84	0.00000576	64
+792	30	0	64
+798	85	0.00000576	64
+799	106	0.00000576	64
+800	106	0.00000576	64
+803	31	0	64
+809	86	0.00000576	64
+810	89	0.00000576	64
+811	89	0.00000576	64
+814	32	0	64
+820	87	0.00000576	64
+825	33	0	64
+832	113	0.00000576	64
+833	113	0.00000576	64
+852	0	0	0
+856	0	0	0
+869	62	0.00000576	64
+870	62	0.00000576	64

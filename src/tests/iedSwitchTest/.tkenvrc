@@ -1,0 +1,4 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "IedSwitchTest.ied1" "SwitchingIED" "2" "280x353+-7+372:normal"
+inspector "IedSwitchTest" "IedSwitchTest" "2" "437x337+-7+-8:normal"
+

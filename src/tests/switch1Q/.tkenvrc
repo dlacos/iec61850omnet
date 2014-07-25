@@ -1,0 +1,5 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "Star" "Star" "2" "421x329+149+26:normal"
+inspector "Star.switch1" "Switch" "2" "283x332+14+401:normal"
+inspector "simulation.scheduled-events.ICMP-error-#11-type13-code2" "EthernetIIFrame" "1" "548x314+-7+16:normal"
+

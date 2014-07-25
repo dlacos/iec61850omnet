@@ -1,0 +1,4 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "Substation" "Substation" "2" "607x337+-7+16:normal"
+inspector "Substation.iSubstationTopology" "Star" "2" "622x337+-4+40:normal"
+

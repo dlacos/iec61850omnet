@@ -1,0 +1,6 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "StarStar.workstation" "Server" "2" "211x353+290+406:normal"
+inspector "StarStar" "StarStar" "2" "531x332+-7+0:normal"
+inspector "StarStar.genericIED" "GenericIED" "2" "210x341+-7+426:normal"
+inspector "StarStar.server" "Server" "2" "222x337+285+424:normal"
+

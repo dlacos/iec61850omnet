@@ -1,0 +1,12 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "SwitchTest" "SwitchTest" "2" "607x337+-2+-8:normal"
+inspector "SwitchTest.ied1" "Ied" "2" "205x330+2+360:normal"
+inspector "SwitchTest.s2" "Switch" "2" "265x344+217+355:normal"
+inspector "StarStar.ied4" "Ied" "2" "607x337+634+426:normal"
+inspector "simulation.scheduled-events.ping32" "EthernetIIFrame" "1" "460x314+1019+475:normal"
+inspector "SwitchTest.s3.relay.pk-81-3" "EthernetIIFrame" "1" "460x314+1080+520:normal"
+inspector "StarStar.ied1.pcapper.pk-22-1.pk-22-1" "Iec61850message" "1" "471x314+487+468:normal"
+inspector "StarStar.ied1.mac.pk-22-6" "EthernetIIFrame" "1" "460x314+-7+16:normal"
+inspector "StarStar" "StarStar" "2" "607x337+0+24:normal"
+inspector "StarStar.ied1.pcapper.pk-22-1" "EthernetIIFrame" "1" "460x314+48+383:normal"
+

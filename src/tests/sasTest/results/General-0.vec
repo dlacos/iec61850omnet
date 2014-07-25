@@ -1,0 +1,561 @@
+version 2
+run General-0-20130929-21:53:15-27192
+attr configname General
+attr datetime 20130929-21:53:15
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network SasTest
+attr processid 27192
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 29  SasTest.starZone.breaker[0].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 33  SasTest.starZone.breaker[0].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 37  SasTest.starZone.breaker[0].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 41  SasTest.starZone.breaker[0].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 45  SasTest.starZone.breaker[0].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 49  SasTest.starZone.breaker[0].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 53  SasTest.starZone.breaker[0].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 57  SasTest.starZone.breaker[0].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 91  SasTest.starZone.control[0].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 95  SasTest.starZone.control[0].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 99  SasTest.starZone.control[0].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 103  SasTest.starZone.control[0].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 107  SasTest.starZone.control[0].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 111  SasTest.starZone.control[0].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 115  SasTest.starZone.control[0].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 119  SasTest.starZone.control[0].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 153  SasTest.starZone.control[1].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 157  SasTest.starZone.control[1].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 161  SasTest.starZone.control[1].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 165  SasTest.starZone.control[1].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 169  SasTest.starZone.control[1].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 173  SasTest.starZone.control[1].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 177  SasTest.starZone.control[1].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 181  SasTest.starZone.control[1].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 215  SasTest.starZone.control[2].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 219  SasTest.starZone.control[2].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 223  SasTest.starZone.control[2].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 227  SasTest.starZone.control[2].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 231  SasTest.starZone.control[2].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 235  SasTest.starZone.control[2].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 239  SasTest.starZone.control[2].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 243  SasTest.starZone.control[2].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 277  SasTest.starZone.control[3].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 281  SasTest.starZone.control[3].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 285  SasTest.starZone.control[3].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 289  SasTest.starZone.control[3].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 293  SasTest.starZone.control[3].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 297  SasTest.starZone.control[3].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 301  SasTest.starZone.control[3].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 305  SasTest.starZone.control[3].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 322  SasTest.starZone.switch.eth1Q[0].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 326  SasTest.starZone.switch.eth1Q[0].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 330  SasTest.starZone.switch.eth1Q[0].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 334  SasTest.starZone.switch.eth1Q[0].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 338  SasTest.starZone.switch.eth1Q[0].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 342  SasTest.starZone.switch.eth1Q[0].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 346  SasTest.starZone.switch.eth1Q[0].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 350  SasTest.starZone.switch.eth1Q[0].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 363  SasTest.starZone.switch.eth1Q[1].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 367  SasTest.starZone.switch.eth1Q[1].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 371  SasTest.starZone.switch.eth1Q[1].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 375  SasTest.starZone.switch.eth1Q[1].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 379  SasTest.starZone.switch.eth1Q[1].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 383  SasTest.starZone.switch.eth1Q[1].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 387  SasTest.starZone.switch.eth1Q[1].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 391  SasTest.starZone.switch.eth1Q[1].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 404  SasTest.starZone.switch.eth1Q[2].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 408  SasTest.starZone.switch.eth1Q[2].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 412  SasTest.starZone.switch.eth1Q[2].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 416  SasTest.starZone.switch.eth1Q[2].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 420  SasTest.starZone.switch.eth1Q[2].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 424  SasTest.starZone.switch.eth1Q[2].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 428  SasTest.starZone.switch.eth1Q[2].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 432  SasTest.starZone.switch.eth1Q[2].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 445  SasTest.starZone.switch.eth1Q[3].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 449  SasTest.starZone.switch.eth1Q[3].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 453  SasTest.starZone.switch.eth1Q[3].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 457  SasTest.starZone.switch.eth1Q[3].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 461  SasTest.starZone.switch.eth1Q[3].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 465  SasTest.starZone.switch.eth1Q[3].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 469  SasTest.starZone.switch.eth1Q[3].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 473  SasTest.starZone.switch.eth1Q[3].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 486  SasTest.starZone.switch.eth1Q[4].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 490  SasTest.starZone.switch.eth1Q[4].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 494  SasTest.starZone.switch.eth1Q[4].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 498  SasTest.starZone.switch.eth1Q[4].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 502  SasTest.starZone.switch.eth1Q[4].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 506  SasTest.starZone.switch.eth1Q[4].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 510  SasTest.starZone.switch.eth1Q[4].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 514  SasTest.starZone.switch.eth1Q[4].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 527  SasTest.starZone.switch.eth1Q[5].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 531  SasTest.starZone.switch.eth1Q[5].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 535  SasTest.starZone.switch.eth1Q[5].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 539  SasTest.starZone.switch.eth1Q[5].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 543  SasTest.starZone.switch.eth1Q[5].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 547  SasTest.starZone.switch.eth1Q[5].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 551  SasTest.starZone.switch.eth1Q[5].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 555  SasTest.starZone.switch.eth1Q[5].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 568  SasTest.starZone.switch.eth1Q[6].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 572  SasTest.starZone.switch.eth1Q[6].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 576  SasTest.starZone.switch.eth1Q[6].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 580  SasTest.starZone.switch.eth1Q[6].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 584  SasTest.starZone.switch.eth1Q[6].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 588  SasTest.starZone.switch.eth1Q[6].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 592  SasTest.starZone.switch.eth1Q[6].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 596  SasTest.starZone.switch.eth1Q[6].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 609  SasTest.starZone.switch.eth1Q[7].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 613  SasTest.starZone.switch.eth1Q[7].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 617  SasTest.starZone.switch.eth1Q[7].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 621  SasTest.starZone.switch.eth1Q[7].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 625  SasTest.starZone.switch.eth1Q[7].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 629  SasTest.starZone.switch.eth1Q[7].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 633  SasTest.starZone.switch.eth1Q[7].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 637  SasTest.starZone.switch.eth1Q[7].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 659  SasTest.starZone.mu[0].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 663  SasTest.starZone.mu[0].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 667  SasTest.starZone.mu[0].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 671  SasTest.starZone.mu[0].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 675  SasTest.starZone.mu[0].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 679  SasTest.starZone.mu[0].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 683  SasTest.starZone.mu[0].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 687  SasTest.starZone.mu[0].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 704  SasTest.switch.eth1Q[0].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 708  SasTest.switch.eth1Q[0].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 712  SasTest.switch.eth1Q[0].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 716  SasTest.switch.eth1Q[0].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 720  SasTest.switch.eth1Q[0].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 724  SasTest.switch.eth1Q[0].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 728  SasTest.switch.eth1Q[0].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 732  SasTest.switch.eth1Q[0].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 745  SasTest.switch.eth1Q[1].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 749  SasTest.switch.eth1Q[1].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 753  SasTest.switch.eth1Q[1].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 757  SasTest.switch.eth1Q[1].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 761  SasTest.switch.eth1Q[1].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 765  SasTest.switch.eth1Q[1].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 769  SasTest.switch.eth1Q[1].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 773  SasTest.switch.eth1Q[1].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 801  SasTest.server.queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 805  SasTest.server.queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 809  SasTest.server.queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 813  SasTest.server.queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 817  SasTest.server.queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 821  SasTest.server.queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 825  SasTest.server.queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 829  SasTest.server.queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+29	0	0	0
+33	0	0	0
+37	0	0	0
+41	0	0	0
+45	0	0	0
+49	0	0	0
+53	0	0	0
+57	0	0	0
+91	0	0	0
+95	0	0	0
+99	0	0	0
+103	0	0	0
+107	0	0	0
+111	0	0	0
+115	0	0	0
+119	0	0	0
+153	0	0	0
+157	0	0	0
+161	0	0	0
+165	0	0	0
+169	0	0	0
+173	0	0	0
+177	0	0	0
+181	0	0	0
+215	0	0	0
+219	0	0	0
+223	0	0	0
+227	0	0	0
+231	0	0	0
+235	0	0	0
+239	0	0	0
+243	0	0	0
+277	0	0	0
+281	0	0	0
+285	0	0	0
+289	0	0	0
+293	0	0	0
+297	0	0	0
+301	0	0	0
+305	0	0	0
+322	0	0	0
+326	0	0	0
+330	0	0	0
+334	0	0	0
+338	0	0	0
+342	0	0	0
+346	0	0	0
+350	0	0	0
+363	0	0	0
+367	0	0	0
+371	0	0	0
+375	0	0	0
+379	0	0	0
+383	0	0	0
+387	0	0	0
+391	0	0	0
+404	0	0	0
+408	0	0	0
+412	0	0	0
+416	0	0	0
+420	0	0	0
+424	0	0	0
+428	0	0	0
+432	0	0	0
+445	0	0	0
+449	0	0	0
+453	0	0	0
+457	0	0	0
+461	0	0	0
+465	0	0	0
+469	0	0	0
+473	0	0	0
+486	0	0	0
+490	0	0	0
+494	0	0	0
+498	0	0	0
+502	0	0	0
+506	0	0	0
+510	0	0	0
+514	0	0	0
+527	0	0	0
+531	0	0	0
+535	0	0	0
+539	0	0	0
+543	0	0	0
+547	0	0	0
+551	0	0	0
+555	0	0	0
+568	0	0	0
+572	0	0	0
+576	0	0	0
+580	0	0	0
+584	0	0	0
+588	0	0	0
+592	0	0	0
+596	0	0	0
+609	0	0	0
+613	0	0	0
+617	0	0	0
+621	0	0	0
+625	0	0	0
+629	0	0	0
+633	0	0	0
+637	0	0	0
+659	0	0	0
+663	0	0	0
+667	0	0	0
+671	0	0	0
+675	0	0	0
+679	0	0	0
+683	0	0	0
+687	0	0	0
+704	0	0	0
+708	0	0	0
+712	0	0	0
+716	0	0	0
+720	0	0	0
+724	0	0	0
+728	0	0	0
+732	0	0	0
+745	0	0	0
+749	0	0	0
+753	0	0	0
+757	0	0	0
+761	0	0	0
+765	0	0	0
+769	0	0	0
+773	0	0	0
+801	0	0	0
+805	0	0	0
+809	0	0	0
+813	0	0	0
+817	0	0	0
+821	0	0	0
+825	0	0	0
+829	0	0	0

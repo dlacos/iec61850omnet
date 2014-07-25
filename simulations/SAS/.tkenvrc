@@ -1,0 +1,10 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "HybridStar" "HybridStar" "2" "607x337+147+212:normal"
+inspector "HybridStar.switch" "EnhancedSwitch" "2" "607x337+26+29:normal"
+inspector "simulation.scheduled-events.sampledValue-192-78" "SampledValue" "1" "732x314+-4+64:normal"
+inspector "StarStar.zone[0].mu[0].mac.sampledValue-192-79" "EthernetIIFrame" "1" "489x314+1089+484:normal"
+inspector "simulation.scheduled-events.sampledValue-192-2" "EthernetIIFrame" "1" "515x314+202+465:normal"
+inspector "RingStar.zone[2]" "StarZone" "2" "607x337+-4+40:normal"
+inspector "MeshStar" "MeshStar" "2" "607x452+-7+-8:normal"
+inspector "StarStar" "StarStar" "2" "607x337+-7+16:normal"
+

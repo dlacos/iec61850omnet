@@ -1,0 +1,2783 @@
+version 2
+run General-0-20130829-18:05:22-13977
+attr configname General
+attr datetime 20130829-18:05:22
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Star
+attr processid 13977
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 28  Star.ied.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 32  Star.ied.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 65  Star.ied1.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 69  Star.ied1.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 102  Star.ied2.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 106  Star.ied2.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 139  Star.ied3.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 143  Star.ied3.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 153  Star.switch.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 164  Star.switch.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 175  Star.switch.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 186  Star.switch1.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 197  Star.switch1.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 208  Star.switch1.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 219  Star.switch2.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 230  Star.switch2.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 241  Star.switch2.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 148  Star.switch.eth[0]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 159  Star.switch.eth[1]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 252  Star.server.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 253  Star.server.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 170  Star.switch.eth[2]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 181  Star.switch1.eth[0]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 192  Star.switch1.eth[1]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 203  Star.switch1.eth[2]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 214  Star.switch2.eth[0]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 225  Star.switch2.eth[1]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 236  Star.switch2.eth[2]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 182  Star.switch1.eth[0]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 183  Star.switch1.eth[0]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 215  Star.switch2.eth[0]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 216  Star.switch2.eth[0]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 149  Star.switch.eth[0]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 150  Star.switch.eth[0]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 1  Star.ied.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 2  Star.ied.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 38  Star.ied1.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 39  Star.ied1.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 160  Star.switch.eth[1]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 161  Star.switch.eth[1]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 112  Star.ied3.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 113  Star.ied3.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 75  Star.ied2.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 76  Star.ied2.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 15  Star.ied.iec61850trafgen  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 21  Star.ied.mms  numActiveSessions:vector  ETV
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, vector"
+vector 58  Star.ied1.mms  numActiveSessions:vector  ETV
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, vector"
+vector 95  Star.ied2.mms  numActiveSessions:vector  ETV
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, vector"
+vector 132  Star.ied3.mms  numActiveSessions:vector  ETV
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, vector"
+vector 281  Star.ied.tcp  tcpRcvQueueBytes  ETV
+vector 268  Star.ied.tcp  "advertised window"  ETV
+vector 267  Star.ied.tcp  "receive window"  ETV
+vector 270  Star.ied.tcp  "sent ack"  ETV
+vector 305  Star.ied1.tcp  tcpRcvQueueBytes  ETV
+vector 292  Star.ied1.tcp  "advertised window"  ETV
+vector 291  Star.ied1.tcp  "receive window"  ETV
+vector 294  Star.ied1.tcp  "sent ack"  ETV
+vector 329  Star.ied2.tcp  tcpRcvQueueBytes  ETV
+vector 316  Star.ied2.tcp  "advertised window"  ETV
+vector 315  Star.ied2.tcp  "receive window"  ETV
+vector 318  Star.ied2.tcp  "sent ack"  ETV
+vector 353  Star.ied3.tcp  tcpRcvQueueBytes  ETV
+vector 340  Star.ied3.tcp  "advertised window"  ETV
+vector 339  Star.ied3.tcp  "receive window"  ETV
+vector 342  Star.ied3.tcp  "sent ack"  ETV
+vector 11  Star.ied.encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 33  Star.ied.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 35  Star.ied.networkLayer.arp  initiatedResolution:vector  ETV
+attr title  "ARP initiated resolutions, vector"
+vector 70  Star.ied1.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 72  Star.ied1.networkLayer.arp  initiatedResolution:vector  ETV
+attr title  "ARP initiated resolutions, vector"
+vector 107  Star.ied2.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 109  Star.ied2.networkLayer.arp  initiatedResolution:vector  ETV
+attr title  "ARP initiated resolutions, vector"
+vector 144  Star.ied3.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 146  Star.ied3.networkLayer.arp  initiatedResolution:vector  ETV
+attr title  "ARP initiated resolutions, vector"
+vector 29  Star.ied.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 31  Star.ied.queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 48  Star.ied1.encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 85  Star.ied2.encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 122  Star.ied3.encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 5  Star.ied.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 66  Star.ied1.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 68  Star.ied1.queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 103  Star.ied2.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 105  Star.ied2.queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 140  Star.ied3.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 142  Star.ied3.queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 42  Star.ied1.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 79  Star.ied2.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 116  Star.ied3.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 37  Star.ied1.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 74  Star.ied2.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 111  Star.ied3.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 204  Star.switch1.eth[2]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 205  Star.switch1.eth[2]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 237  Star.switch2.eth[2]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 238  Star.switch2.eth[2]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 226  Star.switch2.eth[1]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 227  Star.switch2.eth[1]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 0  Star.ied.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 193  Star.switch1.eth[1]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 194  Star.switch1.eth[1]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 264  Star.switch1.relay  "buffer level"  ETV
+vector 265  Star.switch2.relay  "buffer level"  ETV
+vector 12  Star.ied.encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 86  Star.ied2.encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 123  Star.ied3.encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 263  Star.switch.relay  "buffer level"  ETV
+vector 49  Star.ied1.encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 261  Star.server.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 260  Star.server.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 256  Star.server.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 251  Star.server.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 171  Star.switch.eth[2]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 172  Star.switch.eth[2]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+0	191	1.00001008	118
+0	200	1.000016799999	64
+0	303	2.00001008	118
+0	344	2.000016799999	64
+0	435	3.00001008	118
+0	481	3.000016799999	64
+0	820	3.000061439996	64
+0	1100	4.00001008	118
+0	1121	4.000016799999	64
+0	1323	5.00001008	118
+0	1360	6.00001008	118
+0	1388	7.00001008	118
+0	1423	8.00001008	118
+0	1451	9.00001008	118
+0	1547	10.00001008	118
+0	1568	10.000016799999	64
+0	1756	11.00001008	118
+0	1791	12.00001008	118
+0	1819	13.00001008	118
+0	1854	14.00001008	118
+0	1882	15.00001008	118
+0	1917	16.00001008	118
+0	1945	17.00001008	118
+0	1980	18.00001008	118
+0	2008	19.00001008	118
+0	2043	20.00001008	118
+0	2071	21.00001008	118
+0	2167	22.00001008	118
+0	2188	22.000016799999	64
+0	2376	23.00001008	118
+0	2411	24.00001008	118
+0	2439	25.00001008	118
+0	2474	26.00001008	118
+0	2502	27.00001008	118
+0	2537	28.00001008	118
+0	2565	29.00001008	118
+0	2600	30.00001008	118
+0	2628	31.00001008	118
+0	2663	32.00001008	118
+0	2691	33.00001008	118
+0	2726	34.00001008	118
+0	2754	35.00001008	118
+0	2789	36.00001008	118
+0	2817	37.00001008	118
+0	2852	38.00001008	118
+0	2880	39.00001008	118
+0	2915	40.00001008	118
+0	2943	41.00001008	118
+0	2978	42.00001008	118
+0	3006	43.00001008	118
+0	3041	44.00001008	118
+0	3069	45.00001008	118
+0	3165	46.00001008	118
+0	3186	46.000016799999	64
+0	3374	47.00001008	118
+0	3409	48.00001008	118
+0	3437	49.00001008	118
+0	3472	50.00001008	118
+0	3500	51.00001008	118
+0	3535	52.00001008	118
+0	3563	53.00001008	118
+0	3598	54.00001008	118
+0	3626	55.00001008	118
+0	3661	56.00001008	118
+0	3689	57.00001008	118
+0	3724	58.00001008	118
+0	3752	59.00001008	118
+1	34	0.00000576	64
+1	154	1.00000576	64
+1	312	2.00001152	64
+1	448	3.00001152	64
+1	573	3.000030719998	64
+1	646	3.000037439997	64
+1	779	3.000054719997	64
+1	982	3.000097119993	74
+1	1271	4.000059679996	74
+1	1718	10.000059679996	74
+1	2338	22.000059679996	74
+1	3336	46.000059679996	74
+2	34	0.00000576	64
+2	154	1.00000576	64
+2	312	2.00001152	64
+2	448	3.00001152	64
+2	573	3.000030719998	64
+2	646	3.000037439997	64
+2	779	3.000054719997	64
+2	982	3.000097119993	74
+2	1271	4.000059679996	74
+2	1718	10.000059679996	74
+2	2338	22.000059679996	74
+2	3336	46.000059679996	74
+5	125	1	118
+5	196	1.00001008	64
+5	252	2	118
+5	308	2.00001008	64
+5	390	3	118
+5	440	3.00001008	64
+5	795	3.000054719997	64
+5	1050	4	118
+5	1105	4.00001008	64
+5	1309	5	118
+5	1342	6	118
+5	1384	7	118
+5	1405	8	118
+5	1447	9	118
+5	1499	10	118
+5	1552	10.00001008	64
+5	1752	11	118
+5	1773	12	118
+5	1815	13	118
+5	1836	14	118
+5	1878	15	118
+5	1899	16	118
+5	1941	17	118
+5	1962	18	118
+5	2004	19	118
+5	2025	20	118
+5	2067	21	118
+5	2119	22	118
+5	2172	22.00001008	64
+5	2372	23	118
+5	2393	24	118
+5	2435	25	118
+5	2456	26	118
+5	2498	27	118
+5	2519	28	118
+5	2561	29	118
+5	2582	30	118
+5	2624	31	118
+5	2645	32	118
+5	2687	33	118
+5	2708	34	118
+5	2750	35	118
+5	2771	36	118
+5	2813	37	118
+5	2834	38	118
+5	2876	39	118
+5	2897	40	118
+5	2939	41	118
+5	2960	42	118
+5	3002	43	118
+5	3023	44	118
+5	3065	45	118
+5	3117	46	118
+5	3170	46.00001008	64
+5	3370	47	118
+5	3391	48	118
+5	3433	49	118
+5	3454	50	118
+5	3496	51	118
+5	3517	52	118
+5	3559	53	118
+5	3580	54	118
+5	3622	55	118
+5	3643	56	118
+5	3685	57	118
+5	3706	58	118
+5	3748	59	118
+5	3769	60	118
+11	92	1	100
+11	116	1	28
+11	227	2	100
+11	230	2	28
+11	367	3	100
+11	368	3	28
+11	790	3.000054719997	44
+11	1026	4	100
+11	1032	4	44
+11	1304	5	100
+11	1337	6	100
+11	1379	7	100
+11	1400	8	100
+11	1442	9	100
+11	1475	10	100
+11	1481	10	44
+11	1747	11	100
+11	1768	12	100
+11	1810	13	100
+11	1831	14	100
+11	1873	15	100
+11	1894	16	100
+11	1936	17	100
+11	1957	18	100
+11	1999	19	100
+11	2020	20	100
+11	2062	21	100
+11	2095	22	100
+11	2101	22	44
+11	2367	23	100
+11	2388	24	100
+11	2430	25	100
+11	2451	26	100
+11	2493	27	100
+11	2514	28	100
+11	2556	29	100
+11	2577	30	100
+11	2619	31	100
+11	2640	32	100
+11	2682	33	100
+11	2703	34	100
+11	2745	35	100
+11	2766	36	100
+11	2808	37	100
+11	2829	38	100
+11	2871	39	100
+11	2892	40	100
+11	2934	41	100
+11	2955	42	100
+11	2997	43	100
+11	3018	44	100
+11	3060	45	100
+11	3093	46	100
+11	3099	46	44
+11	3365	47	100
+11	3386	48	100
+11	3428	49	100
+11	3449	50	100
+11	3491	51	100
+11	3512	52	100
+11	3554	53	100
+11	3575	54	100
+11	3617	55	100
+11	3638	56	100
+11	3680	57	100
+11	3701	58	100
+11	3743	59	100
+11	3764	60	100
+12	452	3.00001152	28
+12	584	3.000030719998	28
+12	657	3.000037439997	28
+12	783	3.000054719997	28
+12	984	3.000097119993	56
+12	1273	4.000059679996	56
+12	1720	10.000059679996	56
+12	2340	22.000059679996	56
+12	3338	46.000059679996	56
+15	65	1	100
+15	206	2	100
+15	355	3	100
+15	1012	4	100
+15	1298	5	100
+15	1331	6	100
+15	1377	7	100
+15	1394	8	100
+15	1440	9	100
+15	1461	10	100
+15	1745	11	100
+15	1762	12	100
+15	1808	13	100
+15	1825	14	100
+15	1871	15	100
+15	1888	16	100
+15	1934	17	100
+15	1951	18	100
+15	1997	19	100
+15	2014	20	100
+15	2060	21	100
+15	2081	22	100
+15	2365	23	100
+15	2382	24	100
+15	2428	25	100
+15	2445	26	100
+15	2491	27	100
+15	2508	28	100
+15	2554	29	100
+15	2571	30	100
+15	2617	31	100
+15	2634	32	100
+15	2680	33	100
+15	2697	34	100
+15	2743	35	100
+15	2760	36	100
+15	2806	37	100
+15	2823	38	100
+15	2869	39	100
+15	2886	40	100
+15	2932	41	100
+15	2949	42	100
+15	2995	43	100
+15	3012	44	100
+15	3058	45	100
+15	3079	46	100
+15	3363	47	100
+15	3380	48	100
+15	3426	49	100
+15	3443	50	100
+15	3489	51	100
+15	3506	52	100
+15	3552	53	100
+15	3569	54	100
+15	3615	55	100
+15	3632	56	100
+15	3678	57	100
+15	3695	58	100
+15	3741	59	100
+15	3758	60	100
+21	66	1	1
+28	0	0	0
+29	110	1	118
+29	126	1	64
+29	239	2	118
+29	240	2	64
+29	377	3	118
+29	378	3	64
+29	792	3.000054719997	64
+29	1036	4	118
+29	1042	4	64
+29	1306	5	118
+29	1339	6	118
+29	1381	7	118
+29	1402	8	118
+29	1444	9	118
+29	1485	10	118
+29	1491	10	64
+29	1749	11	118
+29	1770	12	118
+29	1812	13	118
+29	1833	14	118
+29	1875	15	118
+29	1896	16	118
+29	1938	17	118
+29	1959	18	118
+29	2001	19	118
+29	2022	20	118
+29	2064	21	118
+29	2105	22	118
+29	2111	22	64
+29	2369	23	118
+29	2390	24	118
+29	2432	25	118
+29	2453	26	118
+29	2495	27	118
+29	2516	28	118
+29	2558	29	118
+29	2579	30	118
+29	2621	31	118
+29	2642	32	118
+29	2684	33	118
+29	2705	34	118
+29	2747	35	118
+29	2768	36	118
+29	2810	37	118
+29	2831	38	118
+29	2873	39	118
+29	2894	40	118
+29	2936	41	118
+29	2957	42	118
+29	2999	43	118
+29	3020	44	118
+29	3062	45	118
+29	3103	46	118
+29	3109	46	64
+29	3367	47	118
+29	3388	48	118
+29	3430	49	118
+29	3451	50	118
+29	3493	51	118
+29	3514	52	118
+29	3556	53	118
+29	3577	54	118
+29	3619	55	118
+29	3640	56	118
+29	3682	57	118
+29	3703	58	118
+29	3745	59	118
+29	3766	60	118
+31	110	1	0
+31	191	1.00001008	1.008e-05
+31	239	2	0
+31	303	2.00001008	1.008e-05
+31	377	3	0
+31	435	3.00001008	1.008e-05
+31	792	3.000054719997	0
+31	1036	4	0
+31	1100	4.00001008	1.008e-05
+31	1306	5	0
+31	1339	6	0
+31	1381	7	0
+31	1402	8	0
+31	1444	9	0
+31	1485	10	0
+31	1547	10.00001008	1.008e-05
+31	1749	11	0
+31	1770	12	0
+31	1812	13	0
+31	1833	14	0
+31	1875	15	0
+31	1896	16	0
+31	1938	17	0
+31	1959	18	0
+31	2001	19	0
+31	2022	20	0
+31	2064	21	0
+31	2105	22	0
+31	2167	22.00001008	1.008e-05
+31	2369	23	0
+31	2390	24	0
+31	2432	25	0
+31	2453	26	0
+31	2495	27	0
+31	2516	28	0
+31	2558	29	0
+31	2579	30	0
+31	2621	31	0
+31	2642	32	0
+31	2684	33	0
+31	2705	34	0
+31	2747	35	0
+31	2768	36	0
+31	2810	37	0
+31	2831	38	0
+31	2873	39	0
+31	2894	40	0
+31	2936	41	0
+31	2957	42	0
+31	2999	43	0
+31	3020	44	0
+31	3062	45	0
+31	3103	46	0
+31	3165	46.00001008	1.008e-05
+31	3367	47	0
+31	3388	48	0
+31	3430	49	0
+31	3451	50	0
+31	3493	51	0
+31	3514	52	0
+31	3556	53	0
+31	3577	54	0
+31	3619	55	0
+31	3640	56	0
+31	3682	57	0
+31	3703	58	0
+31	3745	59	0
+31	3766	60	0
+32	0	0	0
+32	110	1	1
+32	110	1	0
+32	126	1	1
+32	191	1.00001008	0
+32	239	2	1
+32	239	2	0
+32	240	2	1
+32	303	2.00001008	0
+32	377	3	1
+32	377	3	0
+32	378	3	1
+32	435	3.00001008	0
+32	792	3.000054719997	1
+32	792	3.000054719997	0
+32	1036	4	1
+32	1036	4	0
+32	1042	4	1
+32	1100	4.00001008	0
+32	1306	5	1
+32	1306	5	0
+32	1339	6	1
+32	1339	6	0
+32	1381	7	1
+32	1381	7	0
+32	1402	8	1
+32	1402	8	0
+32	1444	9	1
+32	1444	9	0
+32	1485	10	1
+32	1485	10	0
+32	1491	10	1
+32	1547	10.00001008	0
+32	1749	11	1
+32	1749	11	0
+32	1770	12	1
+32	1770	12	0
+32	1812	13	1
+32	1812	13	0
+32	1833	14	1
+32	1833	14	0
+32	1875	15	1
+32	1875	15	0
+32	1896	16	1
+32	1896	16	0
+32	1938	17	1
+32	1938	17	0
+32	1959	18	1
+32	1959	18	0
+32	2001	19	1
+32	2001	19	0
+32	2022	20	1
+32	2022	20	0
+32	2064	21	1
+32	2064	21	0
+32	2105	22	1
+32	2105	22	0
+32	2111	22	1
+32	2167	22.00001008	0
+32	2369	23	1
+32	2369	23	0
+32	2390	24	1
+32	2390	24	0
+32	2432	25	1
+32	2432	25	0
+32	2453	26	1
+32	2453	26	0
+32	2495	27	1
+32	2495	27	0
+32	2516	28	1
+32	2516	28	0
+32	2558	29	1
+32	2558	29	0
+32	2579	30	1
+32	2579	30	0
+32	2621	31	1
+32	2621	31	0
+32	2642	32	1
+32	2642	32	0
+32	2684	33	1
+32	2684	33	0
+32	2705	34	1
+32	2705	34	0
+32	2747	35	1
+32	2747	35	0
+32	2768	36	1
+32	2768	36	0
+32	2810	37	1
+32	2810	37	0
+32	2831	38	1
+32	2831	38	0
+32	2873	39	1
+32	2873	39	0
+32	2894	40	1
+32	2894	40	0
+32	2936	41	1
+32	2936	41	0
+32	2957	42	1
+32	2957	42	0
+32	2999	43	1
+32	2999	43	0
+32	3020	44	1
+32	3020	44	0
+32	3062	45	1
+32	3062	45	0
+32	3103	46	1
+32	3103	46	0
+32	3109	46	1
+32	3165	46.00001008	0
+32	3367	47	1
+32	3367	47	0
+32	3388	48	1
+32	3388	48	0
+32	3430	49	1
+32	3430	49	0
+32	3451	50	1
+32	3451	50	0
+32	3493	51	1
+32	3493	51	0
+32	3514	52	1
+32	3514	52	0
+32	3556	53	1
+32	3556	53	0
+32	3577	54	1
+32	3577	54	0
+32	3619	55	1
+32	3619	55	0
+32	3640	56	1
+32	3640	56	0
+32	3682	57	1
+32	3682	57	0
+32	3703	58	1
+32	3703	58	0
+32	3745	59	1
+32	3745	59	0
+32	3766	60	1
+32	3766	60	0
+33	106	1	1
+33	215	2	1
+33	358	3	1
+35	106	1	1
+37	159	1.00000576	64
+37	268	2.00000576	64
+37	404	3.00000576	64
+37	766	3.000050879995	64
+37	1069	4.00000576	64
+37	1516	10.00000576	64
+37	2136	22.00000576	64
+37	3134	46.00000576	64
+38	35	0.00000576	64
+38	155	1.00000576	64
+38	322	2.000012479999	64
+38	511	3.000022559999	64
+38	574	3.000030719998	64
+38	647	3.000037439997	64
+38	711	3.000044159996	64
+38	922	3.000082079995	74
+38	1211	4.000044639998	74
+38	1658	10.000044639998	74
+38	2278	22.000044639998	74
+38	3276	46.000044639998	74
+39	35	0.00000576	64
+39	155	1.00000576	64
+39	322	2.000012479999	64
+39	511	3.000022559999	64
+39	574	3.000030719998	64
+39	647	3.000037439997	64
+39	711	3.000044159996	64
+39	922	3.000082079995	74
+39	1211	4.000044639998	74
+39	1658	10.000044639998	74
+39	2278	22.000044639998	74
+39	3276	46.000044639998	74
+42	137	1	64
+42	253	2	64
+42	391	3	64
+42	730	3.000044159996	64
+42	1055	4	64
+42	1504	10	64
+42	2124	22	64
+42	3122	46	64
+48	117	1	28
+48	231	2	28
+48	369	3	28
+48	725	3.000044159996	44
+48	1033	4	44
+48	1482	10	44
+48	2102	22	44
+48	3100	46	44
+49	513	3.000022559999	28
+49	585	3.000030719998	28
+49	658	3.000037439997	28
+49	716	3.000044159996	28
+49	924	3.000082079995	56
+49	1213	4.000044639998	56
+49	1660	10.000044639998	56
+49	2280	22.000044639998	56
+49	3278	46.000044639998	56
+58	67	1	1
+65	0	0	0
+66	127	1	64
+66	241	2	64
+66	379	3	64
+66	727	3.000044159996	64
+66	1043	4	64
+66	1492	10	64
+66	2112	22	64
+66	3110	46	64
+68	127	1	0
+68	241	2	0
+68	379	3	0
+68	727	3.000044159996	0
+68	1043	4	0
+68	1492	10	0
+68	2112	22	0
+68	3110	46	0
+69	0	0	0
+69	127	1	1
+69	127	1	0
+69	241	2	1
+69	241	2	0
+69	379	3	1
+69	379	3	0
+69	727	3.000044159996	1
+69	727	3.000044159996	0
+69	1043	4	1
+69	1043	4	0
+69	1492	10	1
+69	1492	10	0
+69	2112	22	1
+69	2112	22	0
+69	3110	46	1
+69	3110	46	0
+70	107	1	1
+70	216	2	1
+70	359	3	1
+72	107	1	1
+74	160	1.00000576	64
+74	269	2.00000576	64
+74	405	3.00000576	64
+74	776	3.000054719997	64
+74	1070	4.00000576	64
+74	1517	10.00000576	64
+74	2137	22.00000576	64
+74	3135	46.00000576	64
+75	38	0.00000576	64
+75	158	1.00000576	64
+75	323	2.000012479999	64
+75	458	3.000012479999	64
+75	576	3.000030719998	64
+75	649	3.000037439997	64
+75	736	3.000047999998	64
+75	957	3.000089599994	74
+75	1246	4.000052159997	74
+75	1693	10.000052159997	74
+75	2313	22.000052159997	74
+75	3311	46.000052159997	74
+76	38	0.00000576	64
+76	158	1.00000576	64
+76	323	2.000012479999	64
+76	458	3.000012479999	64
+76	576	3.000030719998	64
+76	649	3.000037439997	64
+76	736	3.000047999998	64
+76	957	3.000089599994	74
+76	1246	4.000052159997	74
+76	1693	10.000052159997	74
+76	2313	22.000052159997	74
+76	3311	46.000052159997	74
+79	138	1	64
+79	254	2	64
+79	392	3	64
+79	748	3.000047999998	64
+79	1056	4	64
+79	1505	10	64
+79	2125	22	64
+79	3123	46	64
+85	118	1	28
+85	232	2	28
+85	370	3	28
+85	743	3.000047999998	44
+85	1034	4	44
+85	1483	10	44
+85	2103	22	44
+85	3101	46	44
+86	469	3.000012479999	28
+86	587	3.000030719998	28
+86	660	3.000037439997	28
+86	738	3.000047999998	28
+86	959	3.000089599994	56
+86	1248	4.000052159997	56
+86	1695	10.000052159997	56
+86	2315	22.000052159997	56
+86	3313	46.000052159997	56
+95	68	1	1
+102	0	0	0
+103	128	1	64
+103	242	2	64
+103	380	3	64
+103	745	3.000047999998	64
+103	1044	4	64
+103	1493	10	64
+103	2113	22	64
+103	3111	46	64
+105	128	1	0
+105	242	2	0
+105	380	3	0
+105	745	3.000047999998	0
+105	1044	4	0
+105	1493	10	0
+105	2113	22	0
+105	3111	46	0
+106	0	0	0
+106	128	1	1
+106	128	1	0
+106	242	2	1
+106	242	2	0
+106	380	3	1
+106	380	3	0
+106	745	3.000047999998	1
+106	745	3.000047999998	0
+106	1044	4	1
+106	1044	4	0
+106	1493	10	1
+106	1493	10	0
+106	2113	22	1
+106	2113	22	0
+106	3111	46	1
+106	3111	46	0
+107	108	1	1
+107	217	2	1
+107	360	3	1
+109	108	1	1
+111	161	1.00000576	64
+111	270	2.00000576	64
+111	406	3.00000576	64
+111	862	3.000068159995	64
+111	1071	4.00000576	64
+111	1518	10.00000576	64
+111	2138	22.00000576	64
+111	3136	46.00000576	64
+112	37	0.00000576	64
+112	157	1.00000576	64
+112	324	2.000012479999	64
+112	459	3.000012479999	64
+112	575	3.000030719998	64
+112	648	3.000037439997	64
+112	823	3.000061439996	64
+112	999	3.000104639992	74
+112	1288	4.000067199995	74
+112	1735	10.000067199995	74
+112	2355	22.000067199995	74
+112	3353	46.000067199995	74
+113	37	0.00000576	64
+113	157	1.00000576	64
+113	324	2.000012479999	64
+113	459	3.000012479999	64
+113	575	3.000030719998	64
+113	648	3.000037439997	64
+113	823	3.000061439996	64
+113	999	3.000104639992	74
+113	1288	4.000067199995	74
+113	1735	10.000067199995	74
+113	2355	22.000067199995	74
+113	3353	46.000067199995	74
+116	139	1	64
+116	255	2	64
+116	393	3	64
+116	841	3.000061439996	64
+116	1057	4	64
+116	1506	10	64
+116	2126	22	64
+116	3124	46	64
+122	119	1	28
+122	233	2	28
+122	371	3	28
+122	836	3.000061439996	44
+122	1035	4	44
+122	1484	10	44
+122	2104	22	44
+122	3102	46	44
+123	470	3.000012479999	28
+123	586	3.000030719998	28
+123	659	3.000037439997	28
+123	829	3.000061439996	28
+123	1001	3.000104639992	56
+123	1290	4.000067199995	56
+123	1737	10.000067199995	56
+123	2357	22.000067199995	56
+123	3355	46.000067199995	56
+132	69	1	1
+139	0	0	0
+140	129	1	64
+140	243	2	64
+140	381	3	64
+140	838	3.000061439996	64
+140	1045	4	64
+140	1494	10	64
+140	2114	22	64
+140	3112	46	64
+142	129	1	0
+142	243	2	0
+142	381	3	0
+142	838	3.000061439996	0
+142	1045	4	0
+142	1494	10	0
+142	2114	22	0
+142	3112	46	0
+143	0	0	0
+143	129	1	1
+143	129	1	0
+143	243	2	1
+143	243	2	0
+143	381	3	1
+143	381	3	0
+143	838	3.000061439996	1
+143	838	3.000061439996	0
+143	1045	4	1
+143	1045	4	0
+143	1494	10	1
+143	1494	10	0
+143	2114	22	1
+143	2114	22	0
+143	3112	46	1
+143	3112	46	0
+144	109	1	1
+144	218	2	1
+144	361	3	1
+146	109	1	1
+148	21	0.00000576	64
+148	143	1.00000576	64
+148	264	2.00000576	64
+148	529	3.000024959998	64
+148	604	3.000031679997	64
+148	677	3.000038399996	64
+148	749	3.000048959997	64
+148	896	3.000075519995	74
+148	963	3.000090559993	74
+148	1065	4.00000576	64
+148	1185	4.000038079998	74
+148	1252	4.000053119996	74
+148	1313	5.00000576	64
+148	1346	6.00000576	64
+148	1409	8.00000576	64
+148	1512	10.00000576	64
+148	1632	10.000038079998	74
+148	1699	10.000053119996	74
+148	1777	12.00000576	64
+148	1840	14.00000576	64
+148	1903	16.00000576	64
+148	1966	18.00000576	64
+148	2029	20.00000576	64
+148	2132	22.00000576	64
+148	2252	22.000038079998	74
+148	2319	22.000053119996	74
+148	2397	24.00000576	64
+148	2460	26.00000576	64
+148	2523	28.00000576	64
+148	2586	30.00000576	64
+148	2649	32.00000576	64
+148	2712	34.00000576	64
+148	2775	36.00000576	64
+148	2838	38.00000576	64
+148	2901	40.00000576	64
+148	2964	42.00000576	64
+148	3027	44.00000576	64
+148	3130	46.00000576	64
+148	3250	46.000038079998	74
+148	3317	46.000053119996	74
+148	3395	48.00000576	64
+148	3458	50.00000576	64
+148	3521	52.00000576	64
+148	3584	54.00000576	64
+148	3647	56.00000576	64
+148	3710	58.00000576	64
+148	3773	60.00000576	64
+149	33	0.00000576	64
+149	153	1.00000576	64
+149	320	2.000012479999	64
+149	445	3.00001152	64
+149	492	3.000018239999	64
+149	531	3.000024959998	64
+149	808	3.000056639995	64
+149	858	3.000067199996	64
+149	1111	4.000012479999	64
+149	1130	4.000019199998	64
+149	1155	4.000025919997	64
+149	1367	6.000012479999	64
+149	1430	8.000012479999	64
+149	1558	10.000012479999	64
+149	1577	10.000019199998	64
+149	1602	10.000025919997	64
+149	1798	12.000012479999	64
+149	1861	14.000012479999	64
+149	1924	16.000012479999	64
+149	1987	18.000012479999	64
+149	2050	20.000012479999	64
+149	2178	22.000012479999	64
+149	2197	22.000019199998	64
+149	2222	22.000025919997	64
+149	2418	24.000012479999	64
+149	2481	26.000012479999	64
+149	2544	28.000012479999	64
+149	2607	30.000012479999	64
+149	2670	32.000012479999	64
+149	2733	34.000012479999	64
+149	2796	36.000012479999	64
+149	2859	38.000012479999	64
+149	2922	40.000012479999	64
+149	2985	42.000012479999	64
+149	3048	44.000012479999	64
+149	3176	46.000012479999	64
+149	3195	46.000019199998	64
+149	3220	46.000025919997	64
+149	3416	48.000012479999	64
+149	3479	50.000012479999	64
+149	3542	52.000012479999	64
+149	3605	54.000012479999	64
+149	3668	56.000012479999	64
+149	3731	58.000012479999	64
+150	33	0.00000576	64
+150	153	1.00000576	64
+150	320	2.000012479999	64
+150	445	3.00001152	64
+150	492	3.000018239999	64
+150	531	3.000024959998	64
+150	808	3.000056639995	64
+150	858	3.000067199996	64
+150	1111	4.000012479999	64
+150	1130	4.000019199998	64
+150	1155	4.000025919997	64
+150	1367	6.000012479999	64
+150	1430	8.000012479999	64
+150	1558	10.000012479999	64
+150	1577	10.000019199998	64
+150	1602	10.000025919997	64
+150	1798	12.000012479999	64
+150	1861	14.000012479999	64
+150	1924	16.000012479999	64
+150	1987	18.000012479999	64
+150	2050	20.000012479999	64
+150	2178	22.000012479999	64
+150	2197	22.000019199998	64
+150	2222	22.000025919997	64
+150	2418	24.000012479999	64
+150	2481	26.000012479999	64
+150	2544	28.000012479999	64
+150	2607	30.000012479999	64
+150	2670	32.000012479999	64
+150	2733	34.000012479999	64
+150	2796	36.000012479999	64
+150	2859	38.000012479999	64
+150	2922	40.000012479999	64
+150	2985	42.000012479999	64
+150	3048	44.000012479999	64
+150	3176	46.000012479999	64
+150	3195	46.000019199998	64
+150	3220	46.000025919997	64
+150	3416	48.000012479999	64
+150	3479	50.000012479999	64
+150	3542	52.000012479999	64
+150	3605	54.000012479999	64
+150	3668	56.000012479999	64
+150	3731	58.000012479999	64
+153	4	0	64
+153	84	1	64
+153	221	2	64
+153	500	3.000018239999	64
+153	550	3.000024959998	64
+153	566	3.000029759999	64
+153	706	3.000043199997	64
+153	874	3.000068959995	74
+153	951	3.000083999993	74
+153	1017	4	64
+153	1172	4.000031519998	74
+153	1240	4.000046559996	74
+153	1299	5	64
+153	1332	6	64
+153	1395	8	64
+153	1466	10	64
+153	1619	10.000031519998	74
+153	1687	10.000046559996	74
+153	1763	12	64
+153	1826	14	64
+153	1889	16	64
+153	1952	18	64
+153	2015	20	64
+153	2086	22	64
+153	2239	22.000031519998	74
+153	2307	22.000046559996	74
+153	2383	24	64
+153	2446	26	64
+153	2509	28	64
+153	2572	30	64
+153	2635	32	64
+153	2698	34	64
+153	2761	36	64
+153	2824	38	64
+153	2887	40	64
+153	2950	42	64
+153	3013	44	64
+153	3084	46	64
+153	3237	46.000031519998	74
+153	3305	46.000046559996	74
+153	3381	48	64
+153	3444	50	64
+153	3507	52	64
+153	3570	54	64
+153	3633	56	64
+153	3696	58	64
+153	3759	60	64
+159	22	0.00000576	64
+159	144	1.00000576	64
+159	265	2.00000576	64
+159	530	3.000024959998	64
+159	605	3.000031679997	64
+159	694	3.000042239998	64
+159	796	3.000055679996	64
+159	936	3.000083039994	74
+159	988	3.000098079992	74
+159	1066	4.00000576	64
+159	1225	4.000045599997	74
+159	1277	4.000060639995	74
+159	1314	5.00000576	64
+159	1347	6.00000576	64
+159	1410	8.00000576	64
+159	1513	10.00000576	64
+159	1672	10.000045599997	74
+159	1724	10.000060639995	74
+159	1778	12.00000576	64
+159	1841	14.00000576	64
+159	1904	16.00000576	64
+159	1967	18.00000576	64
+159	2030	20.00000576	64
+159	2133	22.00000576	64
+159	2292	22.000045599997	74
+159	2344	22.000060639995	74
+159	2398	24.00000576	64
+159	2461	26.00000576	64
+159	2524	28.00000576	64
+159	2587	30.00000576	64
+159	2650	32.00000576	64
+159	2713	34.00000576	64
+159	2776	36.00000576	64
+159	2839	38.00000576	64
+159	2902	40.00000576	64
+159	2965	42.00000576	64
+159	3028	44.00000576	64
+159	3131	46.00000576	64
+159	3290	46.000045599997	74
+159	3342	46.000060639995	74
+159	3396	48.00000576	64
+159	3459	50.00000576	64
+159	3522	52.00000576	64
+159	3585	54.00000576	64
+159	3648	56.00000576	64
+159	3711	58.00000576	64
+159	3774	60.00000576	64
+160	36	0.00000576	64
+160	156	1.00000576	64
+160	321	2.000012479999	64
+160	446	3.00001152	64
+160	493	3.000018239999	64
+160	532	3.000024959998	64
+160	816	3.000060479997	64
+160	890	3.000073919995	64
+160	1112	4.000012479999	64
+160	1131	4.000019199998	64
+160	1156	4.000025919997	64
+160	1368	6.000012479999	64
+160	1431	8.000012479999	64
+160	1559	10.000012479999	64
+160	1578	10.000019199998	64
+160	1603	10.000025919997	64
+160	1799	12.000012479999	64
+160	1862	14.000012479999	64
+160	1925	16.000012479999	64
+160	1988	18.000012479999	64
+160	2051	20.000012479999	64
+160	2179	22.000012479999	64
+160	2198	22.000019199998	64
+160	2223	22.000025919997	64
+160	2419	24.000012479999	64
+160	2482	26.000012479999	64
+160	2545	28.000012479999	64
+160	2608	30.000012479999	64
+160	2671	32.000012479999	64
+160	2734	34.000012479999	64
+160	2797	36.000012479999	64
+160	2860	38.000012479999	64
+160	2923	40.000012479999	64
+160	2986	42.000012479999	64
+160	3049	44.000012479999	64
+160	3177	46.000012479999	64
+160	3196	46.000019199998	64
+160	3221	46.000025919997	64
+160	3417	48.000012479999	64
+160	3480	50.000012479999	64
+160	3543	52.000012479999	64
+160	3606	54.000012479999	64
+160	3669	56.000012479999	64
+160	3732	58.000012479999	64
+161	36	0.00000576	64
+161	156	1.00000576	64
+161	321	2.000012479999	64
+161	446	3.00001152	64
+161	493	3.000018239999	64
+161	532	3.000024959998	64
+161	816	3.000060479997	64
+161	890	3.000073919995	64
+161	1112	4.000012479999	64
+161	1131	4.000019199998	64
+161	1156	4.000025919997	64
+161	1368	6.000012479999	64
+161	1431	8.000012479999	64
+161	1559	10.000012479999	64
+161	1578	10.000019199998	64
+161	1603	10.000025919997	64
+161	1799	12.000012479999	64
+161	1862	14.000012479999	64
+161	1925	16.000012479999	64
+161	1988	18.000012479999	64
+161	2051	20.000012479999	64
+161	2179	22.000012479999	64
+161	2198	22.000019199998	64
+161	2223	22.000025919997	64
+161	2419	24.000012479999	64
+161	2482	26.000012479999	64
+161	2545	28.000012479999	64
+161	2608	30.000012479999	64
+161	2671	32.000012479999	64
+161	2734	34.000012479999	64
+161	2797	36.000012479999	64
+161	2860	38.000012479999	64
+161	2923	40.000012479999	64
+161	2986	42.000012479999	64
+161	3049	44.000012479999	64
+161	3177	46.000012479999	64
+161	3196	46.000019199998	64
+161	3221	46.000025919997	64
+161	3417	48.000012479999	64
+161	3480	50.000012479999	64
+161	3543	52.000012479999	64
+161	3606	54.000012479999	64
+161	3669	56.000012479999	64
+161	3732	58.000012479999	64
+164	5	0	64
+164	85	1	64
+164	222	2	64
+164	497	3.000018239999	64
+164	543	3.000024959998	64
+164	638	3.000036479998	64
+164	764	3.000049919996	64
+164	916	3.000076479994	74
+164	977	3.000091519992	74
+164	1018	4	64
+164	1205	4.000039039997	74
+164	1266	4.000054079995	74
+164	1300	5	64
+164	1333	6	64
+164	1396	8	64
+164	1467	10	64
+164	1652	10.000039039997	74
+164	1713	10.000054079995	74
+164	1764	12	64
+164	1827	14	64
+164	1890	16	64
+164	1953	18	64
+164	2016	20	64
+164	2087	22	64
+164	2272	22.000039039997	74
+164	2333	22.000054079995	74
+164	2384	24	64
+164	2447	26	64
+164	2510	28	64
+164	2573	30	64
+164	2636	32	64
+164	2699	34	64
+164	2762	36	64
+164	2825	38	64
+164	2888	40	64
+164	2951	42	64
+164	3014	44	64
+164	3085	46	64
+164	3270	46.000039039997	74
+164	3331	46.000054079995	74
+164	3382	48	64
+164	3445	50	64
+164	3508	52	64
+164	3571	54	64
+164	3634	56	64
+164	3697	58	64
+164	3760	60	64
+170	24	0.00000576	64
+170	263	2.00000576	64
+170	520	3.000023999999	64
+170	568	3.000030719998	64
+170	641	3.000037439997	64
+170	709	3.000044159996	64
+170	843	3.000062399995	64
+170	877	3.000069119994	64
+170	903	3.000075839993	64
+170	929	3.000082559992	64
+170	1145	4.000024959998	64
+170	1175	4.000031679997	64
+170	1192	4.000038399996	64
+170	1218	4.000045119995	64
+170	1592	10.000024959998	64
+170	1622	10.000031679997	64
+170	1639	10.000038399996	64
+170	1665	10.000045119995	64
+170	2212	22.000024959998	64
+170	2242	22.000031679997	64
+170	2259	22.000038399996	64
+170	2285	22.000045119995	64
+170	3210	46.000024959998	64
+170	3240	46.000031679997	64
+170	3257	46.000038399996	64
+170	3283	46.000045119995	64
+171	563	3.000029759999	64
+171	635	3.000036479998	64
+171	701	3.000043199997	64
+171	759	3.000049919996	64
+171	871	3.000068959995	74
+171	911	3.000076479994	74
+171	946	3.000083999993	74
+171	972	3.000091519992	74
+171	1169	4.000031519998	74
+171	1200	4.000039039997	74
+171	1235	4.000046559996	74
+171	1261	4.000054079995	74
+171	1616	10.000031519998	74
+171	1647	10.000039039997	74
+171	1682	10.000046559996	74
+171	1708	10.000054079995	74
+171	2236	22.000031519998	74
+171	2267	22.000039039997	74
+171	2302	22.000046559996	74
+171	2328	22.000054079995	74
+171	3234	46.000031519998	74
+171	3265	46.000039039997	74
+171	3300	46.000046559996	74
+171	3326	46.000054079995	74
+172	563	3.000029759999	64
+172	635	3.000036479998	64
+172	701	3.000043199997	64
+172	759	3.000049919996	64
+172	871	3.000068959995	74
+172	911	3.000076479994	74
+172	946	3.000083999993	74
+172	972	3.000091519992	74
+172	1169	4.000031519998	74
+172	1200	4.000039039997	74
+172	1235	4.000046559996	74
+172	1261	4.000054079995	74
+172	1616	10.000031519998	74
+172	1647	10.000039039997	74
+172	1682	10.000046559996	74
+172	1708	10.000054079995	74
+172	2236	22.000031519998	74
+172	2267	22.000039039997	74
+172	2302	22.000046559996	74
+172	2328	22.000054079995	74
+172	3234	46.000031519998	74
+172	3265	46.000039039997	74
+172	3300	46.000046559996	74
+172	3326	46.000054079995	74
+175	6	0	64
+175	219	2	64
+175	498	3.000018239999	64
+175	501	3.000018239999	64
+175	544	3.000024959998	64
+175	551	3.000024959998	64
+175	812	3.000056639995	64
+175	819	3.000060479997	64
+175	861	3.000067199996	64
+175	893	3.000073919995	64
+175	1135	4.000019199998	64
+175	1137	4.000019199998	64
+175	1161	4.000025919997	64
+175	1163	4.000025919997	64
+175	1582	10.000019199998	64
+175	1584	10.000019199998	64
+175	1608	10.000025919997	64
+175	1610	10.000025919997	64
+175	2202	22.000019199998	64
+175	2204	22.000019199998	64
+175	2228	22.000025919997	64
+175	2230	22.000025919997	64
+175	3200	46.000019199998	64
+175	3202	46.000019199998	64
+175	3226	46.000025919997	64
+175	3228	46.000025919997	64
+181	25	0.00000576	64
+181	145	1.00000576	64
+181	315	2.000012479999	64
+181	443	3.00001152	64
+181	490	3.000018239999	64
+181	527	3.000024959998	64
+181	807	3.000056639995	64
+181	857	3.000067199996	64
+181	1109	4.000012479999	64
+181	1128	4.000019199998	64
+181	1153	4.000025919997	64
+181	1365	6.000012479999	64
+181	1428	8.000012479999	64
+181	1556	10.000012479999	64
+181	1575	10.000019199998	64
+181	1600	10.000025919997	64
+181	1796	12.000012479999	64
+181	1859	14.000012479999	64
+181	1922	16.000012479999	64
+181	1985	18.000012479999	64
+181	2048	20.000012479999	64
+181	2176	22.000012479999	64
+181	2195	22.000019199998	64
+181	2220	22.000025919997	64
+181	2416	24.000012479999	64
+181	2479	26.000012479999	64
+181	2542	28.000012479999	64
+181	2605	30.000012479999	64
+181	2668	32.000012479999	64
+181	2731	34.000012479999	64
+181	2794	36.000012479999	64
+181	2857	38.000012479999	64
+181	2920	40.000012479999	64
+181	2983	42.000012479999	64
+181	3046	44.000012479999	64
+181	3174	46.000012479999	64
+181	3193	46.000019199998	64
+181	3218	46.000025919997	64
+181	3414	48.000012479999	64
+181	3477	50.000012479999	64
+181	3540	52.000012479999	64
+181	3603	54.000012479999	64
+181	3666	56.000012479999	64
+181	3729	58.000012479999	64
+182	31	0.00000576	64
+182	151	1.00000576	64
+182	266	2.00000576	64
+182	533	3.000024959998	64
+182	606	3.000031679997	64
+182	678	3.000038399996	64
+182	750	3.000048959997	64
+182	897	3.000075519995	74
+182	964	3.000090559993	74
+182	1067	4.00000576	64
+182	1186	4.000038079998	74
+182	1253	4.000053119996	74
+182	1315	5.00000576	64
+182	1348	6.00000576	64
+182	1411	8.00000576	64
+182	1514	10.00000576	64
+182	1633	10.000038079998	74
+182	1700	10.000053119996	74
+182	1779	12.00000576	64
+182	1842	14.00000576	64
+182	1905	16.00000576	64
+182	1968	18.00000576	64
+182	2031	20.00000576	64
+182	2134	22.00000576	64
+182	2253	22.000038079998	74
+182	2320	22.000053119996	74
+182	2399	24.00000576	64
+182	2462	26.00000576	64
+182	2525	28.00000576	64
+182	2588	30.00000576	64
+182	2651	32.00000576	64
+182	2714	34.00000576	64
+182	2777	36.00000576	64
+182	2840	38.00000576	64
+182	2903	40.00000576	64
+182	2966	42.00000576	64
+182	3029	44.00000576	64
+182	3132	46.00000576	64
+182	3251	46.000038079998	74
+182	3318	46.000053119996	74
+182	3397	48.00000576	64
+182	3460	50.00000576	64
+182	3523	52.00000576	64
+182	3586	54.00000576	64
+182	3649	56.00000576	64
+182	3712	58.00000576	64
+182	3775	60.00000576	64
+183	31	0.00000576	64
+183	151	1.00000576	64
+183	266	2.00000576	64
+183	533	3.000024959998	64
+183	606	3.000031679997	64
+183	678	3.000038399996	64
+183	750	3.000048959997	64
+183	897	3.000075519995	74
+183	964	3.000090559993	74
+183	1067	4.00000576	64
+183	1186	4.000038079998	74
+183	1253	4.000053119996	74
+183	1315	5.00000576	64
+183	1348	6.00000576	64
+183	1411	8.00000576	64
+183	1514	10.00000576	64
+183	1633	10.000038079998	74
+183	1700	10.000053119996	74
+183	1779	12.00000576	64
+183	1842	14.00000576	64
+183	1905	16.00000576	64
+183	1968	18.00000576	64
+183	2031	20.00000576	64
+183	2134	22.00000576	64
+183	2253	22.000038079998	74
+183	2320	22.000053119996	74
+183	2399	24.00000576	64
+183	2462	26.00000576	64
+183	2525	28.00000576	64
+183	2588	30.00000576	64
+183	2651	32.00000576	64
+183	2714	34.00000576	64
+183	2777	36.00000576	64
+183	2840	38.00000576	64
+183	2903	40.00000576	64
+183	2966	42.00000576	64
+183	3029	44.00000576	64
+183	3132	46.00000576	64
+183	3251	46.000038079998	74
+183	3318	46.000053119996	74
+183	3397	48.00000576	64
+183	3460	50.00000576	64
+183	3523	52.00000576	64
+183	3586	54.00000576	64
+183	3649	56.00000576	64
+183	3712	58.00000576	64
+183	3775	60.00000576	64
+186	7	0	64
+186	86	1	64
+186	274	2.00000576	64
+186	410	3.00000576	64
+186	419	3.00000576	64
+186	485	3.000016799999	64
+186	772	3.000050879995	64
+186	830	3.000061439996	64
+186	1075	4.00000576	64
+186	1084	4.00000576	64
+186	1125	4.000016799999	64
+186	1350	6.00000576	64
+186	1413	8.00000576	64
+186	1522	10.00000576	64
+186	1531	10.00000576	64
+186	1572	10.000016799999	64
+186	1781	12.00000576	64
+186	1844	14.00000576	64
+186	1907	16.00000576	64
+186	1970	18.00000576	64
+186	2033	20.00000576	64
+186	2142	22.00000576	64
+186	2151	22.00000576	64
+186	2192	22.000016799999	64
+186	2401	24.00000576	64
+186	2464	26.00000576	64
+186	2527	28.00000576	64
+186	2590	30.00000576	64
+186	2653	32.00000576	64
+186	2716	34.00000576	64
+186	2779	36.00000576	64
+186	2842	38.00000576	64
+186	2905	40.00000576	64
+186	2968	42.00000576	64
+186	3031	44.00000576	64
+186	3140	46.00000576	64
+186	3149	46.00000576	64
+186	3190	46.000016799999	64
+186	3399	48.00000576	64
+186	3462	50.00000576	64
+186	3525	52.00000576	64
+186	3588	54.00000576	64
+186	3651	56.00000576	64
+186	3714	58.00000576	64
+186	3777	60.00000576	64
+192	26	0.00000576	64
+192	146	1.00000576	64
+192	311	2.00001152	64
+192	447	3.00001152	64
+192	569	3.000030719998	64
+192	642	3.000037439997	64
+192	778	3.000054719997	64
+192	981	3.000097119993	74
+192	1270	4.000059679996	74
+192	1717	10.000059679996	74
+192	2337	22.000059679996	74
+192	3335	46.000059679996	74
+193	192	1.00001008	118
+193	201	1.000016799999	64
+193	304	2.00001008	118
+193	345	2.000016799999	64
+193	436	3.00001008	118
+193	482	3.000016799999	64
+193	821	3.000061439996	64
+193	1101	4.00001008	118
+193	1122	4.000016799999	64
+193	1324	5.00001008	118
+193	1361	6.00001008	118
+193	1389	7.00001008	118
+193	1424	8.00001008	118
+193	1452	9.00001008	118
+193	1548	10.00001008	118
+193	1569	10.000016799999	64
+193	1757	11.00001008	118
+193	1792	12.00001008	118
+193	1820	13.00001008	118
+193	1855	14.00001008	118
+193	1883	15.00001008	118
+193	1918	16.00001008	118
+193	1946	17.00001008	118
+193	1981	18.00001008	118
+193	2009	19.00001008	118
+193	2044	20.00001008	118
+193	2072	21.00001008	118
+193	2168	22.00001008	118
+193	2189	22.000016799999	64
+193	2377	23.00001008	118
+193	2412	24.00001008	118
+193	2440	25.00001008	118
+193	2475	26.00001008	118
+193	2503	27.00001008	118
+193	2538	28.00001008	118
+193	2566	29.00001008	118
+193	2601	30.00001008	118
+193	2629	31.00001008	118
+193	2664	32.00001008	118
+193	2692	33.00001008	118
+193	2727	34.00001008	118
+193	2755	35.00001008	118
+193	2790	36.00001008	118
+193	2818	37.00001008	118
+193	2853	38.00001008	118
+193	2881	39.00001008	118
+193	2916	40.00001008	118
+193	2944	41.00001008	118
+193	2979	42.00001008	118
+193	3007	43.00001008	118
+193	3042	44.00001008	118
+193	3070	45.00001008	118
+193	3166	46.00001008	118
+193	3187	46.000016799999	64
+193	3375	47.00001008	118
+193	3410	48.00001008	118
+193	3438	49.00001008	118
+193	3473	50.00001008	118
+193	3501	51.00001008	118
+193	3536	52.00001008	118
+193	3564	53.00001008	118
+193	3599	54.00001008	118
+193	3627	55.00001008	118
+193	3662	56.00001008	118
+193	3690	57.00001008	118
+193	3725	58.00001008	118
+193	3753	59.00001008	118
+194	192	1.00001008	118
+194	201	1.000016799999	64
+194	304	2.00001008	118
+194	345	2.000016799999	64
+194	436	3.00001008	118
+194	482	3.000016799999	64
+194	821	3.000061439996	64
+194	1101	4.00001008	118
+194	1122	4.000016799999	64
+194	1324	5.00001008	118
+194	1361	6.00001008	118
+194	1389	7.00001008	118
+194	1424	8.00001008	118
+194	1452	9.00001008	118
+194	1548	10.00001008	118
+194	1569	10.000016799999	64
+194	1757	11.00001008	118
+194	1792	12.00001008	118
+194	1820	13.00001008	118
+194	1855	14.00001008	118
+194	1883	15.00001008	118
+194	1918	16.00001008	118
+194	1946	17.00001008	118
+194	1981	18.00001008	118
+194	2009	19.00001008	118
+194	2044	20.00001008	118
+194	2072	21.00001008	118
+194	2168	22.00001008	118
+194	2189	22.000016799999	64
+194	2377	23.00001008	118
+194	2412	24.00001008	118
+194	2440	25.00001008	118
+194	2475	26.00001008	118
+194	2503	27.00001008	118
+194	2538	28.00001008	118
+194	2566	29.00001008	118
+194	2601	30.00001008	118
+194	2629	31.00001008	118
+194	2664	32.00001008	118
+194	2692	33.00001008	118
+194	2727	34.00001008	118
+194	2755	35.00001008	118
+194	2790	36.00001008	118
+194	2818	37.00001008	118
+194	2853	38.00001008	118
+194	2881	39.00001008	118
+194	2916	40.00001008	118
+194	2944	41.00001008	118
+194	2979	42.00001008	118
+194	3007	43.00001008	118
+194	3042	44.00001008	118
+194	3070	45.00001008	118
+194	3166	46.00001008	118
+194	3187	46.000016799999	64
+194	3375	47.00001008	118
+194	3410	48.00001008	118
+194	3438	49.00001008	118
+194	3473	50.00001008	118
+194	3501	51.00001008	118
+194	3536	52.00001008	118
+194	3564	53.00001008	118
+194	3599	54.00001008	118
+194	3627	55.00001008	118
+194	3662	56.00001008	118
+194	3690	57.00001008	118
+194	3725	58.00001008	118
+194	3753	59.00001008	118
+197	8	0	64
+197	87	1	64
+197	275	2.00000576	64
+197	420	3.00000576	64
+197	546	3.000024959998	64
+197	621	3.000031679997	64
+197	756	3.000048959997	64
+197	969	3.000090559993	74
+197	1258	4.000053119996	74
+197	1705	10.000053119996	74
+197	2325	22.000053119996	74
+197	3323	46.000053119996	74
+203	27	0.00000576	64
+203	147	1.00000576	64
+203	317	2.000012479999	64
+203	510	3.000022559999	64
+203	570	3.000030719998	64
+203	643	3.000037439997	64
+203	710	3.000044159996	64
+203	921	3.000082079995	74
+203	1210	4.000044639998	74
+203	1657	10.000044639998	74
+203	2277	22.000044639998	74
+203	3275	46.000044639998	74
+204	162	1.00000576	64
+204	271	2.00000576	64
+204	407	3.00000576	64
+204	767	3.000050879995	64
+204	1072	4.00000576	64
+204	1519	10.00000576	64
+204	2139	22.00000576	64
+204	3137	46.00000576	64
+205	162	1.00000576	64
+205	271	2.00000576	64
+205	407	3.00000576	64
+205	767	3.000050879995	64
+205	1072	4.00000576	64
+205	1519	10.00000576	64
+205	2139	22.00000576	64
+205	3137	46.00000576	64
+208	9	0	64
+208	88	1	64
+208	276	2.00000576	64
+208	486	3.000016799999	64
+208	547	3.000024959998	64
+208	622	3.000031679997	64
+208	690	3.000038399996	64
+208	900	3.000075519995	74
+208	1189	4.000038079998	74
+208	1636	10.000038079998	74
+208	2256	22.000038079998	74
+208	3254	46.000038079998	74
+214	28	0.00000576	64
+214	148	1.00000576	64
+214	316	2.000012479999	64
+214	444	3.00001152	64
+214	491	3.000018239999	64
+214	528	3.000024959998	64
+214	815	3.000060479997	64
+214	889	3.000073919995	64
+214	1110	4.000012479999	64
+214	1129	4.000019199998	64
+214	1154	4.000025919997	64
+214	1366	6.000012479999	64
+214	1429	8.000012479999	64
+214	1557	10.000012479999	64
+214	1576	10.000019199998	64
+214	1601	10.000025919997	64
+214	1797	12.000012479999	64
+214	1860	14.000012479999	64
+214	1923	16.000012479999	64
+214	1986	18.000012479999	64
+214	2049	20.000012479999	64
+214	2177	22.000012479999	64
+214	2196	22.000019199998	64
+214	2221	22.000025919997	64
+214	2417	24.000012479999	64
+214	2480	26.000012479999	64
+214	2543	28.000012479999	64
+214	2606	30.000012479999	64
+214	2669	32.000012479999	64
+214	2732	34.000012479999	64
+214	2795	36.000012479999	64
+214	2858	38.000012479999	64
+214	2921	40.000012479999	64
+214	2984	42.000012479999	64
+214	3047	44.000012479999	64
+214	3175	46.000012479999	64
+214	3194	46.000019199998	64
+214	3219	46.000025919997	64
+214	3415	48.000012479999	64
+214	3478	50.000012479999	64
+214	3541	52.000012479999	64
+214	3604	54.000012479999	64
+214	3667	56.000012479999	64
+214	3730	58.000012479999	64
+215	32	0.00000576	64
+215	152	1.00000576	64
+215	267	2.00000576	64
+215	534	3.000024959998	64
+215	607	3.000031679997	64
+215	695	3.000042239998	64
+215	797	3.000055679996	64
+215	937	3.000083039994	74
+215	989	3.000098079992	74
+215	1068	4.00000576	64
+215	1226	4.000045599997	74
+215	1278	4.000060639995	74
+215	1316	5.00000576	64
+215	1349	6.00000576	64
+215	1412	8.00000576	64
+215	1515	10.00000576	64
+215	1673	10.000045599997	74
+215	1725	10.000060639995	74
+215	1780	12.00000576	64
+215	1843	14.00000576	64
+215	1906	16.00000576	64
+215	1969	18.00000576	64
+215	2032	20.00000576	64
+215	2135	22.00000576	64
+215	2293	22.000045599997	74
+215	2345	22.000060639995	74
+215	2400	24.00000576	64
+215	2463	26.00000576	64
+215	2526	28.00000576	64
+215	2589	30.00000576	64
+215	2652	32.00000576	64
+215	2715	34.00000576	64
+215	2778	36.00000576	64
+215	2841	38.00000576	64
+215	2904	40.00000576	64
+215	2967	42.00000576	64
+215	3030	44.00000576	64
+215	3133	46.00000576	64
+215	3291	46.000045599997	74
+215	3343	46.000060639995	74
+215	3398	48.00000576	64
+215	3461	50.00000576	64
+215	3524	52.00000576	64
+215	3587	54.00000576	64
+215	3650	56.00000576	64
+215	3713	58.00000576	64
+215	3776	60.00000576	64
+216	32	0.00000576	64
+216	152	1.00000576	64
+216	267	2.00000576	64
+216	534	3.000024959998	64
+216	607	3.000031679997	64
+216	695	3.000042239998	64
+216	797	3.000055679996	64
+216	937	3.000083039994	74
+216	989	3.000098079992	74
+216	1068	4.00000576	64
+216	1226	4.000045599997	74
+216	1278	4.000060639995	74
+216	1316	5.00000576	64
+216	1349	6.00000576	64
+216	1412	8.00000576	64
+216	1515	10.00000576	64
+216	1673	10.000045599997	74
+216	1725	10.000060639995	74
+216	1780	12.00000576	64
+216	1843	14.00000576	64
+216	1906	16.00000576	64
+216	1969	18.00000576	64
+216	2032	20.00000576	64
+216	2135	22.00000576	64
+216	2293	22.000045599997	74
+216	2345	22.000060639995	74
+216	2400	24.00000576	64
+216	2463	26.00000576	64
+216	2526	28.00000576	64
+216	2589	30.00000576	64
+216	2652	32.00000576	64
+216	2715	34.00000576	64
+216	2778	36.00000576	64
+216	2841	38.00000576	64
+216	2904	40.00000576	64
+216	2967	42.00000576	64
+216	3030	44.00000576	64
+216	3133	46.00000576	64
+216	3291	46.000045599997	74
+216	3343	46.000060639995	74
+216	3398	48.00000576	64
+216	3461	50.00000576	64
+216	3524	52.00000576	64
+216	3587	54.00000576	64
+216	3650	56.00000576	64
+216	3713	58.00000576	64
+216	3776	60.00000576	64
+219	10	0	64
+219	89	1	64
+219	277	2.00000576	64
+219	411	3.00000576	64
+219	421	3.00000576	64
+219	425	3.00000576	64
+219	784	3.000054719997	64
+219	868	3.000068159995	64
+219	1076	4.00000576	64
+219	1085	4.00000576	64
+219	1087	4.00000576	64
+219	1351	6.00000576	64
+219	1414	8.00000576	64
+219	1523	10.00000576	64
+219	1532	10.00000576	64
+219	1534	10.00000576	64
+219	1782	12.00000576	64
+219	1845	14.00000576	64
+219	1908	16.00000576	64
+219	1971	18.00000576	64
+219	2034	20.00000576	64
+219	2143	22.00000576	64
+219	2152	22.00000576	64
+219	2154	22.00000576	64
+219	2402	24.00000576	64
+219	2465	26.00000576	64
+219	2528	28.00000576	64
+219	2591	30.00000576	64
+219	2654	32.00000576	64
+219	2717	34.00000576	64
+219	2780	36.00000576	64
+219	2843	38.00000576	64
+219	2906	40.00000576	64
+219	2969	42.00000576	64
+219	3032	44.00000576	64
+219	3141	46.00000576	64
+219	3150	46.00000576	64
+219	3152	46.00000576	64
+219	3400	48.00000576	64
+219	3463	50.00000576	64
+219	3526	52.00000576	64
+219	3589	54.00000576	64
+219	3652	56.00000576	64
+219	3715	58.00000576	64
+219	3778	60.00000576	64
+225	29	0.00000576	64
+225	149	1.00000576	64
+225	319	2.000012479999	64
+225	457	3.000012479999	64
+225	571	3.000030719998	64
+225	644	3.000037439997	64
+225	822	3.000061439996	64
+225	998	3.000104639992	74
+225	1287	4.000067199995	74
+225	1734	10.000067199995	74
+225	2354	22.000067199995	74
+225	3352	46.000067199995	74
+226	164	1.00000576	64
+226	273	2.00000576	64
+226	409	3.00000576	64
+226	863	3.000068159995	64
+226	1074	4.00000576	64
+226	1521	10.00000576	64
+226	2141	22.00000576	64
+226	3139	46.00000576	64
+227	164	1.00000576	64
+227	273	2.00000576	64
+227	409	3.00000576	64
+227	863	3.000068159995	64
+227	1074	4.00000576	64
+227	1521	10.00000576	64
+227	2141	22.00000576	64
+227	3139	46.00000576	64
+230	11	0	64
+230	90	1	64
+230	278	2.00000576	64
+230	422	3.00000576	64
+230	548	3.000024959998	64
+230	623	3.000031679997	64
+230	805	3.000055679996	64
+230	994	3.000098079992	74
+230	1283	4.000060639995	74
+230	1730	10.000060639995	74
+230	2350	22.000060639995	74
+230	3348	46.000060639995	74
+236	30	0.00000576	64
+236	150	1.00000576	64
+236	318	2.000012479999	64
+236	456	3.000012479999	64
+236	572	3.000030719998	64
+236	645	3.000037439997	64
+236	735	3.000047999998	64
+236	956	3.000089599994	74
+236	1245	4.000052159997	74
+236	1692	10.000052159997	74
+236	2312	22.000052159997	74
+236	3310	46.000052159997	74
+237	163	1.00000576	64
+237	272	2.00000576	64
+237	408	3.00000576	64
+237	777	3.000054719997	64
+237	1073	4.00000576	64
+237	1520	10.00000576	64
+237	2140	22.00000576	64
+237	3138	46.00000576	64
+238	163	1.00000576	64
+238	272	2.00000576	64
+238	408	3.00000576	64
+238	777	3.000054719997	64
+238	1073	4.00000576	64
+238	1520	10.00000576	64
+238	2140	22.00000576	64
+238	3138	46.00000576	64
+241	12	0	64
+241	91	1	64
+241	279	2.00000576	64
+241	426	3.00000576	64
+241	549	3.000024959998	64
+241	624	3.000031679997	64
+241	698	3.000042239998	64
+241	942	3.000083039994	74
+241	1231	4.000045599997	74
+241	1678	10.000045599997	74
+241	2298	22.000045599997	74
+241	3296	46.000045599997	74
+251	562	3.000029759999	64
+251	634	3.000036479998	64
+251	700	3.000043199997	64
+251	758	3.000049919996	64
+251	870	3.000068959995	74
+251	910	3.000076479994	74
+251	945	3.000083999993	74
+251	971	3.000091519992	74
+251	1168	4.000031519998	74
+251	1199	4.000039039997	74
+251	1234	4.000046559996	74
+251	1260	4.000054079995	74
+251	1615	10.000031519998	74
+251	1646	10.000039039997	74
+251	1681	10.000046559996	74
+251	1707	10.000054079995	74
+251	2235	22.000031519998	74
+251	2266	22.000039039997	74
+251	2301	22.000046559996	74
+251	2327	22.000054079995	74
+251	3233	46.000031519998	74
+251	3264	46.000039039997	74
+251	3299	46.000046559996	74
+251	3325	46.000054079995	74
+252	23	0.00000576	64
+252	262	2.00000576	64
+252	519	3.000023999999	64
+252	567	3.000030719998	64
+252	640	3.000037439997	64
+252	708	3.000044159996	64
+252	842	3.000062399995	64
+252	876	3.000069119994	64
+252	902	3.000075839993	64
+252	928	3.000082559992	64
+252	1144	4.000024959998	64
+252	1174	4.000031679997	64
+252	1191	4.000038399996	64
+252	1217	4.000045119995	64
+252	1591	10.000024959998	64
+252	1621	10.000031679997	64
+252	1638	10.000038399996	64
+252	1664	10.000045119995	64
+252	2211	22.000024959998	64
+252	2241	22.000031679997	64
+252	2258	22.000038399996	64
+252	2284	22.000045119995	64
+252	3209	46.000024959998	64
+252	3239	46.000031679997	64
+252	3256	46.000038399996	64
+252	3282	46.000045119995	64
+253	23	0.00000576	64
+253	262	2.00000576	64
+253	519	3.000023999999	64
+253	567	3.000030719998	64
+253	640	3.000037439997	64
+253	708	3.000044159996	64
+253	842	3.000062399995	64
+253	876	3.000069119994	64
+253	902	3.000075839993	64
+253	928	3.000082559992	64
+253	1144	4.000024959998	64
+253	1174	4.000031679997	64
+253	1191	4.000038399996	64
+253	1217	4.000045119995	64
+253	1591	10.000024959998	64
+253	1621	10.000031679997	64
+253	1638	10.000038399996	64
+253	1664	10.000045119995	64
+253	2211	22.000024959998	64
+253	2241	22.000031679997	64
+253	2258	22.000038399996	64
+253	2284	22.000045119995	64
+253	3209	46.000024959998	64
+253	3239	46.000031679997	64
+253	3256	46.000038399996	64
+253	3282	46.000045119995	64
+256	525	3.000023999999	64
+256	598	3.000030719998	64
+256	671	3.000037439997	64
+256	721	3.000044159996	64
+256	854	3.000062399995	74
+256	885	3.000069119994	74
+256	909	3.000075839993	74
+256	935	3.000082559992	74
+256	1151	4.000024959998	74
+256	1181	4.000031679997	74
+256	1198	4.000038399996	74
+256	1224	4.000045119995	74
+256	1598	10.000024959998	74
+256	1628	10.000031679997	74
+256	1645	10.000038399996	74
+256	1671	10.000045119995	74
+256	2218	22.000024959998	74
+256	2248	22.000031679997	74
+256	2265	22.000038399996	74
+256	2291	22.000045119995	74
+256	3216	46.000024959998	74
+256	3246	46.000031679997	74
+256	3263	46.000038399996	74
+256	3289	46.000045119995	74
+260	524	3.000023999999	28
+260	593	3.000030719998	28
+260	666	3.000037439997	28
+260	719	3.000044159996	28
+260	853	3.000062399995	56
+260	884	3.000069119994	56
+260	908	3.000075839993	56
+260	934	3.000082559992	56
+260	1150	4.000024959998	56
+260	1180	4.000031679997	56
+260	1197	4.000038399996	56
+260	1223	4.000045119995	56
+260	1597	10.000024959998	56
+260	1627	10.000031679997	56
+260	1644	10.000038399996	56
+260	1670	10.000045119995	56
+260	2217	22.000024959998	56
+260	2247	22.000031679997	56
+260	2264	22.000038399996	56
+260	2290	22.000045119995	56
+260	3215	46.000024959998	56
+260	3245	46.000031679997	56
+260	3262	46.000038399996	56
+260	3288	46.000045119995	56
+261	521	3.000023999999	28
+261	578	3.000030719998	28
+261	651	3.000037439997	28
+261	713	3.000044159996	28
+261	848	3.000062399995	44
+261	880	3.000069119994	44
+261	904	3.000075839993	44
+261	930	3.000082559992	44
+261	1146	4.000024959998	44
+261	1176	4.000031679997	44
+261	1193	4.000038399996	44
+261	1219	4.000045119995	44
+261	1593	10.000024959998	44
+261	1623	10.000031679997	44
+261	1640	10.000038399996	44
+261	1666	10.000045119995	44
+261	2213	22.000024959998	44
+261	2243	22.000031679997	44
+261	2260	22.000038399996	44
+261	2286	22.000045119995	44
+261	3211	46.000024959998	44
+261	3241	46.000031679997	44
+261	3258	46.000038399996	44
+261	3284	46.000045119995	44
+263	494	3.000018239999	64
+263	495	3.000018239999	128
+263	496	3.000018239999	64
+263	499	3.000018239999	0
+263	536	3.000024959998	64
+263	537	3.000024959998	128
+263	540	3.000024959998	64
+263	545	3.000024959998	0
+263	564	3.000029759999	64
+263	565	3.000029759999	0
+263	636	3.000036479998	64
+263	637	3.000036479998	0
+263	704	3.000043199997	64
+263	705	3.000043199997	0
+263	762	3.000049919996	64
+263	763	3.000049919996	0
+263	810	3.000056639995	64
+263	811	3.000056639995	0
+263	817	3.000060479997	64
+263	818	3.000060479997	0
+263	859	3.000067199996	64
+263	860	3.000067199996	0
+263	872	3.000068959995	74
+263	873	3.000068959995	0
+263	891	3.000073919995	64
+263	892	3.000073919995	0
+263	914	3.000076479994	74
+263	915	3.000076479994	0
+263	949	3.000083999993	74
+263	950	3.000083999993	0
+263	975	3.000091519992	74
+263	976	3.000091519992	0
+263	1132	4.000019199998	64
+263	1133	4.000019199998	128
+263	1134	4.000019199998	64
+263	1136	4.000019199998	0
+263	1158	4.000025919997	64
+263	1159	4.000025919997	128
+263	1160	4.000025919997	64
+263	1162	4.000025919997	0
+263	1170	4.000031519998	74
+263	1171	4.000031519998	0
+263	1203	4.000039039997	74
+263	1204	4.000039039997	0
+263	1238	4.000046559996	74
+263	1239	4.000046559996	0
+263	1264	4.000054079995	74
+263	1265	4.000054079995	0
+263	1579	10.000019199998	64
+263	1580	10.000019199998	128
+263	1581	10.000019199998	64
+263	1583	10.000019199998	0
+263	1605	10.000025919997	64
+263	1606	10.000025919997	128
+263	1607	10.000025919997	64
+263	1609	10.000025919997	0
+263	1617	10.000031519998	74
+263	1618	10.000031519998	0
+263	1650	10.000039039997	74
+263	1651	10.000039039997	0
+263	1685	10.000046559996	74
+263	1686	10.000046559996	0
+263	1711	10.000054079995	74
+263	1712	10.000054079995	0
+263	2199	22.000019199998	64
+263	2200	22.000019199998	128
+263	2201	22.000019199998	64
+263	2203	22.000019199998	0
+263	2225	22.000025919997	64
+263	2226	22.000025919997	128
+263	2227	22.000025919997	64
+263	2229	22.000025919997	0
+263	2237	22.000031519998	74
+263	2238	22.000031519998	0
+263	2270	22.000039039997	74
+263	2271	22.000039039997	0
+263	2305	22.000046559996	74
+263	2306	22.000046559996	0
+263	2331	22.000054079995	74
+263	2332	22.000054079995	0
+263	3197	46.000019199998	64
+263	3198	46.000019199998	128
+263	3199	46.000019199998	64
+263	3201	46.000019199998	0
+263	3223	46.000025919997	64
+263	3224	46.000025919997	128
+263	3225	46.000025919997	64
+263	3227	46.000025919997	0
+263	3235	46.000031519998	74
+263	3236	46.000031519998	0
+263	3268	46.000039039997	74
+263	3269	46.000039039997	0
+263	3303	46.000046559996	74
+263	3304	46.000046559996	0
+263	3329	46.000054079995	74
+263	3330	46.000054079995	0
+264	412	3.00000576	64
+264	417	3.00000576	0
+264	483	3.000016799999	64
+264	484	3.000016799999	0
+264	538	3.000024959998	64
+264	541	3.000024959998	0
+264	617	3.000031679997	64
+264	619	3.000031679997	0
+264	688	3.000038399996	64
+264	689	3.000038399996	0
+264	753	3.000048959997	64
+264	755	3.000048959997	0
+264	770	3.000050879995	64
+264	771	3.000050879995	0
+264	826	3.000061439996	64
+264	828	3.000061439996	0
+264	898	3.000075519995	74
+264	899	3.000075519995	0
+264	967	3.000090559993	74
+264	968	3.000090559993	0
+264	1079	4.00000576	64
+264	1082	4.00000576	0
+264	1123	4.000016799999	64
+264	1124	4.000016799999	0
+264	1187	4.000038079998	74
+264	1188	4.000038079998	0
+264	1256	4.000053119996	74
+264	1257	4.000053119996	0
+264	1526	10.00000576	64
+264	1529	10.00000576	0
+264	1570	10.000016799999	64
+264	1571	10.000016799999	0
+264	1634	10.000038079998	74
+264	1635	10.000038079998	0
+264	1703	10.000053119996	74
+264	1704	10.000053119996	0
+264	2146	22.00000576	64
+264	2149	22.00000576	0
+264	2190	22.000016799999	64
+264	2191	22.000016799999	0
+264	2254	22.000038079998	74
+264	2255	22.000038079998	0
+264	2323	22.000053119996	74
+264	2324	22.000053119996	0
+264	3144	46.00000576	64
+264	3147	46.00000576	0
+264	3188	46.000016799999	64
+264	3189	46.000016799999	0
+264	3252	46.000038079998	74
+264	3253	46.000038079998	0
+264	3321	46.000053119996	74
+264	3322	46.000053119996	0
+265	413	3.00000576	64
+265	414	3.00000576	128
+265	418	3.00000576	64
+265	423	3.00000576	0
+265	539	3.000024959998	64
+265	542	3.000024959998	0
+265	618	3.000031679997	64
+265	620	3.000031679997	0
+265	696	3.000042239998	64
+265	697	3.000042239998	0
+265	780	3.000054719997	64
+265	782	3.000054719997	0
+265	802	3.000055679996	64
+265	804	3.000055679996	0
+265	866	3.000068159995	64
+265	867	3.000068159995	0
+265	940	3.000083039994	74
+265	941	3.000083039994	0
+265	992	3.000098079992	74
+265	993	3.000098079992	0
+265	1080	4.00000576	64
+265	1081	4.00000576	128
+265	1083	4.00000576	64
+265	1086	4.00000576	0
+265	1229	4.000045599997	74
+265	1230	4.000045599997	0
+265	1281	4.000060639995	74
+265	1282	4.000060639995	0
+265	1527	10.00000576	64
+265	1528	10.00000576	128
+265	1530	10.00000576	64
+265	1533	10.00000576	0
+265	1676	10.000045599997	74
+265	1677	10.000045599997	0
+265	1728	10.000060639995	74
+265	1729	10.000060639995	0
+265	2147	22.00000576	64
+265	2148	22.00000576	128
+265	2150	22.00000576	64
+265	2153	22.00000576	0
+265	2296	22.000045599997	74
+265	2297	22.000045599997	0
+265	2348	22.000060639995	74
+265	2349	22.000060639995	0
+265	3145	46.00000576	64
+265	3146	46.00000576	128
+265	3148	46.00000576	64
+265	3151	46.00000576	0
+265	3294	46.000045599997	74
+265	3295	46.000045599997	0
+265	3346	46.000060639995	74
+265	3347	46.000060639995	0
+267	80	1	7504
+267	1007	4	7504
+267	1456	10	7504
+267	2076	22	7504
+267	3074	46	7504
+268	80	1	7504
+268	1007	4	7504
+268	1456	10	7504
+268	2076	22	7504
+268	3074	46	7504
+270	80	1	0
+270	1007	4	0
+270	1456	10	0
+270	2076	22	0
+270	3074	46	0
+281	80	1	0
+281	1007	4	0
+281	1456	10	0
+281	2076	22	0
+281	3074	46	0
+291	81	1	7504
+291	1008	4	7504
+291	1457	10	7504
+291	2077	22	7504
+291	3075	46	7504
+292	81	1	7504
+292	1008	4	7504
+292	1457	10	7504
+292	2077	22	7504
+292	3075	46	7504
+294	81	1	0
+294	1008	4	0
+294	1457	10	0
+294	2077	22	0
+294	3075	46	0
+305	81	1	0
+305	1008	4	0
+305	1457	10	0
+305	2077	22	0
+305	3075	46	0
+315	82	1	7504
+315	1009	4	7504
+315	1458	10	7504
+315	2078	22	7504
+315	3076	46	7504
+316	82	1	7504
+316	1009	4	7504
+316	1458	10	7504
+316	2078	22	7504
+316	3076	46	7504
+318	82	1	0
+318	1009	4	0
+318	1458	10	0
+318	2078	22	0
+318	3076	46	0
+329	82	1	0
+329	1009	4	0
+329	1458	10	0
+329	2078	22	0
+329	3076	46	0
+339	83	1	7504
+339	1010	4	7504
+339	1459	10	7504
+339	2079	22	7504
+339	3077	46	7504
+340	83	1	7504
+340	1010	4	7504
+340	1459	10	7504
+340	2079	22	7504
+340	3077	46	7504
+342	83	1	0
+342	1010	4	0
+342	1459	10	0
+342	2079	22	0
+342	3077	46	0
+353	83	1	0
+353	1010	4	0
+353	1459	10	0
+353	2079	22	0
+353	3077	46	0

@@ -1,0 +1,274 @@
+file 12863 1374688415                                           
+version 2
+run General-0-20130724-14:50:49-1519
+attr configname General
+attr datetime 20130724-14:50:49
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars "$0=\"Ring\""
+attr iterationvars2 "$0=\"Ring\", $repetition=0"
+attr measurement "$0=\"Ring\""
+attr network SubstationTest
+attr processid 1519
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 57  SubstationTest.iSubstationTopology.feederBay[0].breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 61  SubstationTest.iSubstationTopology.feederBay[0].breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 90  SubstationTest.iSubstationTopology.feederBay[0].control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 94  SubstationTest.iSubstationTopology.feederBay[0].control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 123  SubstationTest.iSubstationTopology.feederBay[0].control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 127  SubstationTest.iSubstationTopology.feederBay[0].control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 218  SubstationTest.iSubstationTopology.feederBay[0].mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 222  SubstationTest.iSubstationTopology.feederBay[0].mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 251  SubstationTest.iSubstationTopology.feederBay[1].breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 255  SubstationTest.iSubstationTopology.feederBay[1].breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 284  SubstationTest.iSubstationTopology.feederBay[1].control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 288  SubstationTest.iSubstationTopology.feederBay[1].control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 317  SubstationTest.iSubstationTopology.feederBay[1].control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 321  SubstationTest.iSubstationTopology.feederBay[1].control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 412  SubstationTest.iSubstationTopology.feederBay[1].mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 416  SubstationTest.iSubstationTopology.feederBay[1].mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 445  SubstationTest.iSubstationTopology.feederBay[2].breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 449  SubstationTest.iSubstationTopology.feederBay[2].breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 478  SubstationTest.iSubstationTopology.feederBay[2].control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 482  SubstationTest.iSubstationTopology.feederBay[2].control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 511  SubstationTest.iSubstationTopology.feederBay[2].control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 515  SubstationTest.iSubstationTopology.feederBay[2].control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 606  SubstationTest.iSubstationTopology.feederBay[2].mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 610  SubstationTest.iSubstationTopology.feederBay[2].mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 639  SubstationTest.iSubstationTopology.feederBay[3].breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 643  SubstationTest.iSubstationTopology.feederBay[3].breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 672  SubstationTest.iSubstationTopology.feederBay[3].control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 676  SubstationTest.iSubstationTopology.feederBay[3].control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 705  SubstationTest.iSubstationTopology.feederBay[3].control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 709  SubstationTest.iSubstationTopology.feederBay[3].control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 800  SubstationTest.iSubstationTopology.feederBay[3].mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 804  SubstationTest.iSubstationTopology.feederBay[3].mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 833  SubstationTest.iSubstationTopology.transformerBay[0].breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 837  SubstationTest.iSubstationTopology.transformerBay[0].breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 866  SubstationTest.iSubstationTopology.transformerBay[0].control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 870  SubstationTest.iSubstationTopology.transformerBay[0].control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 899  SubstationTest.iSubstationTopology.transformerBay[0].control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 903  SubstationTest.iSubstationTopology.transformerBay[0].control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 994  SubstationTest.iSubstationTopology.transformerBay[0].mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 998  SubstationTest.iSubstationTopology.transformerBay[0].mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1027  SubstationTest.iSubstationTopology.transformerBay[1].breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1031  SubstationTest.iSubstationTopology.transformerBay[1].breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1060  SubstationTest.iSubstationTopology.transformerBay[1].control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1064  SubstationTest.iSubstationTopology.transformerBay[1].control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1093  SubstationTest.iSubstationTopology.transformerBay[1].control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1097  SubstationTest.iSubstationTopology.transformerBay[1].control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1188  SubstationTest.iSubstationTopology.transformerBay[1].mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1192  SubstationTest.iSubstationTopology.transformerBay[1].mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1221  SubstationTest.iSubstationTopology.transformerBay[2].breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1225  SubstationTest.iSubstationTopology.transformerBay[2].breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1254  SubstationTest.iSubstationTopology.transformerBay[2].control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1258  SubstationTest.iSubstationTopology.transformerBay[2].control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1287  SubstationTest.iSubstationTopology.transformerBay[2].control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1291  SubstationTest.iSubstationTopology.transformerBay[2].control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1382  SubstationTest.iSubstationTopology.transformerBay[2].mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1386  SubstationTest.iSubstationTopology.transformerBay[2].mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1415  SubstationTest.iSubstationTopology.transformerBay[3].breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1419  SubstationTest.iSubstationTopology.transformerBay[3].breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1448  SubstationTest.iSubstationTopology.transformerBay[3].control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1452  SubstationTest.iSubstationTopology.transformerBay[3].control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1481  SubstationTest.iSubstationTopology.transformerBay[3].control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1485  SubstationTest.iSubstationTopology.transformerBay[3].control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1576  SubstationTest.iSubstationTopology.transformerBay[3].mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1580  SubstationTest.iSubstationTopology.transformerBay[3].mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+57	12203 9 0 0 0 0 1 0 0 0 0
+61	12212 9 0 0 0 0 1 0 0 0 0
+90	12221 9 0 0 0 0 1 0 0 0 0
+94	12230 9 0 0 0 0 1 0 0 0 0
+123	12239 10 0 0 0 0 1 0 0 0 0
+127	12249 10 0 0 0 0 1 0 0 0 0
+218	12259 10 0 0 0 0 1 0 0 0 0
+222	12269 10 0 0 0 0 1 0 0 0 0
+251	12279 10 0 0 0 0 1 0 0 0 0
+255	12289 10 0 0 0 0 1 0 0 0 0
+284	12299 10 0 0 0 0 1 0 0 0 0
+288	12309 10 0 0 0 0 1 0 0 0 0
+317	12319 10 0 0 0 0 1 0 0 0 0
+321	12329 10 0 0 0 0 1 0 0 0 0
+412	12339 10 0 0 0 0 1 0 0 0 0
+416	12349 10 0 0 0 0 1 0 0 0 0
+445	12359 10 0 0 0 0 1 0 0 0 0
+449	12369 10 0 0 0 0 1 0 0 0 0
+478	12379 10 0 0 0 0 1 0 0 0 0
+482	12389 10 0 0 0 0 1 0 0 0 0
+511	12399 10 0 0 0 0 1 0 0 0 0
+515	12409 10 0 0 0 0 1 0 0 0 0
+606	12419 10 0 0 0 0 1 0 0 0 0
+610	12429 10 0 0 0 0 1 0 0 0 0
+639	12439 10 0 0 0 0 1 0 0 0 0
+643	12449 10 0 0 0 0 1 0 0 0 0
+672	12459 10 0 0 0 0 1 0 0 0 0
+676	12469 10 0 0 0 0 1 0 0 0 0
+705	12479 10 0 0 0 0 1 0 0 0 0
+709	12489 10 0 0 0 0 1 0 0 0 0
+800	12499 10 0 0 0 0 1 0 0 0 0
+804	12509 10 0 0 0 0 1 0 0 0 0
+833	12519 10 0 0 0 0 1 0 0 0 0
+837	12529 10 0 0 0 0 1 0 0 0 0
+866	12539 10 0 0 0 0 1 0 0 0 0
+870	12549 10 0 0 0 0 1 0 0 0 0
+899	12559 10 0 0 0 0 1 0 0 0 0
+903	12569 10 0 0 0 0 1 0 0 0 0
+994	12579 10 0 0 0 0 1 0 0 0 0
+998	12589 10 0 0 0 0 1 0 0 0 0
+1027	12599 11 0 0 0 0 1 0 0 0 0
+1031	12610 11 0 0 0 0 1 0 0 0 0
+1060	12621 11 0 0 0 0 1 0 0 0 0
+1064	12632 11 0 0 0 0 1 0 0 0 0
+1093	12643 11 0 0 0 0 1 0 0 0 0
+1097	12654 11 0 0 0 0 1 0 0 0 0
+1188	12665 11 0 0 0 0 1 0 0 0 0
+1192	12676 11 0 0 0 0 1 0 0 0 0
+1221	12687 11 0 0 0 0 1 0 0 0 0
+1225	12698 11 0 0 0 0 1 0 0 0 0
+1254	12709 11 0 0 0 0 1 0 0 0 0
+1258	12720 11 0 0 0 0 1 0 0 0 0
+1287	12731 11 0 0 0 0 1 0 0 0 0
+1291	12742 11 0 0 0 0 1 0 0 0 0
+1382	12753 11 0 0 0 0 1 0 0 0 0
+1386	12764 11 0 0 0 0 1 0 0 0 0
+1415	12775 11 0 0 0 0 1 0 0 0 0
+1419	12786 11 0 0 0 0 1 0 0 0 0
+1448	12797 11 0 0 0 0 1 0 0 0 0
+1452	12808 11 0 0 0 0 1 0 0 0 0
+1481	12819 11 0 0 0 0 1 0 0 0 0
+1485	12830 11 0 0 0 0 1 0 0 0 0
+1576	12841 11 0 0 0 0 1 0 0 0 0
+1580	12852 11 0 0 0 0 1 0 0 0 0

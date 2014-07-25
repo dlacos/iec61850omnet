@@ -1,0 +1,2671 @@
+version 2
+run General-0-20130724-11:34:33-31358
+attr configname General
+attr datetime 20130724-11:34:33
+attr experiment General
+attr inifile switchTest.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network SwitchTest
+attr processid 31358
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar SwitchTest.ied1.queue.pauseQueue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar SwitchTest.ied1.queue.pauseQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic SwitchTest.ied1.queue.pauseQueue 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.ied1.queue.pauseQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar SwitchTest.ied1.queue.pauseQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar SwitchTest.ied1.queue.pauseQueue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar SwitchTest.ied1.queue.pauseQueue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar SwitchTest.ied1.queue.dataQueue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar SwitchTest.ied1.queue.dataQueue 	queueLength:timeavg 	2.7401255724416e-06
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic SwitchTest.ied1.queue.dataQueue 	queueingTime:histogram
+field count 6034
+field mean 2.7364931885979e-08
+field stddev 1.3529447099582e-06
+field sum 0.000165119999
+field sqrsum 1.104767998656e-08
+field min 0
+field max 8.208e-05
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	6034
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.ied1.queue.dataQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar SwitchTest.ied1.queue.dataQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar SwitchTest.ied1.queue.dataQueue 	rcvdPk:count 	6034
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar SwitchTest.ied1.queue.dataQueue 	rcvdPk:sum(packetBytes) 	6136128
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar SwitchTest.ied1.mac 	"simulated time" 	60.26001168
+scalar SwitchTest.ied1.mac 	full-duplex 	1
+scalar SwitchTest.ied1.mac 	"frames/sec sent" 	100.11614388721
+scalar SwitchTest.ied1.mac 	"frames/sec rcvd" 	95.353449821967
+scalar SwitchTest.ied1.mac 	"bits/sec sent" 	814485.07279811
+scalar SwitchTest.ied1.mac 	"bits/sec rcvd" 	774025.47227651
+scalar SwitchTest.ied1.mac 	"rx channel idle (%)" 	99.219871906935
+scalar SwitchTest.ied1.mac 	"rx channel utilization (%)" 	0.78012809306512
+scalar SwitchTest.ied1.mac 	"rx channel collision (%)" 	0
+scalar SwitchTest.ied1.mac 	collisions 	0
+scalar SwitchTest.ied1.mac 	backoffs 	0
+scalar SwitchTest.ied1.mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.ied1.mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.ied1.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.ied1.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.ied1.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.ied1.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.ied1.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.ied1.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.ied1.mac 	rxPkFromHL:count 	6034
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.ied1.mac 	rxPkFromHL:sum(packetBytes) 	6136128
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.ied1.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.ied1.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.ied1.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.ied1.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.ied1.mac 	passedUpPk:count 	5746
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.ied1.mac 	passedUpPk:sum(packetBytes) 	5830348
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.ied1.mac 	rxPkOk:count 	5746
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.ied1.mac 	rxPkOk:sum(packetBytes) 	5830348
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.ied1.mac 	txPk:count 	6033
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.ied1.mac 	txPk:sum(packetBytes) 	6135110
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.ied1.encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar SwitchTest.ied1.encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar SwitchTest.ied1.encap 	decapPk:count 	5733
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar SwitchTest.ied1.encap 	decapPk:sum(packetBytes) 	5726224
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar SwitchTest.ied1.encap 	encapPk:count 	6034
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar SwitchTest.ied1.encap 	encapPk:sum(packetBytes) 	6027436
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar SwitchTest.ied1.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar SwitchTest.ied1.networkLayer.arp 	initiatedResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar SwitchTest.ied1.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar SwitchTest.ied1.networkLayer.arp 	sentReq:count 	3
+attr title  "ARP request sent, count"
+scalar SwitchTest.ied1.iec61850trafgen 	sentPk:count 	6027
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar SwitchTest.ied1.iec61850trafgen 	sentPk:sum(packetBytes) 	6027000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar SwitchTest.ied1.iec61850trafgen 	rcvdPk:count 	5726
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar SwitchTest.ied1.iec61850trafgen 	rcvdPk:sum(packetBytes) 	5726000
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic SwitchTest.ied1.iec61850trafgen 	endToEndDelay:histogram
+field count 5726
+field mean 0.00032929559103354
+field stddev 3.573995228227e-07
+field sum 1.885546554258
+field sqrsum 0.00062090289828521
+field min 0.000329279999
+field max 0.000344639994
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	0.0003216000015	0
+bin	0.00032262400116667	0
+bin	0.00032364800083333	0
+bin	0.0003246720005	0
+bin	0.00032569600016667	0
+bin	0.00032671999983333	0
+bin	0.0003277439995	0
+bin	0.00032876799916667	5714
+bin	0.00032979199883333	0
+bin	0.0003308159985	0
+bin	0.00033183999816667	0
+bin	0.00033286399783333	0
+bin	0.0003338879975	0
+bin	0.00033491199716667	0
+bin	0.00033593599683333	11
+bin	0.0003369599965	0
+bin	0.00033798399616667	0
+bin	0.00033900799583333	0
+bin	0.0003400319955	0
+bin	0.00034105599516667	0
+bin	0.00034207999483333	0
+bin	0.0003431039945	0
+bin	0.00034412799416667	1
+bin	0.00034515199383333	0
+bin	0.0003461759935	0
+bin	0.00034719999316667	0
+bin	0.00034822399283333	0
+bin	0.0003492479925	0
+bin	0.00035027199216667	0
+bin	0.00035129599183333	0
+bin	0.0003523199915	0
+scalar SwitchTest.ied1.mms 	numActiveSessions:max 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, max"
+scalar SwitchTest.ied1.mms 	numActiveSessions:timeavg 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, timeavg"
+scalar SwitchTest.ied1.mms 	numSessions:last 	1
+attr source  sum(connect+1)/2
+attr title  "total number of sessions, last"
+scalar SwitchTest.ied1.mms 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar SwitchTest.ied1.mms 	sentPk:sum(packetBytes) 	200
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar SwitchTest.ied1.mms 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar SwitchTest.ied1.mms 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic SwitchTest.ied1.mms 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.ied3.queue.pauseQueue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar SwitchTest.ied3.queue.pauseQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic SwitchTest.ied3.queue.pauseQueue 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.ied3.queue.pauseQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar SwitchTest.ied3.queue.pauseQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar SwitchTest.ied3.queue.pauseQueue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar SwitchTest.ied3.queue.pauseQueue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar SwitchTest.ied3.queue.dataQueue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar SwitchTest.ied3.queue.dataQueue 	queueLength:timeavg 	1.1151672249394e-07
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic SwitchTest.ied3.queue.dataQueue 	queueingTime:histogram
+field count 6
+field mean 1.1199998333333e-06
+field stddev 2.7434281036689e-06
+field sum 6.719999e-06
+field sqrsum 4.5158386560001e-11
+field min 0
+field max 6.719999e-06
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-3.3599995e-06	0
+bin	-2.9119995666667e-06	0
+bin	-2.4639996333333e-06	0
+bin	-2.0159997e-06	0
+bin	-1.5679997666667e-06	0
+bin	-1.1199998333333e-06	0
+bin	-6.719999e-07	0
+bin	-2.2399996666667e-07	5
+bin	2.2399996666667e-07	0
+bin	6.719999e-07	0
+bin	1.1199998333333e-06	0
+bin	1.5679997666667e-06	0
+bin	2.0159997e-06	0
+bin	2.4639996333333e-06	0
+bin	2.9119995666667e-06	0
+bin	3.3599995e-06	0
+bin	3.8079994333333e-06	0
+bin	4.2559993666667e-06	0
+bin	4.7039993e-06	0
+bin	5.1519992333333e-06	0
+bin	5.5999991666667e-06	0
+bin	6.0479991e-06	0
+bin	6.4959990333333e-06	1
+bin	6.9439989666667e-06	0
+bin	7.3919989e-06	0
+bin	7.8399988333333e-06	0
+bin	8.2879987666667e-06	0
+bin	8.7359987e-06	0
+bin	9.1839986333333e-06	0
+bin	9.6319985666667e-06	0
+bin	1.00799985e-05	0
+scalar SwitchTest.ied3.queue.dataQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar SwitchTest.ied3.queue.dataQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar SwitchTest.ied3.queue.dataQueue 	rcvdPk:count 	6
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar SwitchTest.ied3.queue.dataQueue 	rcvdPk:sum(packetBytes) 	578
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar SwitchTest.ied3.mac 	"simulated time" 	60.26001168
+scalar SwitchTest.ied3.mac 	full-duplex 	1
+scalar SwitchTest.ied3.mac 	"frames/sec sent" 	0.099568517043474
+scalar SwitchTest.ied3.mac 	"frames/sec rcvd" 	0.13275802272463
+scalar SwitchTest.ied3.mac 	"bits/sec sent" 	76.734137134837
+scalar SwitchTest.ied3.mac 	"bits/sec rcvd" 	67.972107635011
+scalar SwitchTest.ied3.mac 	"rx channel idle (%)" 	99.999787321648
+scalar SwitchTest.ied3.mac 	"rx channel utilization (%)" 	0.00021267835240486
+scalar SwitchTest.ied3.mac 	"rx channel collision (%)" 	0
+scalar SwitchTest.ied3.mac 	collisions 	0
+scalar SwitchTest.ied3.mac 	backoffs 	0
+scalar SwitchTest.ied3.mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.ied3.mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.ied3.mac 	droppedPkNotForUs:count 	1
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.ied3.mac 	droppedPkNotForUs:sum(packetBytes) 	1026
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.ied3.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.ied3.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.ied3.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.ied3.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.ied3.mac 	rxPkFromHL:count 	6
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.ied3.mac 	rxPkFromHL:sum(packetBytes) 	578
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.ied3.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.ied3.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.ied3.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.ied3.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.ied3.mac 	passedUpPk:count 	8
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.ied3.mac 	passedUpPk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.ied3.mac 	rxPkOk:count 	8
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.ied3.mac 	rxPkOk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.ied3.mac 	txPk:count 	6
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.ied3.mac 	txPk:sum(packetBytes) 	578
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.ied3.encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar SwitchTest.ied3.encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar SwitchTest.ied3.encap 	decapPk:count 	6
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar SwitchTest.ied3.encap 	decapPk:sum(packetBytes) 	196
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar SwitchTest.ied3.encap 	encapPk:count 	6
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar SwitchTest.ied3.encap 	encapPk:sum(packetBytes) 	408
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar SwitchTest.ied3.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar SwitchTest.ied3.networkLayer.arp 	initiatedResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar SwitchTest.ied3.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar SwitchTest.ied3.networkLayer.arp 	sentReq:count 	3
+attr title  "ARP request sent, count"
+scalar SwitchTest.ied3.iec61850trafgen 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar SwitchTest.ied3.iec61850trafgen 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar SwitchTest.ied3.iec61850trafgen 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar SwitchTest.ied3.iec61850trafgen 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic SwitchTest.ied3.iec61850trafgen 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.ied3.mms 	numActiveSessions:max 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, max"
+scalar SwitchTest.ied3.mms 	numActiveSessions:timeavg 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, timeavg"
+scalar SwitchTest.ied3.mms 	numSessions:last 	1
+attr source  sum(connect+1)/2
+attr title  "total number of sessions, last"
+scalar SwitchTest.ied3.mms 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar SwitchTest.ied3.mms 	sentPk:sum(packetBytes) 	200
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar SwitchTest.ied3.mms 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar SwitchTest.ied3.mms 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic SwitchTest.ied3.mms 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.ied2.queue.pauseQueue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar SwitchTest.ied2.queue.pauseQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic SwitchTest.ied2.queue.pauseQueue 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.ied2.queue.pauseQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar SwitchTest.ied2.queue.pauseQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar SwitchTest.ied2.queue.pauseQueue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar SwitchTest.ied2.queue.pauseQueue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar SwitchTest.ied2.queue.dataQueue 	queueLength:max 	2
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar SwitchTest.ied2.queue.dataQueue 	queueLength:timeavg 	4.1951531862033e-07
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic SwitchTest.ied2.queue.dataQueue 	queueingTime:histogram
+field count 5933
+field mean 4.2609131973706e-09
+field stddev 2.0108716881253e-07
+field sum 2.5279998e-05
+field sqrsum 2.3997436128e-10
+field min 0
+field max 1.2639999e-05
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-3.3599995e-06	0
+bin	-2.9119995666667e-06	0
+bin	-2.4639996333333e-06	0
+bin	-2.0159997e-06	0
+bin	-1.5679997666667e-06	0
+bin	-1.1199998333333e-06	0
+bin	-6.719999e-07	0
+bin	-2.2399996666667e-07	5930
+bin	2.2399996666667e-07	0
+bin	6.719999e-07	0
+bin	1.1199998333333e-06	0
+bin	1.5679997666667e-06	0
+bin	2.0159997e-06	0
+bin	2.4639996333333e-06	0
+bin	2.9119995666667e-06	0
+bin	3.3599995e-06	0
+bin	3.8079994333333e-06	0
+bin	4.2559993666667e-06	0
+bin	4.7039993e-06	0
+bin	5.1519992333333e-06	0
+bin	5.5999991666667e-06	1
+bin	6.0479991e-06	0
+bin	6.4959990333333e-06	1
+bin	6.9439989666667e-06	0
+bin	7.3919989e-06	0
+bin	7.8399988333333e-06	0
+bin	8.2879987666667e-06	0
+bin	8.7359987e-06	0
+bin	9.1839986333333e-06	0
+bin	9.6319985666667e-06	0
+bin	1.00799985e-05	1
+scalar SwitchTest.ied2.queue.dataQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar SwitchTest.ied2.queue.dataQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar SwitchTest.ied2.queue.dataQueue 	rcvdPk:count 	5933
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar SwitchTest.ied2.queue.dataQueue 	rcvdPk:sum(packetBytes) 	818430
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar SwitchTest.ied2.mac 	"simulated time" 	60.26001168
+scalar SwitchTest.ied2.mac 	full-duplex 	1
+scalar SwitchTest.ied2.mac 	"frames/sec sent" 	98.456668603155
+scalar SwitchTest.ied2.mac 	"frames/sec rcvd" 	98.672400390082
+scalar SwitchTest.ied2.mac 	"bits/sec sent" 	108653.14853852
+scalar SwitchTest.ied2.mac 	"bits/sec rcvd" 	108737.84815702
+scalar SwitchTest.ied2.mac 	"rx channel idle (%)" 	99.884947118218
+scalar SwitchTest.ied2.mac 	"rx channel utilization (%)" 	0.11505288178198
+scalar SwitchTest.ied2.mac 	"rx channel collision (%)" 	0
+scalar SwitchTest.ied2.mac 	collisions 	0
+scalar SwitchTest.ied2.mac 	backoffs 	0
+scalar SwitchTest.ied2.mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.ied2.mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.ied2.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.ied2.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.ied2.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.ied2.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.ied2.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.ied2.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.ied2.mac 	rxPkFromHL:count 	5933
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.ied2.mac 	rxPkFromHL:sum(packetBytes) 	818430
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.ied2.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.ied2.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.ied2.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.ied2.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.ied2.mac 	passedUpPk:count 	5946
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.ied2.mac 	passedUpPk:sum(packetBytes) 	819068
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.ied2.mac 	rxPkOk:count 	5946
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.ied2.mac 	rxPkOk:sum(packetBytes) 	819068
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.ied2.mac 	txPk:count 	5933
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.ied2.mac 	txPk:sum(packetBytes) 	818430
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.ied2.encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar SwitchTest.ied2.encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar SwitchTest.ied2.encap 	decapPk:count 	5933
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar SwitchTest.ied2.encap 	decapPk:sum(packetBytes) 	711344
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar SwitchTest.ied2.encap 	encapPk:count 	5933
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar SwitchTest.ied2.encap 	encapPk:sum(packetBytes) 	711556
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar SwitchTest.ied2.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar SwitchTest.ied2.networkLayer.arp 	initiatedResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar SwitchTest.ied2.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar SwitchTest.ied2.networkLayer.arp 	sentReq:count 	3
+attr title  "ARP request sent, count"
+scalar SwitchTest.ied2.iec61850trafgen 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar SwitchTest.ied2.iec61850trafgen 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar SwitchTest.ied2.iec61850trafgen 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar SwitchTest.ied2.iec61850trafgen 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic SwitchTest.ied2.iec61850trafgen 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.ied2.mms 	numActiveSessions:max 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, max"
+scalar SwitchTest.ied2.mms 	numActiveSessions:timeavg 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, timeavg"
+scalar SwitchTest.ied2.mms 	numSessions:last 	1
+attr source  sum(connect+1)/2
+attr title  "total number of sessions, last"
+scalar SwitchTest.ied2.mms 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar SwitchTest.ied2.mms 	sentPk:sum(packetBytes) 	200
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar SwitchTest.ied2.mms 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar SwitchTest.ied2.mms 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic SwitchTest.ied2.mms 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.ied4.queue.pauseQueue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar SwitchTest.ied4.queue.pauseQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic SwitchTest.ied4.queue.pauseQueue 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.ied4.queue.pauseQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar SwitchTest.ied4.queue.pauseQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar SwitchTest.ied4.queue.pauseQueue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar SwitchTest.ied4.queue.pauseQueue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar SwitchTest.ied4.queue.dataQueue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar SwitchTest.ied4.queue.dataQueue 	queueLength:timeavg 	2.9312971251651e-06
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic SwitchTest.ied4.queue.dataQueue 	queueingTime:histogram
+field count 6033
+field mean 2.9278965522957e-08
+field stddev 1.4491954773316e-06
+field sum 0.000176639999
+field sqrsum 1.267338238656e-08
+field min 0
+field max 8.208e-05
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	6033
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.ied4.queue.dataQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar SwitchTest.ied4.queue.dataQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar SwitchTest.ied4.queue.dataQueue 	rcvdPk:count 	6033
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar SwitchTest.ied4.queue.dataQueue 	rcvdPk:sum(packetBytes) 	6136064
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar SwitchTest.ied4.mac 	"simulated time" 	60.26001168
+scalar SwitchTest.ied4.mac 	full-duplex 	1
+scalar SwitchTest.ied4.mac 	"frames/sec sent" 	100.09954913437
+scalar SwitchTest.ied4.mac 	"frames/sec rcvd" 	95.336855069126
+scalar SwitchTest.ied4.mac 	"bits/sec sent" 	814476.57628466
+scalar SwitchTest.ied4.mac 	"bits/sec rcvd" 	774016.97576306
+scalar SwitchTest.ied4.mac 	"rx channel idle (%)" 	99.219881465513
+scalar SwitchTest.ied4.mac 	"rx channel utilization (%)" 	0.78011853448748
+scalar SwitchTest.ied4.mac 	"rx channel collision (%)" 	0
+scalar SwitchTest.ied4.mac 	collisions 	0
+scalar SwitchTest.ied4.mac 	backoffs 	0
+scalar SwitchTest.ied4.mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.ied4.mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.ied4.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.ied4.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.ied4.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.ied4.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.ied4.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.ied4.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.ied4.mac 	rxPkFromHL:count 	6033
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.ied4.mac 	rxPkFromHL:sum(packetBytes) 	6136064
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.ied4.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.ied4.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.ied4.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.ied4.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.ied4.mac 	passedUpPk:count 	5745
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.ied4.mac 	passedUpPk:sum(packetBytes) 	5830284
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.ied4.mac 	rxPkOk:count 	5745
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.ied4.mac 	rxPkOk:sum(packetBytes) 	5830284
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.ied4.mac 	txPk:count 	6032
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.ied4.mac 	txPk:sum(packetBytes) 	6135046
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.ied4.encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar SwitchTest.ied4.encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar SwitchTest.ied4.encap 	decapPk:count 	5732
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar SwitchTest.ied4.encap 	decapPk:sum(packetBytes) 	5726196
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar SwitchTest.ied4.encap 	encapPk:count 	6033
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar SwitchTest.ied4.encap 	encapPk:sum(packetBytes) 	6027408
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar SwitchTest.ied4.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar SwitchTest.ied4.networkLayer.arp 	initiatedResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar SwitchTest.ied4.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar SwitchTest.ied4.networkLayer.arp 	sentReq:count 	3
+attr title  "ARP request sent, count"
+scalar SwitchTest.ied4.iec61850trafgen 	sentPk:count 	6027
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar SwitchTest.ied4.iec61850trafgen 	sentPk:sum(packetBytes) 	6027000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar SwitchTest.ied4.iec61850trafgen 	rcvdPk:count 	5726
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar SwitchTest.ied4.iec61850trafgen 	rcvdPk:sum(packetBytes) 	5726000
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic SwitchTest.ied4.iec61850trafgen 	endToEndDelay:histogram
+field count 5726
+field mean 0.00032929391447137
+field stddev 3.0392224178934e-07
+field sum 1.885536954263
+field sqrsum 0.00062089637336067
+field min 0.000329279999
+field max 0.000335999998
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	0.000326399999	0
+bin	0.000326783999	0
+bin	0.000327167999	0
+bin	0.000327551999	0
+bin	0.000327935999	0
+bin	0.000328319999	0
+bin	0.000328703999	0
+bin	0.000329087999	5714
+bin	0.000329471999	0
+bin	0.000329855999	0
+bin	0.000330239999	0
+bin	0.000330623999	0
+bin	0.000331007999	0
+bin	0.000331391999	0
+bin	0.000331775999	0
+bin	0.000332159999	0
+bin	0.000332543999	0
+bin	0.000332927999	0
+bin	0.000333311999	0
+bin	0.000333695999	0
+bin	0.000334079999	0
+bin	0.000334463999	0
+bin	0.000334847999	1
+bin	0.000335231999	0
+bin	0.000335615999	11
+bin	0.000335999999	0
+bin	0.000336383999	0
+bin	0.000336767999	0
+bin	0.000337151999	0
+bin	0.000337535999	0
+bin	0.000337919999	0
+scalar SwitchTest.ied4.mms 	numActiveSessions:max 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, max"
+scalar SwitchTest.ied4.mms 	numActiveSessions:timeavg 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, timeavg"
+scalar SwitchTest.ied4.mms 	numSessions:last 	1
+attr source  sum(connect+1)/2
+attr title  "total number of sessions, last"
+scalar SwitchTest.ied4.mms 	sentPk:count 	1
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar SwitchTest.ied4.mms 	sentPk:sum(packetBytes) 	200
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar SwitchTest.ied4.mms 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar SwitchTest.ied4.mms 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic SwitchTest.ied4.mms 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.host1.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar SwitchTest.host1.networkLayer.arp 	initiatedResolution:count 	2
+attr title  "ARP initiated resolutions, count"
+scalar SwitchTest.host1.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar SwitchTest.host1.networkLayer.arp 	sentReq:count 	4
+attr title  "ARP request sent, count"
+scalar SwitchTest.host1.eth[0].mac 	"simulated time" 	60.26001168
+scalar SwitchTest.host1.eth[0].mac 	full-duplex 	1
+scalar SwitchTest.host1.eth[0].mac 	"frames/sec sent" 	98.589426625879
+scalar SwitchTest.host1.eth[0].mac 	"frames/sec rcvd" 	98.821753165648
+scalar SwitchTest.host1.eth[0].mac 	"bits/sec sent" 	108705.18968343
+scalar SwitchTest.host1.eth[0].mac 	"bits/sec rcvd" 	108917.33700374
+scalar SwitchTest.host1.eth[0].mac 	"rx channel idle (%)" 	99.884621861062
+scalar SwitchTest.host1.eth[0].mac 	"rx channel utilization (%)" 	0.11537813893766
+scalar SwitchTest.host1.eth[0].mac 	droppedPkNotForUs:count 	1
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.host1.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	1026
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.host1.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.host1.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.host1.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.host1.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.host1.eth[0].mac 	rxPkFromHL:count 	5941
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.host1.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	818822
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.host1.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.host1.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.host1.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.host1.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.host1.eth[0].mac 	passedUpPk:count 	5955
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.host1.eth[0].mac 	passedUpPk:sum(packetBytes) 	820420
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.host1.eth[0].mac 	rxPkOk:count 	5955
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.host1.eth[0].mac 	rxPkOk:sum(packetBytes) 	820420
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.host1.eth[0].mac 	txPk:count 	5941
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.host1.eth[0].mac 	txPk:sum(packetBytes) 	818822
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.host1.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar SwitchTest.host1.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar SwitchTest.host1.eth[0].encap 	decapPk:count 	5942
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar SwitchTest.host1.eth[0].encap 	decapPk:sum(packetBytes) 	712528
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar SwitchTest.host1.eth[0].encap 	encapPk:count 	5941
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar SwitchTest.host1.eth[0].encap 	encapPk:sum(packetBytes) 	711744
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar SwitchTest.host1.tcpApp[0] 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar SwitchTest.host1.tcpApp[0] 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar SwitchTest.host1.tcpApp[0] 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar SwitchTest.host1.tcpApp[0] 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic SwitchTest.host1.tcpApp[0] 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar SwitchTest.host1.pingApp[0] 	"Pings sent" 	5927
+scalar SwitchTest.host1.pingApp[0] 	"ping loss rate (%)" 	0.01687194196052
+scalar SwitchTest.host1.pingApp[0] 	"ping out-of-order rate (%)" 	0
+scalar SwitchTest.host1.pingApp[0] 	pingRxSeq:count 	5926
+attr interpolationmode  none
+attr title  "ping rx seq, count"
+scalar SwitchTest.host1.pingApp[0] 	pingTxSeq:count 	5927
+attr interpolationmode  none
+attr title  "ping tx seq, count"
+scalar SwitchTest.host1.pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar SwitchTest.host1.pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+statistic SwitchTest.host1.pingApp[0] 	rtt:histogram
+field count 5735
+field mean 0.00017763317038567
+field stddev 0.0023235273735712
+field sum 1.0187262321618
+field sqrsum 0.031137560969556
+field min 9.4399999e-05
+field max 0.092752479801
+attr interpolationmode  none
+attr title  "ping round-trip time, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.046234639902	0
+bin	-0.040057434581867	0
+bin	-0.033880229261733	0
+bin	-0.0277030239416	0
+bin	-0.021525818621467	0
+bin	-0.015348613301333	0
+bin	-0.0091714079812	0
+bin	-0.0029942026610667	5726
+bin	0.0031830026590667	0
+bin	0.0093602079792	1
+bin	0.015537413299333	0
+bin	0.021714618619467	1
+bin	0.0278918239396	1
+bin	0.034069029259733	0
+bin	0.040246234579867	1
+bin	0.0464234399	0
+bin	0.052600645220133	1
+bin	0.058777850540267	1
+bin	0.0649550558604	0
+bin	0.071132261180533	1
+bin	0.077309466500667	1
+bin	0.0834866718208	0
+bin	0.089663877140933	1
+bin	0.095841082461067	0
+bin	0.1020182877812	0
+bin	0.10819549310133	0
+bin	0.11437269842147	0
+bin	0.1205499037416	0
+bin	0.12672710906173	0
+bin	0.13290431438187	0
+bin	0.139081519702	0
+scalar SwitchTest.router.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar SwitchTest.router.networkLayer.arp 	initiatedResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar SwitchTest.router.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar SwitchTest.router.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar SwitchTest.router.eth[0].mac 	"simulated time" 	60.26001168
+scalar SwitchTest.router.eth[0].mac 	full-duplex 	1
+scalar SwitchTest.router.eth[0].mac 	"frames/sec sent" 	0
+scalar SwitchTest.router.eth[0].mac 	"frames/sec rcvd" 	0.11616326988405
+scalar SwitchTest.router.eth[0].mac 	"bits/sec sent" 	0
+scalar SwitchTest.router.eth[0].mac 	"bits/sec rcvd" 	59.475594180635
+scalar SwitchTest.router.eth[0].mac 	"rx channel idle (%)" 	99.999933089957
+scalar SwitchTest.router.eth[0].mac 	"rx channel utilization (%)" 	6.6910043453214e-05
+scalar SwitchTest.router.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.router.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.router.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.router.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.router.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.router.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.router.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.router.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.router.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.router.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.router.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.router.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.router.eth[0].mac 	passedUpPk:count 	7
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.router.eth[0].mac 	passedUpPk:sum(packetBytes) 	448
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.router.eth[0].mac 	rxPkOk:count 	7
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.router.eth[0].mac 	rxPkOk:sum(packetBytes) 	448
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.router.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.router.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.router.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar SwitchTest.router.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar SwitchTest.router.eth[0].encap 	decapPk:count 	4
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar SwitchTest.router.eth[0].encap 	decapPk:sum(packetBytes) 	112
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar SwitchTest.router.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar SwitchTest.router.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar SwitchTest.s2.eth[0] 	"simulated time" 	60.26001168
+scalar SwitchTest.s2.eth[0] 	full-duplex 	1
+scalar SwitchTest.s2.eth[0] 	"frames/sec sent" 	194.04244496489
+scalar SwitchTest.s2.eth[0] 	"frames/sec rcvd" 	194.04244496489
+scalar SwitchTest.s2.eth[0] 	"bits/sec sent" 	882823.3270598
+scalar SwitchTest.s2.eth[0] 	"bits/sec rcvd" 	882771.81694698
+scalar SwitchTest.s2.eth[0] 	"rx channel idle (%)" 	99.104809466575
+scalar SwitchTest.s2.eth[0] 	"rx channel utilization (%)" 	0.89519053342474
+scalar SwitchTest.s2.eth[0] 	"rx channel collision (%)" 	0
+scalar SwitchTest.s2.eth[0] 	collisions 	0
+scalar SwitchTest.s2.eth[0] 	backoffs 	0
+scalar SwitchTest.s2.eth[0] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.s2.eth[0] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.s2.eth[0] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.s2.eth[0] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.s2.eth[0] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.s2.eth[0] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.s2.eth[0] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.s2.eth[0] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.s2.eth[0] 	rxPkFromHL:count 	11693
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.s2.eth[0] 	rxPkFromHL:sum(packetBytes) 	6649868
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.s2.eth[0] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.s2.eth[0] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.s2.eth[0] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.s2.eth[0] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.s2.eth[0] 	passedUpPk:count 	11693
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.s2.eth[0] 	passedUpPk:sum(packetBytes) 	6649480
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.s2.eth[0] 	rxPkOk:count 	11693
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.s2.eth[0] 	rxPkOk:sum(packetBytes) 	6649480
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.s2.eth[0] 	txPk:count 	11693
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.s2.eth[0] 	txPk:sum(packetBytes) 	6649868
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.s2.eth[1] 	"simulated time" 	60.26001168
+scalar SwitchTest.s2.eth[1] 	full-duplex 	1
+scalar SwitchTest.s2.eth[1] 	"frames/sec sent" 	95.353449821967
+scalar SwitchTest.s2.eth[1] 	"frames/sec rcvd" 	100.11614388721
+scalar SwitchTest.s2.eth[1] 	"bits/sec sent" 	774025.47227651
+scalar SwitchTest.s2.eth[1] 	"bits/sec rcvd" 	814485.07279811
+scalar SwitchTest.s2.eth[1] 	"rx channel idle (%)" 	99.179107493993
+scalar SwitchTest.s2.eth[1] 	"rx channel utilization (%)" 	0.8208925060069
+scalar SwitchTest.s2.eth[1] 	"rx channel collision (%)" 	0
+scalar SwitchTest.s2.eth[1] 	collisions 	0
+scalar SwitchTest.s2.eth[1] 	backoffs 	0
+scalar SwitchTest.s2.eth[1] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.s2.eth[1] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.s2.eth[1] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.s2.eth[1] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.s2.eth[1] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.s2.eth[1] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.s2.eth[1] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.s2.eth[1] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.s2.eth[1] 	rxPkFromHL:count 	5746
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.s2.eth[1] 	rxPkFromHL:sum(packetBytes) 	5830348
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.s2.eth[1] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.s2.eth[1] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.s2.eth[1] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.s2.eth[1] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.s2.eth[1] 	passedUpPk:count 	6033
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.s2.eth[1] 	passedUpPk:sum(packetBytes) 	6135110
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.s2.eth[1] 	rxPkOk:count 	6033
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.s2.eth[1] 	rxPkOk:sum(packetBytes) 	6135110
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.s2.eth[1] 	txPk:count 	5746
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.s2.eth[1] 	txPk:sum(packetBytes) 	5830348
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.s2.eth[2] 	"simulated time" 	60.26001168
+scalar SwitchTest.s2.eth[2] 	full-duplex 	1
+scalar SwitchTest.s2.eth[2] 	"frames/sec sent" 	98.672400390082
+scalar SwitchTest.s2.eth[2] 	"frames/sec rcvd" 	98.456668603155
+scalar SwitchTest.s2.eth[2] 	"bits/sec sent" 	108737.84815702
+scalar SwitchTest.s2.eth[2] 	"bits/sec rcvd" 	108653.14853852
+scalar SwitchTest.s2.eth[2] 	"rx channel idle (%)" 	99.885045624671
+scalar SwitchTest.s2.eth[2] 	"rx channel utilization (%)" 	0.11495437532912
+scalar SwitchTest.s2.eth[2] 	"rx channel collision (%)" 	0
+scalar SwitchTest.s2.eth[2] 	collisions 	0
+scalar SwitchTest.s2.eth[2] 	backoffs 	0
+scalar SwitchTest.s2.eth[2] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.s2.eth[2] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.s2.eth[2] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.s2.eth[2] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.s2.eth[2] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.s2.eth[2] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.s2.eth[2] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.s2.eth[2] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.s2.eth[2] 	rxPkFromHL:count 	5946
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.s2.eth[2] 	rxPkFromHL:sum(packetBytes) 	819068
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.s2.eth[2] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.s2.eth[2] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.s2.eth[2] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.s2.eth[2] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.s2.eth[2] 	passedUpPk:count 	5933
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.s2.eth[2] 	passedUpPk:sum(packetBytes) 	818430
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.s2.eth[2] 	rxPkOk:count 	5933
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.s2.eth[2] 	rxPkOk:sum(packetBytes) 	818430
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.s2.eth[2] 	txPk:count 	5946
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.s2.eth[2] 	txPk:sum(packetBytes) 	819068
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.s2.relay 	"processed frames" 	23322
+scalar SwitchTest.s2.relay 	"dropped frames" 	0
+scalar SwitchTest.s3.eth[0] 	"simulated time" 	60.26001168
+scalar SwitchTest.s3.eth[0] 	full-duplex 	1
+scalar SwitchTest.s3.eth[0] 	"frames/sec sent" 	194.04244496489
+scalar SwitchTest.s3.eth[0] 	"frames/sec rcvd" 	194.05903971773
+scalar SwitchTest.s3.eth[0] 	"bits/sec sent" 	882771.81694698
+scalar SwitchTest.s3.eth[0] 	"bits/sec rcvd" 	882831.82357325
+scalar SwitchTest.s3.eth[0] 	"rx channel idle (%)" 	99.104748397885
+scalar SwitchTest.s3.eth[0] 	"rx channel utilization (%)" 	0.89525160211519
+scalar SwitchTest.s3.eth[0] 	"rx channel collision (%)" 	0
+scalar SwitchTest.s3.eth[0] 	collisions 	0
+scalar SwitchTest.s3.eth[0] 	backoffs 	0
+scalar SwitchTest.s3.eth[0] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.s3.eth[0] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.s3.eth[0] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.s3.eth[0] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.s3.eth[0] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.s3.eth[0] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.s3.eth[0] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.s3.eth[0] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.s3.eth[0] 	rxPkFromHL:count 	11694
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.s3.eth[0] 	rxPkFromHL:sum(packetBytes) 	6649618
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.s3.eth[0] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.s3.eth[0] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.s3.eth[0] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.s3.eth[0] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.s3.eth[0] 	passedUpPk:count 	11694
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.s3.eth[0] 	passedUpPk:sum(packetBytes) 	6649932
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.s3.eth[0] 	rxPkOk:count 	11694
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.s3.eth[0] 	rxPkOk:sum(packetBytes) 	6649932
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.s3.eth[0] 	txPk:count 	11693
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.s3.eth[0] 	txPk:sum(packetBytes) 	6649480
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.s3.eth[1] 	"simulated time" 	60.26001168
+scalar SwitchTest.s3.eth[1] 	full-duplex 	1
+scalar SwitchTest.s3.eth[1] 	"frames/sec sent" 	0.14935277556521
+scalar SwitchTest.s3.eth[1] 	"frames/sec rcvd" 	0.099568517043474
+scalar SwitchTest.s3.eth[1] 	"bits/sec sent" 	203.11977476869
+scalar SwitchTest.s3.eth[1] 	"bits/sec rcvd" 	76.734137134837
+scalar SwitchTest.s3.eth[1] 	"rx channel idle (%)" 	99.999916893478
+scalar SwitchTest.s3.eth[1] 	"rx channel utilization (%)" 	8.3106522225619e-05
+scalar SwitchTest.s3.eth[1] 	"rx channel collision (%)" 	0
+scalar SwitchTest.s3.eth[1] 	collisions 	0
+scalar SwitchTest.s3.eth[1] 	backoffs 	0
+scalar SwitchTest.s3.eth[1] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.s3.eth[1] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.s3.eth[1] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.s3.eth[1] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.s3.eth[1] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.s3.eth[1] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.s3.eth[1] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.s3.eth[1] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.s3.eth[1] 	rxPkFromHL:count 	9
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.s3.eth[1] 	rxPkFromHL:sum(packetBytes) 	1530
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.s3.eth[1] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.s3.eth[1] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.s3.eth[1] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.s3.eth[1] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.s3.eth[1] 	passedUpPk:count 	6
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.s3.eth[1] 	passedUpPk:sum(packetBytes) 	578
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.s3.eth[1] 	rxPkOk:count 	6
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.s3.eth[1] 	rxPkOk:sum(packetBytes) 	578
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.s3.eth[1] 	txPk:count 	9
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.s3.eth[1] 	txPk:sum(packetBytes) 	1530
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.s3.eth[2] 	"simulated time" 	60.26001168
+scalar SwitchTest.s3.eth[2] 	full-duplex 	1
+scalar SwitchTest.s3.eth[2] 	"frames/sec sent" 	95.336855069126
+scalar SwitchTest.s3.eth[2] 	"frames/sec rcvd" 	100.09954913437
+scalar SwitchTest.s3.eth[2] 	"bits/sec sent" 	774016.97576306
+scalar SwitchTest.s3.eth[2] 	"bits/sec rcvd" 	814476.57628466
+scalar SwitchTest.s3.eth[2] 	"rx channel idle (%)" 	99.179117052571
+scalar SwitchTest.s3.eth[2] 	"rx channel utilization (%)" 	0.82088294742926
+scalar SwitchTest.s3.eth[2] 	"rx channel collision (%)" 	0
+scalar SwitchTest.s3.eth[2] 	collisions 	0
+scalar SwitchTest.s3.eth[2] 	backoffs 	0
+scalar SwitchTest.s3.eth[2] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.s3.eth[2] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.s3.eth[2] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.s3.eth[2] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.s3.eth[2] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.s3.eth[2] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.s3.eth[2] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.s3.eth[2] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.s3.eth[2] 	rxPkFromHL:count 	5745
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.s3.eth[2] 	rxPkFromHL:sum(packetBytes) 	5830284
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.s3.eth[2] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.s3.eth[2] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.s3.eth[2] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.s3.eth[2] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.s3.eth[2] 	passedUpPk:count 	6032
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.s3.eth[2] 	passedUpPk:sum(packetBytes) 	6135046
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.s3.eth[2] 	rxPkOk:count 	6032
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.s3.eth[2] 	rxPkOk:sum(packetBytes) 	6135046
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.s3.eth[2] 	txPk:count 	5745
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.s3.eth[2] 	txPk:sum(packetBytes) 	5830284
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.s3.eth[3] 	"simulated time" 	60.26001168
+scalar SwitchTest.s3.eth[3] 	full-duplex 	1
+scalar SwitchTest.s3.eth[3] 	"frames/sec sent" 	98.838347918488
+scalar SwitchTest.s3.eth[3] 	"frames/sec rcvd" 	98.589426625879
+scalar SwitchTest.s3.eth[3] 	"bits/sec sent" 	109052.48467088
+scalar SwitchTest.s3.eth[3] 	"bits/sec rcvd" 	108705.18968343
+scalar SwitchTest.s3.eth[3] 	"rx channel idle (%)" 	99.884985087013
+scalar SwitchTest.s3.eth[3] 	"rx channel utilization (%)" 	0.11501491298748
+scalar SwitchTest.s3.eth[3] 	"rx channel collision (%)" 	0
+scalar SwitchTest.s3.eth[3] 	collisions 	0
+scalar SwitchTest.s3.eth[3] 	backoffs 	0
+scalar SwitchTest.s3.eth[3] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.s3.eth[3] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.s3.eth[3] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.s3.eth[3] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.s3.eth[3] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.s3.eth[3] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.s3.eth[3] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.s3.eth[3] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.s3.eth[3] 	rxPkFromHL:count 	5956
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.s3.eth[3] 	rxPkFromHL:sum(packetBytes) 	821438
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.s3.eth[3] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.s3.eth[3] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.s3.eth[3] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.s3.eth[3] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.s3.eth[3] 	passedUpPk:count 	5941
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.s3.eth[3] 	passedUpPk:sum(packetBytes) 	818822
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.s3.eth[3] 	rxPkOk:count 	5941
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.s3.eth[3] 	rxPkOk:sum(packetBytes) 	818822
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.s3.eth[3] 	txPk:count 	5956
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.s3.eth[3] 	txPk:sum(packetBytes) 	821438
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.s3.relay 	"processed frames" 	23333
+scalar SwitchTest.s3.relay 	"dropped frames" 	0
+scalar SwitchTest.s1.eth[0] 	"simulated time" 	60.26001168
+scalar SwitchTest.s1.eth[0] 	full-duplex 	1
+scalar SwitchTest.s1.eth[0] 	"frames/sec sent" 	194.04244496489
+scalar SwitchTest.s1.eth[0] 	"frames/sec rcvd" 	194.04244496489
+scalar SwitchTest.s1.eth[0] 	"bits/sec sent" 	882771.81694698
+scalar SwitchTest.s1.eth[0] 	"bits/sec rcvd" 	882823.3270598
+scalar SwitchTest.s1.eth[0] 	"rx channel idle (%)" 	99.104757956462
+scalar SwitchTest.s1.eth[0] 	"rx channel utilization (%)" 	0.89524204353755
+scalar SwitchTest.s1.eth[0] 	"rx channel collision (%)" 	0
+scalar SwitchTest.s1.eth[0] 	collisions 	0
+scalar SwitchTest.s1.eth[0] 	backoffs 	0
+scalar SwitchTest.s1.eth[0] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.s1.eth[0] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.s1.eth[0] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.s1.eth[0] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.s1.eth[0] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.s1.eth[0] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.s1.eth[0] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.s1.eth[0] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.s1.eth[0] 	rxPkFromHL:count 	11693
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.s1.eth[0] 	rxPkFromHL:sum(packetBytes) 	6649480
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.s1.eth[0] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.s1.eth[0] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.s1.eth[0] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.s1.eth[0] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.s1.eth[0] 	passedUpPk:count 	11693
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.s1.eth[0] 	passedUpPk:sum(packetBytes) 	6649868
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.s1.eth[0] 	rxPkOk:count 	11693
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.s1.eth[0] 	rxPkOk:sum(packetBytes) 	6649868
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.s1.eth[0] 	txPk:count 	11693
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.s1.eth[0] 	txPk:sum(packetBytes) 	6649480
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.s1.eth[1] 	"simulated time" 	60.26001168
+scalar SwitchTest.s1.eth[1] 	full-duplex 	1
+scalar SwitchTest.s1.eth[1] 	"frames/sec sent" 	194.05903971773
+scalar SwitchTest.s1.eth[1] 	"frames/sec rcvd" 	194.04244496489
+scalar SwitchTest.s1.eth[1] 	"bits/sec sent" 	882831.82357325
+scalar SwitchTest.s1.eth[1] 	"bits/sec rcvd" 	882771.81694698
+scalar SwitchTest.s1.eth[1] 	"rx channel idle (%)" 	99.104809466575
+scalar SwitchTest.s1.eth[1] 	"rx channel utilization (%)" 	0.89519053342474
+scalar SwitchTest.s1.eth[1] 	"rx channel collision (%)" 	0
+scalar SwitchTest.s1.eth[1] 	collisions 	0
+scalar SwitchTest.s1.eth[1] 	backoffs 	0
+scalar SwitchTest.s1.eth[1] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.s1.eth[1] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.s1.eth[1] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.s1.eth[1] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.s1.eth[1] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.s1.eth[1] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.s1.eth[1] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.s1.eth[1] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.s1.eth[1] 	rxPkFromHL:count 	11694
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.s1.eth[1] 	rxPkFromHL:sum(packetBytes) 	6649932
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.s1.eth[1] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.s1.eth[1] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.s1.eth[1] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.s1.eth[1] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.s1.eth[1] 	passedUpPk:count 	11693
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.s1.eth[1] 	passedUpPk:sum(packetBytes) 	6649480
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.s1.eth[1] 	rxPkOk:count 	11693
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.s1.eth[1] 	rxPkOk:sum(packetBytes) 	6649480
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.s1.eth[1] 	txPk:count 	11694
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.s1.eth[1] 	txPk:sum(packetBytes) 	6649932
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.s1.eth[2] 	"simulated time" 	60.26001168
+scalar SwitchTest.s1.eth[2] 	full-duplex 	1
+scalar SwitchTest.s1.eth[2] 	"frames/sec sent" 	0.11616326988405
+scalar SwitchTest.s1.eth[2] 	"frames/sec rcvd" 	0
+scalar SwitchTest.s1.eth[2] 	"bits/sec sent" 	59.475594180635
+scalar SwitchTest.s1.eth[2] 	"bits/sec rcvd" 	0
+scalar SwitchTest.s1.eth[2] 	"rx channel idle (%)" 	100
+scalar SwitchTest.s1.eth[2] 	"rx channel utilization (%)" 	0
+scalar SwitchTest.s1.eth[2] 	"rx channel collision (%)" 	0
+scalar SwitchTest.s1.eth[2] 	collisions 	0
+scalar SwitchTest.s1.eth[2] 	backoffs 	0
+scalar SwitchTest.s1.eth[2] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar SwitchTest.s1.eth[2] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar SwitchTest.s1.eth[2] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar SwitchTest.s1.eth[2] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar SwitchTest.s1.eth[2] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar SwitchTest.s1.eth[2] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar SwitchTest.s1.eth[2] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar SwitchTest.s1.eth[2] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar SwitchTest.s1.eth[2] 	rxPkFromHL:count 	7
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar SwitchTest.s1.eth[2] 	rxPkFromHL:sum(packetBytes) 	448
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar SwitchTest.s1.eth[2] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar SwitchTest.s1.eth[2] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar SwitchTest.s1.eth[2] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar SwitchTest.s1.eth[2] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar SwitchTest.s1.eth[2] 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar SwitchTest.s1.eth[2] 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar SwitchTest.s1.eth[2] 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar SwitchTest.s1.eth[2] 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar SwitchTest.s1.eth[2] 	txPk:count 	7
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar SwitchTest.s1.eth[2] 	txPk:sum(packetBytes) 	448
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar SwitchTest.s1.relay 	"processed frames" 	23320
+scalar SwitchTest.s1.relay 	"dropped frames" 	0

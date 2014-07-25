@@ -1,0 +1,2780 @@
+version 2
+run General-0-20130829-18:05:22-13977
+attr configname General
+attr datetime 20130829-18:05:22
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Star
+attr processid 13977
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar Star.ied.queue.pauseQueue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Star.ied.queue.pauseQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic Star.ied.queue.pauseQueue 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied.queue.pauseQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Star.ied.queue.pauseQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Star.ied.queue.pauseQueue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Star.ied.queue.pauseQueue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Star.ied.queue.dataQueue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Star.ied.queue.dataQueue 	queueLength:timeavg 	1.175999868288e-06
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic Star.ied.queue.dataQueue 	queueingTime:histogram
+field count 68
+field mean 1.0376470588235e-06
+field stddev 3.0859054249092e-06
+field sum 7.056e-05
+field sqrsum 7.112448e-10
+field min 0
+field max 1.008e-05
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-5.04e-06	0
+bin	-4.368e-06	0
+bin	-3.696e-06	0
+bin	-3.024e-06	0
+bin	-2.352e-06	0
+bin	-1.68e-06	0
+bin	-1.008e-06	0
+bin	-3.36e-07	61
+bin	3.36e-07	0
+bin	1.008e-06	0
+bin	1.68e-06	0
+bin	2.352e-06	0
+bin	3.024e-06	0
+bin	3.696e-06	0
+bin	4.368e-06	0
+bin	5.04e-06	0
+bin	5.712e-06	0
+bin	6.384e-06	0
+bin	7.056e-06	0
+bin	7.728e-06	0
+bin	8.4e-06	0
+bin	9.072e-06	0
+bin	9.744e-06	7
+bin	1.0416e-05	0
+bin	1.1088e-05	0
+bin	1.176e-05	0
+bin	1.2432e-05	0
+bin	1.3104e-05	0
+bin	1.3776e-05	0
+bin	1.4448e-05	0
+bin	1.512e-05	0
+scalar Star.ied.queue.dataQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Star.ied.queue.dataQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Star.ied.queue.dataQueue 	rcvdPk:count 	68
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Star.ied.queue.dataQueue 	rcvdPk:sum(packetBytes) 	7592
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Star.ied.mac 	"simulated time" 	60.000006719999
+scalar Star.ied.mac 	full-duplex 	1
+scalar Star.ied.mac 	"frames/sec sent" 	1.1166665416
+scalar Star.ied.mac 	"frames/sec rcvd" 	0.19999997760001
+scalar Star.ied.mac 	"bits/sec sent" 	996.53322172163
+scalar Star.ied.mac 	"bits/sec rcvd" 	109.0666544512
+scalar Star.ied.mac 	"rx channel idle (%)" 	99.999878133347
+scalar Star.ied.mac 	"rx channel utilization (%)" 	0.0001218666530176
+scalar Star.ied.mac 	"rx channel collision (%)" 	0
+scalar Star.ied.mac 	collisions 	0
+scalar Star.ied.mac 	backoffs 	0
+scalar Star.ied.mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.ied.mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.ied.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.ied.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.ied.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.ied.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.ied.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.ied.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.ied.mac 	rxPkFromHL:count 	68
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.ied.mac 	rxPkFromHL:sum(packetBytes) 	7592
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.ied.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.ied.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.ied.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.ied.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.ied.mac 	passedUpPk:count 	12
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.ied.mac 	passedUpPk:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.ied.mac 	rxPkOk:count 	12
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.ied.mac 	rxPkOk:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.ied.mac 	txPk:count 	67
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.ied.mac 	txPk:sum(packetBytes) 	7474
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.ied.encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar Star.ied.encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar Star.ied.encap 	decapPk:count 	9
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar Star.ied.encap 	decapPk:sum(packetBytes) 	392
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar Star.ied.encap 	encapPk:count 	68
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar Star.ied.encap 	encapPk:sum(packetBytes) 	6304
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar Star.ied.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Star.ied.networkLayer.arp 	initiatedResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar Star.ied.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar Star.ied.networkLayer.arp 	sentReq:count 	3
+attr title  "ARP request sent, count"
+statistic Star.ied.iec61850trafgen 	eteTrip1A:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdTrip1A)
+attr title  "eteTrip1A, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied.iec61850trafgen 	sentPk:count 	60
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Star.ied.iec61850trafgen 	sentPk:sum(packetBytes) 	6000
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Star.ied.iec61850trafgen 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Star.ied.iec61850trafgen 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Star.ied.iec61850trafgen 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied.mms 	numActiveSessions:max 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, max"
+scalar Star.ied.mms 	numActiveSessions:timeavg 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, timeavg"
+scalar Star.ied.mms 	numSessions:last 	1
+attr source  sum(connect+1)/2
+attr title  "total number of sessions, last"
+scalar Star.ied.mms 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Star.ied.mms 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Star.ied.mms 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Star.ied.mms 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Star.ied.mms 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied.IPburst 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Star.ied.IPburst 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Star.ied.IPburst 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Star.ied.IPburst 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Star.ied.IPburst 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied1.queue.pauseQueue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Star.ied1.queue.pauseQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic Star.ied1.queue.pauseQueue 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied1.queue.pauseQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Star.ied1.queue.pauseQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Star.ied1.queue.pauseQueue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Star.ied1.queue.pauseQueue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Star.ied1.queue.dataQueue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Star.ied1.queue.dataQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic Star.ied1.queue.dataQueue 	queueingTime:histogram
+field count 8
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	8
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied1.queue.dataQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Star.ied1.queue.dataQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Star.ied1.queue.dataQueue 	rcvdPk:count 	8
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Star.ied1.queue.dataQueue 	rcvdPk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Star.ied1.mac 	"simulated time" 	60.000006719999
+scalar Star.ied1.mac 	full-duplex 	1
+scalar Star.ied1.mac 	"frames/sec sent" 	0.1333333184
+scalar Star.ied1.mac 	"frames/sec rcvd" 	0.19999997760001
+scalar Star.ied1.mac 	"bits/sec sent" 	68.266659020802
+scalar Star.ied1.mac 	"bits/sec rcvd" 	109.0666544512
+scalar Star.ied1.mac 	"rx channel idle (%)" 	99.999878133347
+scalar Star.ied1.mac 	"rx channel utilization (%)" 	0.0001218666530176
+scalar Star.ied1.mac 	"rx channel collision (%)" 	0
+scalar Star.ied1.mac 	collisions 	0
+scalar Star.ied1.mac 	backoffs 	0
+scalar Star.ied1.mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.ied1.mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.ied1.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.ied1.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.ied1.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.ied1.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.ied1.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.ied1.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.ied1.mac 	rxPkFromHL:count 	8
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.ied1.mac 	rxPkFromHL:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.ied1.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.ied1.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.ied1.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.ied1.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.ied1.mac 	passedUpPk:count 	12
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.ied1.mac 	passedUpPk:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.ied1.mac 	rxPkOk:count 	12
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.ied1.mac 	rxPkOk:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.ied1.mac 	txPk:count 	8
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.ied1.mac 	txPk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.ied1.encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar Star.ied1.encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar Star.ied1.encap 	decapPk:count 	9
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar Star.ied1.encap 	decapPk:sum(packetBytes) 	392
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar Star.ied1.encap 	encapPk:count 	8
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar Star.ied1.encap 	encapPk:sum(packetBytes) 	304
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar Star.ied1.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Star.ied1.networkLayer.arp 	initiatedResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar Star.ied1.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar Star.ied1.networkLayer.arp 	sentReq:count 	3
+attr title  "ARP request sent, count"
+statistic Star.ied1.iec61850trafgen 	eteTrip1A:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdTrip1A)
+attr title  "eteTrip1A, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied1.iec61850trafgen 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Star.ied1.iec61850trafgen 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Star.ied1.iec61850trafgen 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Star.ied1.iec61850trafgen 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Star.ied1.iec61850trafgen 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied1.mms 	numActiveSessions:max 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, max"
+scalar Star.ied1.mms 	numActiveSessions:timeavg 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, timeavg"
+scalar Star.ied1.mms 	numSessions:last 	1
+attr source  sum(connect+1)/2
+attr title  "total number of sessions, last"
+scalar Star.ied1.mms 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Star.ied1.mms 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Star.ied1.mms 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Star.ied1.mms 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Star.ied1.mms 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied1.IPburst 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Star.ied1.IPburst 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Star.ied1.IPburst 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Star.ied1.IPburst 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Star.ied1.IPburst 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied2.queue.pauseQueue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Star.ied2.queue.pauseQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic Star.ied2.queue.pauseQueue 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied2.queue.pauseQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Star.ied2.queue.pauseQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Star.ied2.queue.pauseQueue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Star.ied2.queue.pauseQueue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Star.ied2.queue.dataQueue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Star.ied2.queue.dataQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic Star.ied2.queue.dataQueue 	queueingTime:histogram
+field count 8
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	8
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied2.queue.dataQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Star.ied2.queue.dataQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Star.ied2.queue.dataQueue 	rcvdPk:count 	8
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Star.ied2.queue.dataQueue 	rcvdPk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Star.ied2.mac 	"simulated time" 	60.000006719999
+scalar Star.ied2.mac 	full-duplex 	1
+scalar Star.ied2.mac 	"frames/sec sent" 	0.1333333184
+scalar Star.ied2.mac 	"frames/sec rcvd" 	0.19999997760001
+scalar Star.ied2.mac 	"bits/sec sent" 	68.266659020802
+scalar Star.ied2.mac 	"bits/sec rcvd" 	109.0666544512
+scalar Star.ied2.mac 	"rx channel idle (%)" 	99.999878133347
+scalar Star.ied2.mac 	"rx channel utilization (%)" 	0.0001218666530176
+scalar Star.ied2.mac 	"rx channel collision (%)" 	0
+scalar Star.ied2.mac 	collisions 	0
+scalar Star.ied2.mac 	backoffs 	0
+scalar Star.ied2.mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.ied2.mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.ied2.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.ied2.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.ied2.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.ied2.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.ied2.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.ied2.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.ied2.mac 	rxPkFromHL:count 	8
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.ied2.mac 	rxPkFromHL:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.ied2.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.ied2.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.ied2.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.ied2.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.ied2.mac 	passedUpPk:count 	12
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.ied2.mac 	passedUpPk:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.ied2.mac 	rxPkOk:count 	12
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.ied2.mac 	rxPkOk:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.ied2.mac 	txPk:count 	8
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.ied2.mac 	txPk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.ied2.encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar Star.ied2.encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar Star.ied2.encap 	decapPk:count 	9
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar Star.ied2.encap 	decapPk:sum(packetBytes) 	392
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar Star.ied2.encap 	encapPk:count 	8
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar Star.ied2.encap 	encapPk:sum(packetBytes) 	304
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar Star.ied2.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Star.ied2.networkLayer.arp 	initiatedResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar Star.ied2.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar Star.ied2.networkLayer.arp 	sentReq:count 	3
+attr title  "ARP request sent, count"
+statistic Star.ied2.iec61850trafgen 	eteTrip1A:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdTrip1A)
+attr title  "eteTrip1A, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied2.iec61850trafgen 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Star.ied2.iec61850trafgen 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Star.ied2.iec61850trafgen 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Star.ied2.iec61850trafgen 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Star.ied2.iec61850trafgen 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied2.mms 	numActiveSessions:max 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, max"
+scalar Star.ied2.mms 	numActiveSessions:timeavg 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, timeavg"
+scalar Star.ied2.mms 	numSessions:last 	1
+attr source  sum(connect+1)/2
+attr title  "total number of sessions, last"
+scalar Star.ied2.mms 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Star.ied2.mms 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Star.ied2.mms 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Star.ied2.mms 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Star.ied2.mms 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied2.IPburst 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Star.ied2.IPburst 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Star.ied2.IPburst 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Star.ied2.IPburst 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Star.ied2.IPburst 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied3.queue.pauseQueue 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Star.ied3.queue.pauseQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic Star.ied3.queue.pauseQueue 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied3.queue.pauseQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Star.ied3.queue.pauseQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Star.ied3.queue.pauseQueue 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Star.ied3.queue.pauseQueue 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Star.ied3.queue.dataQueue 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar Star.ied3.queue.dataQueue 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic Star.ied3.queue.dataQueue 	queueingTime:histogram
+field count 8
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	8
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied3.queue.dataQueue 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar Star.ied3.queue.dataQueue 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar Star.ied3.queue.dataQueue 	rcvdPk:count 	8
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar Star.ied3.queue.dataQueue 	rcvdPk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar Star.ied3.mac 	"simulated time" 	60.000006719999
+scalar Star.ied3.mac 	full-duplex 	1
+scalar Star.ied3.mac 	"frames/sec sent" 	0.1333333184
+scalar Star.ied3.mac 	"frames/sec rcvd" 	0.19999997760001
+scalar Star.ied3.mac 	"bits/sec sent" 	68.266659020802
+scalar Star.ied3.mac 	"bits/sec rcvd" 	109.0666544512
+scalar Star.ied3.mac 	"rx channel idle (%)" 	99.999878133347
+scalar Star.ied3.mac 	"rx channel utilization (%)" 	0.0001218666530176
+scalar Star.ied3.mac 	"rx channel collision (%)" 	0
+scalar Star.ied3.mac 	collisions 	0
+scalar Star.ied3.mac 	backoffs 	0
+scalar Star.ied3.mac 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.ied3.mac 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.ied3.mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.ied3.mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.ied3.mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.ied3.mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.ied3.mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.ied3.mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.ied3.mac 	rxPkFromHL:count 	8
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.ied3.mac 	rxPkFromHL:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.ied3.mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.ied3.mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.ied3.mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.ied3.mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.ied3.mac 	passedUpPk:count 	12
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.ied3.mac 	passedUpPk:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.ied3.mac 	rxPkOk:count 	12
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.ied3.mac 	rxPkOk:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.ied3.mac 	txPk:count 	8
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.ied3.mac 	txPk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.ied3.encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar Star.ied3.encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar Star.ied3.encap 	decapPk:count 	9
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar Star.ied3.encap 	decapPk:sum(packetBytes) 	392
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar Star.ied3.encap 	encapPk:count 	8
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar Star.ied3.encap 	encapPk:sum(packetBytes) 	304
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar Star.ied3.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Star.ied3.networkLayer.arp 	initiatedResolution:count 	1
+attr title  "ARP initiated resolutions, count"
+scalar Star.ied3.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar Star.ied3.networkLayer.arp 	sentReq:count 	3
+attr title  "ARP request sent, count"
+statistic Star.ied3.iec61850trafgen 	eteTrip1A:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdTrip1A)
+attr title  "eteTrip1A, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied3.iec61850trafgen 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Star.ied3.iec61850trafgen 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Star.ied3.iec61850trafgen 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Star.ied3.iec61850trafgen 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Star.ied3.iec61850trafgen 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied3.mms 	numActiveSessions:max 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, max"
+scalar Star.ied3.mms 	numActiveSessions:timeavg 	1
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, timeavg"
+scalar Star.ied3.mms 	numSessions:last 	1
+attr source  sum(connect+1)/2
+attr title  "total number of sessions, last"
+scalar Star.ied3.mms 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Star.ied3.mms 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Star.ied3.mms 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Star.ied3.mms 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Star.ied3.mms 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.ied3.IPburst 	sentPk:count 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, count"
+scalar Star.ied3.IPburst 	sentPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, sum(packetBytes)"
+scalar Star.ied3.IPburst 	rcvdPk:count 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, count"
+scalar Star.ied3.IPburst 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, sum(packetBytes)"
+statistic Star.ied3.IPburst 	endToEndDelay:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	-6.9388939039072e-18	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar Star.switch.eth[0] 	"simulated time" 	60.000006719999
+scalar Star.switch.eth[0] 	full-duplex 	1
+scalar Star.switch.eth[0] 	"frames/sec sent" 	0.78333324560002
+scalar Star.switch.eth[0] 	"frames/sec rcvd" 	0.73333325120002
+scalar Star.switch.eth[0] 	"bits/sec sent" 	414.39995358721
+scalar Star.switch.eth[0] 	"bits/sec rcvd" 	375.46662461441
+scalar Star.switch.eth[0] 	"rx channel idle (%)" 	99.999577600047
+scalar Star.switch.eth[0] 	"rx channel utilization (%)" 	0.00042239995269121
+scalar Star.switch.eth[0] 	"rx channel collision (%)" 	0
+scalar Star.switch.eth[0] 	collisions 	0
+scalar Star.switch.eth[0] 	backoffs 	0
+scalar Star.switch.eth[0] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.switch.eth[0] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.switch.eth[0] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.switch.eth[0] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.switch.eth[0] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.switch.eth[0] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.switch.eth[0] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.switch.eth[0] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.switch.eth[0] 	rxPkFromHL:count 	47
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.switch.eth[0] 	rxPkFromHL:sum(packetBytes) 	3108
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.switch.eth[0] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.switch.eth[0] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.switch.eth[0] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.switch.eth[0] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.switch.eth[0] 	passedUpPk:count 	44
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.switch.eth[0] 	passedUpPk:sum(packetBytes) 	2816
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.switch.eth[0] 	rxPkOk:count 	44
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.switch.eth[0] 	rxPkOk:sum(packetBytes) 	2816
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.switch.eth[0] 	txPk:count 	47
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.switch.eth[0] 	txPk:sum(packetBytes) 	3108
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.switch.eth[1] 	"simulated time" 	60.000006719999
+scalar Star.switch.eth[1] 	full-duplex 	1
+scalar Star.switch.eth[1] 	"frames/sec sent" 	0.78333324560002
+scalar Star.switch.eth[1] 	"frames/sec rcvd" 	0.73333325120002
+scalar Star.switch.eth[1] 	"bits/sec sent" 	414.39995358721
+scalar Star.switch.eth[1] 	"bits/sec rcvd" 	375.46662461441
+scalar Star.switch.eth[1] 	"rx channel idle (%)" 	99.999577600047
+scalar Star.switch.eth[1] 	"rx channel utilization (%)" 	0.00042239995269121
+scalar Star.switch.eth[1] 	"rx channel collision (%)" 	0
+scalar Star.switch.eth[1] 	collisions 	0
+scalar Star.switch.eth[1] 	backoffs 	0
+scalar Star.switch.eth[1] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.switch.eth[1] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.switch.eth[1] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.switch.eth[1] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.switch.eth[1] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.switch.eth[1] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.switch.eth[1] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.switch.eth[1] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.switch.eth[1] 	rxPkFromHL:count 	47
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.switch.eth[1] 	rxPkFromHL:sum(packetBytes) 	3108
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.switch.eth[1] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.switch.eth[1] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.switch.eth[1] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.switch.eth[1] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.switch.eth[1] 	passedUpPk:count 	44
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.switch.eth[1] 	passedUpPk:sum(packetBytes) 	2816
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.switch.eth[1] 	rxPkOk:count 	44
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.switch.eth[1] 	rxPkOk:sum(packetBytes) 	2816
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.switch.eth[1] 	txPk:count 	47
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.switch.eth[1] 	txPk:sum(packetBytes) 	3108
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.switch.eth[2] 	"simulated time" 	60.000006719999
+scalar Star.switch.eth[2] 	full-duplex 	1
+scalar Star.switch.eth[2] 	"frames/sec sent" 	0.43333328480001
+scalar Star.switch.eth[2] 	"frames/sec rcvd" 	0.39999995520001
+scalar Star.switch.eth[2] 	"bits/sec sent" 	221.86664181761
+scalar Star.switch.eth[2] 	"bits/sec rcvd" 	231.46664074241
+scalar Star.switch.eth[2] 	"rx channel idle (%)" 	99.999742933362
+scalar Star.switch.eth[2] 	"rx channel utilization (%)" 	0.00025706663787521
+scalar Star.switch.eth[2] 	"rx channel collision (%)" 	0
+scalar Star.switch.eth[2] 	collisions 	0
+scalar Star.switch.eth[2] 	backoffs 	0
+scalar Star.switch.eth[2] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.switch.eth[2] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.switch.eth[2] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.switch.eth[2] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.switch.eth[2] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.switch.eth[2] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.switch.eth[2] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.switch.eth[2] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.switch.eth[2] 	rxPkFromHL:count 	26
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.switch.eth[2] 	rxPkFromHL:sum(packetBytes) 	1664
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.switch.eth[2] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.switch.eth[2] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.switch.eth[2] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.switch.eth[2] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.switch.eth[2] 	passedUpPk:count 	24
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.switch.eth[2] 	passedUpPk:sum(packetBytes) 	1736
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.switch.eth[2] 	rxPkOk:count 	24
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.switch.eth[2] 	rxPkOk:sum(packetBytes) 	1736
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.switch.eth[2] 	txPk:count 	26
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.switch.eth[2] 	txPk:sum(packetBytes) 	1664
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.switch.relay 	"processed frames" 	48
+scalar Star.switch.relay 	"dropped frames" 	0
+scalar Star.switch1.eth[0] 	"simulated time" 	60.000006719999
+scalar Star.switch1.eth[0] 	full-duplex 	1
+scalar Star.switch1.eth[0] 	"frames/sec sent" 	0.73333325120002
+scalar Star.switch1.eth[0] 	"frames/sec rcvd" 	0.78333324560002
+scalar Star.switch1.eth[0] 	"bits/sec sent" 	375.46662461441
+scalar Star.switch1.eth[0] 	"bits/sec rcvd" 	414.39995358721
+scalar Star.switch1.eth[0] 	"rx channel idle (%)" 	99.999535466719
+scalar Star.switch1.eth[0] 	"rx channel utilization (%)" 	0.00046453328130561
+scalar Star.switch1.eth[0] 	"rx channel collision (%)" 	0
+scalar Star.switch1.eth[0] 	collisions 	0
+scalar Star.switch1.eth[0] 	backoffs 	0
+scalar Star.switch1.eth[0] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.switch1.eth[0] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.switch1.eth[0] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.switch1.eth[0] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.switch1.eth[0] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.switch1.eth[0] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.switch1.eth[0] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.switch1.eth[0] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.switch1.eth[0] 	rxPkFromHL:count 	45
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.switch1.eth[0] 	rxPkFromHL:sum(packetBytes) 	2880
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.switch1.eth[0] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.switch1.eth[0] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.switch1.eth[0] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.switch1.eth[0] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.switch1.eth[0] 	passedUpPk:count 	47
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.switch1.eth[0] 	passedUpPk:sum(packetBytes) 	3108
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.switch1.eth[0] 	rxPkOk:count 	47
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.switch1.eth[0] 	rxPkOk:sum(packetBytes) 	3108
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.switch1.eth[0] 	txPk:count 	44
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.switch1.eth[0] 	txPk:sum(packetBytes) 	2816
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.switch1.eth[1] 	"simulated time" 	60.000006719999
+scalar Star.switch1.eth[1] 	full-duplex 	1
+scalar Star.switch1.eth[1] 	"frames/sec sent" 	0.19999997760001
+scalar Star.switch1.eth[1] 	"frames/sec rcvd" 	1.1166665416
+scalar Star.switch1.eth[1] 	"bits/sec sent" 	109.0666544512
+scalar Star.switch1.eth[1] 	"bits/sec rcvd" 	996.53322172163
+scalar Star.switch1.eth[1] 	"rx channel idle (%)" 	99.99893200012
+scalar Star.switch1.eth[1] 	"rx channel utilization (%)" 	0.001067999880384
+scalar Star.switch1.eth[1] 	"rx channel collision (%)" 	0
+scalar Star.switch1.eth[1] 	collisions 	0
+scalar Star.switch1.eth[1] 	backoffs 	0
+scalar Star.switch1.eth[1] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.switch1.eth[1] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.switch1.eth[1] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.switch1.eth[1] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.switch1.eth[1] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.switch1.eth[1] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.switch1.eth[1] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.switch1.eth[1] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.switch1.eth[1] 	rxPkFromHL:count 	12
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.switch1.eth[1] 	rxPkFromHL:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.switch1.eth[1] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.switch1.eth[1] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.switch1.eth[1] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.switch1.eth[1] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.switch1.eth[1] 	passedUpPk:count 	67
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.switch1.eth[1] 	passedUpPk:sum(packetBytes) 	7474
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.switch1.eth[1] 	rxPkOk:count 	67
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.switch1.eth[1] 	rxPkOk:sum(packetBytes) 	7474
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.switch1.eth[1] 	txPk:count 	12
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.switch1.eth[1] 	txPk:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.switch1.eth[2] 	"simulated time" 	60.000006719999
+scalar Star.switch1.eth[2] 	full-duplex 	1
+scalar Star.switch1.eth[2] 	"frames/sec sent" 	0.19999997760001
+scalar Star.switch1.eth[2] 	"frames/sec rcvd" 	0.1333333184
+scalar Star.switch1.eth[2] 	"bits/sec sent" 	109.0666544512
+scalar Star.switch1.eth[2] 	"bits/sec rcvd" 	68.266659020802
+scalar Star.switch1.eth[2] 	"rx channel idle (%)" 	99.999923200009
+scalar Star.switch1.eth[2] 	"rx channel utilization (%)" 	7.6799991398402e-05
+scalar Star.switch1.eth[2] 	"rx channel collision (%)" 	0
+scalar Star.switch1.eth[2] 	collisions 	0
+scalar Star.switch1.eth[2] 	backoffs 	0
+scalar Star.switch1.eth[2] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.switch1.eth[2] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.switch1.eth[2] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.switch1.eth[2] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.switch1.eth[2] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.switch1.eth[2] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.switch1.eth[2] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.switch1.eth[2] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.switch1.eth[2] 	rxPkFromHL:count 	12
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.switch1.eth[2] 	rxPkFromHL:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.switch1.eth[2] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.switch1.eth[2] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.switch1.eth[2] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.switch1.eth[2] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.switch1.eth[2] 	passedUpPk:count 	8
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.switch1.eth[2] 	passedUpPk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.switch1.eth[2] 	rxPkOk:count 	8
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.switch1.eth[2] 	rxPkOk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.switch1.eth[2] 	txPk:count 	12
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.switch1.eth[2] 	txPk:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.switch1.relay 	"processed frames" 	26
+scalar Star.switch1.relay 	"dropped frames" 	0
+scalar Star.switch2.eth[0] 	"simulated time" 	60.000006719999
+scalar Star.switch2.eth[0] 	full-duplex 	1
+scalar Star.switch2.eth[0] 	"frames/sec sent" 	0.73333325120002
+scalar Star.switch2.eth[0] 	"frames/sec rcvd" 	0.78333324560002
+scalar Star.switch2.eth[0] 	"bits/sec sent" 	375.46662461441
+scalar Star.switch2.eth[0] 	"bits/sec rcvd" 	414.39995358721
+scalar Star.switch2.eth[0] 	"rx channel idle (%)" 	99.999535466719
+scalar Star.switch2.eth[0] 	"rx channel utilization (%)" 	0.00046453328130561
+scalar Star.switch2.eth[0] 	"rx channel collision (%)" 	0
+scalar Star.switch2.eth[0] 	collisions 	0
+scalar Star.switch2.eth[0] 	backoffs 	0
+scalar Star.switch2.eth[0] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.switch2.eth[0] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.switch2.eth[0] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.switch2.eth[0] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.switch2.eth[0] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.switch2.eth[0] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.switch2.eth[0] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.switch2.eth[0] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.switch2.eth[0] 	rxPkFromHL:count 	45
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.switch2.eth[0] 	rxPkFromHL:sum(packetBytes) 	2880
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.switch2.eth[0] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.switch2.eth[0] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.switch2.eth[0] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.switch2.eth[0] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.switch2.eth[0] 	passedUpPk:count 	47
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.switch2.eth[0] 	passedUpPk:sum(packetBytes) 	3108
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.switch2.eth[0] 	rxPkOk:count 	47
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.switch2.eth[0] 	rxPkOk:sum(packetBytes) 	3108
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.switch2.eth[0] 	txPk:count 	44
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.switch2.eth[0] 	txPk:sum(packetBytes) 	2816
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.switch2.eth[1] 	"simulated time" 	60.000006719999
+scalar Star.switch2.eth[1] 	full-duplex 	1
+scalar Star.switch2.eth[1] 	"frames/sec sent" 	0.19999997760001
+scalar Star.switch2.eth[1] 	"frames/sec rcvd" 	0.1333333184
+scalar Star.switch2.eth[1] 	"bits/sec sent" 	109.0666544512
+scalar Star.switch2.eth[1] 	"bits/sec rcvd" 	68.266659020802
+scalar Star.switch2.eth[1] 	"rx channel idle (%)" 	99.999923200009
+scalar Star.switch2.eth[1] 	"rx channel utilization (%)" 	7.6799991398402e-05
+scalar Star.switch2.eth[1] 	"rx channel collision (%)" 	0
+scalar Star.switch2.eth[1] 	collisions 	0
+scalar Star.switch2.eth[1] 	backoffs 	0
+scalar Star.switch2.eth[1] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.switch2.eth[1] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.switch2.eth[1] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.switch2.eth[1] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.switch2.eth[1] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.switch2.eth[1] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.switch2.eth[1] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.switch2.eth[1] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.switch2.eth[1] 	rxPkFromHL:count 	12
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.switch2.eth[1] 	rxPkFromHL:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.switch2.eth[1] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.switch2.eth[1] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.switch2.eth[1] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.switch2.eth[1] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.switch2.eth[1] 	passedUpPk:count 	8
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.switch2.eth[1] 	passedUpPk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.switch2.eth[1] 	rxPkOk:count 	8
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.switch2.eth[1] 	rxPkOk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.switch2.eth[1] 	txPk:count 	12
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.switch2.eth[1] 	txPk:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.switch2.eth[2] 	"simulated time" 	60.000006719999
+scalar Star.switch2.eth[2] 	full-duplex 	1
+scalar Star.switch2.eth[2] 	"frames/sec sent" 	0.19999997760001
+scalar Star.switch2.eth[2] 	"frames/sec rcvd" 	0.1333333184
+scalar Star.switch2.eth[2] 	"bits/sec sent" 	109.0666544512
+scalar Star.switch2.eth[2] 	"bits/sec rcvd" 	68.266659020802
+scalar Star.switch2.eth[2] 	"rx channel idle (%)" 	99.999923200009
+scalar Star.switch2.eth[2] 	"rx channel utilization (%)" 	7.6799991398402e-05
+scalar Star.switch2.eth[2] 	"rx channel collision (%)" 	0
+scalar Star.switch2.eth[2] 	collisions 	0
+scalar Star.switch2.eth[2] 	backoffs 	0
+scalar Star.switch2.eth[2] 	backoff:count 	0
+attr interpolationmode  none
+attr title  "backoff, count"
+scalar Star.switch2.eth[2] 	collision:count 	0
+attr interpolationmode  none
+attr title  "collision, count"
+scalar Star.switch2.eth[2] 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.switch2.eth[2] 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.switch2.eth[2] 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.switch2.eth[2] 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.switch2.eth[2] 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.switch2.eth[2] 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.switch2.eth[2] 	rxPkFromHL:count 	12
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.switch2.eth[2] 	rxPkFromHL:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.switch2.eth[2] 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.switch2.eth[2] 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.switch2.eth[2] 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.switch2.eth[2] 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.switch2.eth[2] 	passedUpPk:count 	8
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.switch2.eth[2] 	passedUpPk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.switch2.eth[2] 	rxPkOk:count 	8
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.switch2.eth[2] 	rxPkOk:sum(packetBytes) 	512
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.switch2.eth[2] 	txPk:count 	12
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.switch2.eth[2] 	txPk:sum(packetBytes) 	818
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.switch2.relay 	"processed frames" 	26
+scalar Star.switch2.relay 	"dropped frames" 	0
+scalar Star.server.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar Star.server.networkLayer.arp 	initiatedResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar Star.server.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar Star.server.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar Star.server.eth[0].mac 	"simulated time" 	60.000006719999
+scalar Star.server.eth[0].mac 	full-duplex 	1
+scalar Star.server.eth[0].mac 	"frames/sec sent" 	0.39999995520001
+scalar Star.server.eth[0].mac 	"frames/sec rcvd" 	0.43333328480001
+scalar Star.server.eth[0].mac 	"bits/sec sent" 	231.46664074241
+scalar Star.server.eth[0].mac 	"bits/sec rcvd" 	221.86664181761
+scalar Star.server.eth[0].mac 	"rx channel idle (%)" 	99.999750400028
+scalar Star.server.eth[0].mac 	"rx channel utilization (%)" 	0.00024959997204481
+scalar Star.server.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar Star.server.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar Star.server.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar Star.server.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar Star.server.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar Star.server.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar Star.server.eth[0].mac 	rxPkFromHL:count 	24
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar Star.server.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	1736
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar Star.server.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar Star.server.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar Star.server.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar Star.server.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar Star.server.eth[0].mac 	passedUpPk:count 	26
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar Star.server.eth[0].mac 	passedUpPk:sum(packetBytes) 	1664
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar Star.server.eth[0].mac 	rxPkOk:count 	26
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar Star.server.eth[0].mac 	rxPkOk:sum(packetBytes) 	1664
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar Star.server.eth[0].mac 	txPk:count 	24
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar Star.server.eth[0].mac 	txPk:sum(packetBytes) 	1736
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar Star.server.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar Star.server.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar Star.server.eth[0].encap 	decapPk:count 	24
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar Star.server.eth[0].encap 	decapPk:sum(packetBytes) 	992
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar Star.server.eth[0].encap 	encapPk:count 	24
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar Star.server.eth[0].encap 	encapPk:sum(packetBytes) 	1232
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"

@@ -1,0 +1,611 @@
+file 24371 1379001596                                           
+version 2
+run General-0-20130912-12:20:06-28117
+attr configname General
+attr datetime 20130912-12:20:06
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network IedSwitchTest
+attr processid 28117
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 12  IedSwitchTest.s1.eth1Q[0].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 16  IedSwitchTest.s1.eth1Q[0].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 20  IedSwitchTest.s1.eth1Q[0].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 24  IedSwitchTest.s1.eth1Q[0].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 28  IedSwitchTest.s1.eth1Q[0].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 32  IedSwitchTest.s1.eth1Q[0].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 36  IedSwitchTest.s1.eth1Q[0].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 40  IedSwitchTest.s1.eth1Q[0].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 53  IedSwitchTest.s1.eth1Q[1].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 57  IedSwitchTest.s1.eth1Q[1].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 61  IedSwitchTest.s1.eth1Q[1].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 65  IedSwitchTest.s1.eth1Q[1].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 69  IedSwitchTest.s1.eth1Q[1].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 73  IedSwitchTest.s1.eth1Q[1].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 77  IedSwitchTest.s1.eth1Q[1].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 81  IedSwitchTest.s1.eth1Q[1].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 94  IedSwitchTest.s2.eth1Q[0].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 98  IedSwitchTest.s2.eth1Q[0].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 102  IedSwitchTest.s2.eth1Q[0].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 106  IedSwitchTest.s2.eth1Q[0].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 110  IedSwitchTest.s2.eth1Q[0].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 114  IedSwitchTest.s2.eth1Q[0].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 118  IedSwitchTest.s2.eth1Q[0].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 122  IedSwitchTest.s2.eth1Q[0].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 135  IedSwitchTest.s2.eth1Q[1].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 139  IedSwitchTest.s2.eth1Q[1].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 143  IedSwitchTest.s2.eth1Q[1].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 147  IedSwitchTest.s2.eth1Q[1].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 151  IedSwitchTest.s2.eth1Q[1].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 155  IedSwitchTest.s2.eth1Q[1].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 159  IedSwitchTest.s2.eth1Q[1].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 163  IedSwitchTest.s2.eth1Q[1].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 176  IedSwitchTest.s2.eth1Q[2].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 180  IedSwitchTest.s2.eth1Q[2].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 184  IedSwitchTest.s2.eth1Q[2].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 188  IedSwitchTest.s2.eth1Q[2].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 192  IedSwitchTest.s2.eth1Q[2].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 196  IedSwitchTest.s2.eth1Q[2].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 200  IedSwitchTest.s2.eth1Q[2].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 204  IedSwitchTest.s2.eth1Q[2].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 217  IedSwitchTest.s3.eth1Q[0].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 221  IedSwitchTest.s3.eth1Q[0].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 225  IedSwitchTest.s3.eth1Q[0].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 229  IedSwitchTest.s3.eth1Q[0].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 233  IedSwitchTest.s3.eth1Q[0].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 237  IedSwitchTest.s3.eth1Q[0].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 241  IedSwitchTest.s3.eth1Q[0].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 245  IedSwitchTest.s3.eth1Q[0].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 258  IedSwitchTest.s3.eth1Q[1].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 262  IedSwitchTest.s3.eth1Q[1].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 266  IedSwitchTest.s3.eth1Q[1].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 270  IedSwitchTest.s3.eth1Q[1].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 274  IedSwitchTest.s3.eth1Q[1].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 278  IedSwitchTest.s3.eth1Q[1].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 282  IedSwitchTest.s3.eth1Q[1].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 286  IedSwitchTest.s3.eth1Q[1].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 308  IedSwitchTest.ied1.eth1.queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 312  IedSwitchTest.ied1.eth1.queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 316  IedSwitchTest.ied1.eth1.queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 320  IedSwitchTest.ied1.eth1.queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 324  IedSwitchTest.ied1.eth1.queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 328  IedSwitchTest.ied1.eth1.queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 332  IedSwitchTest.ied1.eth1.queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 336  IedSwitchTest.ied1.eth1.queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 349  IedSwitchTest.ied1.eth2.queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 353  IedSwitchTest.ied1.eth2.queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 357  IedSwitchTest.ied1.eth2.queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 361  IedSwitchTest.ied1.eth2.queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 365  IedSwitchTest.ied1.eth2.queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 369  IedSwitchTest.ied1.eth2.queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 373  IedSwitchTest.ied1.eth2.queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 377  IedSwitchTest.ied1.eth2.queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 408  IedSwitchTest.ied2.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 412  IedSwitchTest.ied2.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 443  IedSwitchTest.ied3.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 447  IedSwitchTest.ied3.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 33  IedSwitchTest.s1.eth1Q[0].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 35  IedSwitchTest.s1.eth1Q[0].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 74  IedSwitchTest.s1.eth1Q[1].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 76  IedSwitchTest.s1.eth1Q[1].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 115  IedSwitchTest.s2.eth1Q[0].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 117  IedSwitchTest.s2.eth1Q[0].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 156  IedSwitchTest.s2.eth1Q[1].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 158  IedSwitchTest.s2.eth1Q[1].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 197  IedSwitchTest.s2.eth1Q[2].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 199  IedSwitchTest.s2.eth1Q[2].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 238  IedSwitchTest.s3.eth1Q[0].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 240  IedSwitchTest.s3.eth1Q[0].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 279  IedSwitchTest.s3.eth1Q[1].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 281  IedSwitchTest.s3.eth1Q[1].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 329  IedSwitchTest.ied1.eth1.queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 331  IedSwitchTest.ied1.eth1.queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 370  IedSwitchTest.ied1.eth2.queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 372  IedSwitchTest.ied1.eth2.queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 5  IedSwitchTest.s1.eth1Q[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 46  IedSwitchTest.s1.eth1Q[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 87  IedSwitchTest.s2.eth1Q[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 128  IedSwitchTest.s2.eth1Q[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 169  IedSwitchTest.s2.eth1Q[2].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 210  IedSwitchTest.s3.eth1Q[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 251  IedSwitchTest.s3.eth1Q[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 301  IedSwitchTest.ied1.eth1.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 83  IedSwitchTest.s2.eth1Q[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 84  IedSwitchTest.s2.eth1Q[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 0  IedSwitchTest.s1.eth1Q[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 206  IedSwitchTest.s3.eth1Q[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 207  IedSwitchTest.s3.eth1Q[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 41  IedSwitchTest.s1.eth1Q[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 1  IedSwitchTest.s1.eth1Q[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 2  IedSwitchTest.s1.eth1Q[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 82  IedSwitchTest.s2.eth1Q[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 123  IedSwitchTest.s2.eth1Q[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 297  IedSwitchTest.ied1.eth1.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 298  IedSwitchTest.ied1.eth1.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 164  IedSwitchTest.s2.eth1Q[2].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 42  IedSwitchTest.s1.eth1Q[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 43  IedSwitchTest.s1.eth1Q[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 205  IedSwitchTest.s3.eth1Q[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 246  IedSwitchTest.s3.eth1Q[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 165  IedSwitchTest.s2.eth1Q[2].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 166  IedSwitchTest.s2.eth1Q[2].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 296  IedSwitchTest.ied1.eth1.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 383  IedSwitchTest.ied2.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 384  IedSwitchTest.ied2.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 418  IedSwitchTest.ied3.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 419  IedSwitchTest.ied3.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 294  IedSwitchTest.ied1.iec61850trafgen  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 397  IedSwitchTest.ied2.iec61850trafgen  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 432  IedSwitchTest.ied3.iec61850trafgen  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 291  IedSwitchTest.ied1.IPburst  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 287  IedSwitchTest.ied1.encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 393  IedSwitchTest.ied2.encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 428  IedSwitchTest.ied3.encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 378  IedSwitchTest.ied1.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 380  IedSwitchTest.ied1.networkLayer.arp  initiatedResolution:vector  ETV
+attr title  "ARP initiated resolutions, vector"
+vector 409  IedSwitchTest.ied2.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 411  IedSwitchTest.ied2.queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 444  IedSwitchTest.ied3.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 446  IedSwitchTest.ied3.queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+0	21940 19 55 55 0.00000576 0.00000576 1 64 64 64 4096
+1	21959 19 58 58 0.00000576 0.00000576 1 64 64 64 4096
+2	21978 19 58 58 0.00000576 0.00000576 1 64 64 64 4096
+5	21997 21 43 170 0 1 2 64 64 128 8192
+12	22018 9 0 0 0 0 1 0 0 0 0
+16	22027 9 0 0 0 0 1 0 0 0 0
+20	22036 9 0 0 0 0 1 0 0 0 0
+24	22045 9 0 0 0 0 1 0 0 0 0
+28	22054 9 0 0 0 0 1 0 0 0 0
+32	22063 9 0 0 0 0 1 0 0 0 0
+33	22072 23 25 142 0 1 2 64 64 128 8192
+35	22095 21 25 142 0 1 2 0 0 0 0
+36	22116 51 0 142 0 1 5 0 1 2 2
+40	22167 9 0 0 0 0 1 0 0 0 0
+41	22176 20 57 57 0.00000576 0.00000576 1 64 64 64 4096
+42	22196 20 63 63 0.00000576 0.00000576 1 64 64 64 4096
+43	22216 20 63 63 0.00000576 0.00000576 1 64 64 64 4096
+46	22236 23 44 171 0 1 2 64 64 128 8192
+53	22259 9 0 0 0 0 1 0 0 0 0
+57	22268 9 0 0 0 0 1 0 0 0 0
+61	22277 9 0 0 0 0 1 0 0 0 0
+65	22286 9 0 0 0 0 1 0 0 0 0
+69	22295 9 0 0 0 0 1 0 0 0 0
+73	22304 9 0 0 0 0 1 0 0 0 0
+74	22313 23 26 143 0 1 2 64 64 128 8192
+76	22336 21 26 143 0 1 2 0 0 0 0
+77	22357 51 0 143 0 1 5 0 1 2 2
+81	22408 9 0 0 0 0 1 0 0 0 0
+82	22417 20 59 59 0.00000576 0.00000576 1 64 64 64 4096
+83	22437 20 54 54 0.00000576 0.00000576 1 64 64 64 4096
+84	22457 20 54 54 0.00000576 0.00000576 1 64 64 64 4096
+87	22477 23 45 172 0 1 2 64 64 128 8192
+94	22500 9 0 0 0 0 1 0 0 0 0
+98	22509 9 0 0 0 0 1 0 0 0 0
+102	22518 10 0 0 0 0 1 0 0 0 0
+106	22528 10 0 0 0 0 1 0 0 0 0
+110	22538 10 0 0 0 0 1 0 0 0 0
+114	22548 10 0 0 0 0 1 0 0 0 0
+115	22558 25 27 144 0 1 2 64 64 128 8192
+117	22583 23 27 144 0 1 2 0 0 0 0
+118	22606 56 0 144 0 1 5 0 1 2 2
+122	22662 10 0 0 0 0 1 0 0 0 0
+123	22672 21 60 60 0.00000576 0.00000576 1 64 64 64 4096
+128	22693 12 46 46 0 0 1 64 64 64 4096
+135	22705 10 0 0 0 0 1 0 0 0 0
+139	22715 10 0 0 0 0 1 0 0 0 0
+143	22725 10 0 0 0 0 1 0 0 0 0
+147	22735 10 0 0 0 0 1 0 0 0 0
+151	22745 10 0 0 0 0 1 0 0 0 0
+155	22755 10 0 0 0 0 1 0 0 0 0
+156	22765 25 28 145 0 1 2 64 64 128 8192
+158	22790 23 28 145 0 1 2 0 0 0 0
+159	22813 56 0 145 0 1 5 0 1 2 2
+163	22869 10 0 0 0 0 1 0 0 0 0
+164	22879 21 62 62 0.00000576 0.00000576 1 64 64 64 4096
+165	22900 21 66 66 0.00000576 0.00000576 1 64 64 64 4096
+166	22921 21 66 66 0.00000576 0.00000576 1 64 64 64 4096
+169	22942 12 47 47 0 0 1 64 64 64 4096
+176	22954 10 0 0 0 0 1 0 0 0 0
+180	22964 10 0 0 0 0 1 0 0 0 0
+184	22974 10 0 0 0 0 1 0 0 0 0
+188	22984 10 0 0 0 0 1 0 0 0 0
+192	22994 10 0 0 0 0 1 0 0 0 0
+196	23004 10 0 0 0 0 1 0 0 0 0
+197	23014 25 29 146 0 1 2 64 64 128 8192
+199	23039 23 29 146 0 1 2 0 0 0 0
+200	23062 56 0 146 0 1 5 0 1 2 2
+204	23118 10 0 0 0 0 1 0 0 0 0
+205	23128 21 64 64 0.00000576 0.00000576 1 64 64 64 4096
+206	23149 21 56 56 0.00000576 0.00000576 1 64 64 64 4096
+207	23170 21 56 56 0.00000576 0.00000576 1 64 64 64 4096
+210	23191 12 48 48 0 0 1 64 64 64 4096
+217	23203 10 0 0 0 0 1 0 0 0 0
+221	23213 10 0 0 0 0 1 0 0 0 0
+225	23223 10 0 0 0 0 1 0 0 0 0
+229	23233 10 0 0 0 0 1 0 0 0 0
+233	23243 10 0 0 0 0 1 0 0 0 0
+237	23253 10 0 0 0 0 1 0 0 0 0
+238	23263 25 30 147 0 1 2 64 64 128 8192
+240	23288 23 30 147 0 1 2 0 0 0 0
+241	23311 56 0 147 0 1 5 0 1 2 2
+245	23367 10 0 0 0 0 1 0 0 0 0
+246	23377 21 65 65 0.00000576 0.00000576 1 64 64 64 4096
+251	23398 12 49 49 0 0 1 64 64 64 4096
+258	23410 10 0 0 0 0 1 0 0 0 0
+262	23420 10 0 0 0 0 1 0 0 0 0
+266	23430 10 0 0 0 0 1 0 0 0 0
+270	23440 10 0 0 0 0 1 0 0 0 0
+274	23450 10 0 0 0 0 1 0 0 0 0
+278	23460 10 0 0 0 0 1 0 0 0 0
+279	23470 25 31 148 0 1 2 64 64 128 8192
+281	23495 23 31 148 0 1 2 0 0 0 0
+282	23518 56 0 148 0 1 5 0 1 2 2
+286	23574 10 0 0 0 0 1 0 0 0 0
+287	23584 28 122 155 1 1 2 28 1000 1028 1000784
+291	23612 14 99 99 1 1 1 5000 5000 5000 25000000
+294	23626 14 96 96 1 1 1 1000 1000 1000 1000000
+296	23640 21 67 67 0.00000576 0.00000576 1 64 64 64 4096
+297	23661 21 61 61 0.00000576 0.00000576 1 64 64 64 4096
+298	23682 21 61 61 0.00000576 0.00000576 1 64 64 64 4096
+301	23703 12 50 50 0 0 1 64 64 64 4096
+308	23715 10 0 0 0 0 1 0 0 0 0
+312	23725 10 0 0 0 0 1 0 0 0 0
+316	23735 10 0 0 0 0 1 0 0 0 0
+320	23745 10 0 0 0 0 1 0 0 0 0
+324	23755 10 0 0 0 0 1 0 0 0 0
+328	23765 10 0 0 0 0 1 0 0 0 0
+329	23775 25 32 149 0 1 2 64 64 128 8192
+331	23800 23 32 149 0 1 2 0 0 0 0
+332	23823 56 0 149 0 1 5 0 1 2 2
+336	23879 10 0 0 0 0 1 0 0 0 0
+349	23889 10 0 0 0 0 1 0 0 0 0
+353	23899 10 0 0 0 0 1 0 0 0 0
+357	23909 10 0 0 0 0 1 0 0 0 0
+361	23919 10 0 0 0 0 1 0 0 0 0
+365	23929 10 0 0 0 0 1 0 0 0 0
+369	23939 10 0 0 0 0 1 0 0 0 0
+370	23949 25 33 150 0 1 2 64 64 128 8192
+372	23974 23 33 150 0 1 2 0 0 0 0
+373	23997 56 0 150 0 1 5 0 1 2 2
+377	24053 10 0 0 0 0 1 0 0 0 0
+378	24063 12 125 125 1 1 1 1 1 1 1
+380	24075 12 125 125 1 1 1 1 1 1 1
+383	24087 21 68 68 0.00000576 0.00000576 1 64 64 64 4096
+384	24108 21 68 68 0.00000576 0.00000576 1 64 64 64 4096
+393	24129 15 123 123 1 1 1 1000 1000 1000 1000000
+397	24144 14 97 97 1 1 1 1000 1000 1000 1000000
+408	24158 10 0 0 0 0 1 0 0 0 0
+409	24168 15 153 153 1 1 1 1018 1018 1018 1036324
+411	24183 12 153 153 1 1 1 0 0 0 0
+412	24195 34 0 153 0 1 3 0 1 1 1
+418	24229 21 69 69 0.00000576 0.00000576 1 64 64 64 4096
+419	24250 21 69 69 0.00000576 0.00000576 1 64 64 64 4096
+428	24271 15 124 124 1 1 1 1000 1000 1000 1000000
+432	24286 14 98 98 1 1 1 1000 1000 1000 1000000
+443	24300 10 0 0 0 0 1 0 0 0 0
+444	24310 15 154 154 1 1 1 1018 1018 1018 1036324
+446	24325 12 154 154 1 1 1 0 0 0 0
+447	24337 34 0 154 0 1 3 0 1 1 1

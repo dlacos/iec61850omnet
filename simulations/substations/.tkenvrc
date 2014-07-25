@@ -1,0 +1,5 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "RingStar" "RingStar" "2" "407x337+7+74:normal"
+inspector "RingStar.feederBay[0]" "FeederBay" "2" "607x337+-1+26:normal"
+inspector "RingStar.feederBay[0].switch" "Switch" "2" "607x337+10+98:normal"
+

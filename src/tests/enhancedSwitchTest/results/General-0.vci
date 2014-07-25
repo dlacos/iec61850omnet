@@ -1,0 +1,465 @@
+file 23354 1378818338                                           
+version 2
+run General-0-20130910-10:04:17-30139
+attr configname General
+attr datetime 20130910-10:04:17
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network TwoSwitchesFourHosts
+attr processid 30139
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 12  TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 16  TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 20  TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 24  TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 28  TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 32  TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 36  TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 40  TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 53  TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 57  TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 61  TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 65  TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 69  TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 73  TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 77  TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 81  TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 94  TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 98  TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 102  TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 106  TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 110  TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 114  TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 118  TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 122  TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 135  TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 139  TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 143  TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 147  TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 151  TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 155  TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 159  TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 163  TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 176  TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 180  TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 184  TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 188  TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 192  TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 196  TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 200  TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 204  TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 217  TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 221  TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 225  TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 229  TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 233  TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 237  TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 241  TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 245  TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 33  TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 35  TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 74  TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 76  TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 115  TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 117  TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 156  TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 158  TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 197  TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 199  TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 238  TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p1  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 240  TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p1  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 5  TwoSwitchesFourHosts.eS1.eth1Q[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 46  TwoSwitchesFourHosts.eS1.eth1Q[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 87  TwoSwitchesFourHosts.eS1.eth1Q[2].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 128  TwoSwitchesFourHosts.eS2.eth1Q[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 169  TwoSwitchesFourHosts.eS2.eth1Q[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 210  TwoSwitchesFourHosts.eS2.eth1Q[2].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 124  TwoSwitchesFourHosts.eS2.eth1Q[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 125  TwoSwitchesFourHosts.eS2.eth1Q[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 0  TwoSwitchesFourHosts.eS1.eth1Q[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 256  TwoSwitchesFourHosts.host1.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 257  TwoSwitchesFourHosts.host1.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 41  TwoSwitchesFourHosts.eS1.eth1Q[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 272  TwoSwitchesFourHosts.host2.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 273  TwoSwitchesFourHosts.host2.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 82  TwoSwitchesFourHosts.eS1.eth1Q[2].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 1  TwoSwitchesFourHosts.eS1.eth1Q[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 2  TwoSwitchesFourHosts.eS1.eth1Q[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 123  TwoSwitchesFourHosts.eS2.eth1Q[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 304  TwoSwitchesFourHosts.host4.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 305  TwoSwitchesFourHosts.host4.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 164  TwoSwitchesFourHosts.eS2.eth1Q[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 288  TwoSwitchesFourHosts.host3.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 289  TwoSwitchesFourHosts.host3.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 205  TwoSwitchesFourHosts.eS2.eth1Q[2].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 249  TwoSwitchesFourHosts.host1.pingApp[0]  pingTxSeq:vector  ETV
+attr interpolationmode  none
+attr title  "ping tx seq, vector"
+vector 251  TwoSwitchesFourHosts.host1.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 253  TwoSwitchesFourHosts.host1.networkLayer.arp  initiatedResolution:vector  ETV
+attr title  "ARP initiated resolutions, vector"
+vector 264  TwoSwitchesFourHosts.host1.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 260  TwoSwitchesFourHosts.host1.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 42  TwoSwitchesFourHosts.eS1.eth1Q[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 43  TwoSwitchesFourHosts.eS1.eth1Q[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 255  TwoSwitchesFourHosts.host1.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 254  TwoSwitchesFourHosts.host1.networkLayer.arp  failedResolution:vector  ETV
+attr title  "ARP failed resolutions, vector"
+vector 315  TwoSwitchesFourHosts.eS1.relayUnit  "buffer level"  ETV
+vector 281  TwoSwitchesFourHosts.host2.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 316  TwoSwitchesFourHosts.eS2.relayUnit  "buffer level"  ETV
+vector 313  TwoSwitchesFourHosts.host4.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 297  TwoSwitchesFourHosts.host3.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 312  TwoSwitchesFourHosts.host4.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 308  TwoSwitchesFourHosts.host4.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 165  TwoSwitchesFourHosts.eS2.eth1Q[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 166  TwoSwitchesFourHosts.eS2.eth1Q[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 303  TwoSwitchesFourHosts.host4.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 265  TwoSwitchesFourHosts.host1.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+0	17600 103 34 321 0.0000576 3.549322302304 5 64 94 350 25220
+1	17703 98 39 290 0.0000576 3.549101502304 5 64 64 320 20480
+2	17801 98 39 290 0.0000576 3.549101502304 5 64 64 320 20480
+5	17899 79 27 318 0 3.549240702304 5 64 94 350 25220
+12	17978 9 0 0 0 0 1 0 0 0 0
+16	17987 9 0 0 0 0 1 0 0 0 0
+20	17996 9 0 0 0 0 1 0 0 0 0
+24	18005 9 0 0 0 0 1 0 0 0 0
+28	18014 9 0 0 0 0 1 0 0 0 0
+32	18023 9 0 0 0 0 1 0 0 0 0
+33	18032 84 15 316 0 3.549240702304 5 64 94 350 25220
+35	18116 79 15 316 0 3.549240702304 5 0 0 0 0
+36	18195 167 0 316 0 3.549240702304 11 0 1 5 5
+40	18362 9 0 0 0 0 1 0 0 0 0
+41	18371 64 36 302 0.0000576 3.549159102304 3 64 64 192 12288
+42	18435 124 65 309 0.548871102304 3.549240702304 5 64 94 350 25220
+43	18559 124 65 309 0.548871102304 3.549240702304 5 64 94 350 25220
+46	18683 48 28 299 0 3.549101502304 3 64 64 192 12288
+53	18731 9 0 0 0 0 1 0 0 0 0
+57	18740 9 0 0 0 0 1 0 0 0 0
+61	18749 9 0 0 0 0 1 0 0 0 0
+65	18758 9 0 0 0 0 1 0 0 0 0
+69	18767 9 0 0 0 0 1 0 0 0 0
+73	18776 9 0 0 0 0 1 0 0 0 0
+74	18785 48 16 297 0 3.549101502304 3 64 64 192 12288
+76	18833 45 16 297 0 3.549101502304 3 0 0 0 0
+77	18878 99 0 297 0 3.549101502304 7 0 1 3 3
+81	18977 9 0 0 0 0 1 0 0 0 0
+82	18986 64 38 246 0.0000576 3.548928702304 3 64 64 192 12288
+87	19050 48 29 241 0 3.548871102304 3 64 64 192 12288
+94	19098 9 0 0 0 0 1 0 0 0 0
+98	19107 9 0 0 0 0 1 0 0 0 0
+102	19116 10 0 0 0 0 1 0 0 0 0
+106	19126 10 0 0 0 0 1 0 0 0 0
+110	19136 10 0 0 0 0 1 0 0 0 0
+114	19146 10 0 0 0 0 1 0 0 0 0
+115	19156 51 17 237 0 3.548871102304 3 64 64 192 12288
+117	19207 48 17 237 0 3.548871102304 3 0 0 0 0
+118	19255 106 0 237 0 3.548871102304 7 0 1 3 3
+122	19361 10 0 0 0 0 1 0 0 0 0
+123	19371 108 40 291 0.0000576 3.549101502304 5 64 64 320 20480
+124	19479 113 33 320 0.0000576 3.549322302304 5 64 94 350 25220
+125	19592 113 33 320 0.0000576 3.549322302304 5 64 94 350 25220
+128	19705 92 30 288 0 3.549043902304 5 64 64 320 20480
+135	19797 10 0 0 0 0 1 0 0 0 0
+139	19807 10 0 0 0 0 1 0 0 0 0
+143	19817 10 0 0 0 0 1 0 0 0 0
+147	19827 10 0 0 0 0 1 0 0 0 0
+151	19837 10 0 0 0 0 1 0 0 0 0
+155	19847 10 0 0 0 0 1 0 0 0 0
+156	19857 92 18 286 0 3.549043902304 5 64 64 320 20480
+158	19949 87 18 286 0 3.549043902304 5 0 0 0 0
+159	20036 184 0 286 0 3.549043902304 11 0 1 5 5
+163	20220 10 0 0 0 0 1 0 0 0 0
+164	20230 114 42 332 0.0000576 3.549403902304 5 64 94 350 25220
+165	20344 26 279 279 3.549043902304 3.549043902304 1 64 64 64 4096
+166	20370 26 279 279 3.549043902304 3.549043902304 1 64 64 64 4096
+169	20396 97 31 329 0 3.549322302304 5 64 94 350 25220
+176	20493 10 0 0 0 0 1 0 0 0 0
+180	20503 10 0 0 0 0 1 0 0 0 0
+184	20513 10 0 0 0 0 1 0 0 0 0
+188	20523 10 0 0 0 0 1 0 0 0 0
+192	20533 10 0 0 0 0 1 0 0 0 0
+196	20543 10 0 0 0 0 1 0 0 0 0
+197	20553 97 19 327 0 3.549322302304 5 64 94 350 25220
+199	20650 92 19 327 0 3.549322302304 5 0 0 0 0
+200	20742 194 0 327 0 3.549322302304 11 0 1 5 5
+204	20936 10 0 0 0 0 1 0 0 0 0
+205	20946 88 44 268 0.0000576 3.548986302304 4 64 64 256 16384
+210	21034 71 32 262 0 3.548928702304 4 64 64 256 16384
+217	21105 10 0 0 0 0 1 0 0 0 0
+221	21115 10 0 0 0 0 1 0 0 0 0
+225	21125 10 0 0 0 0 1 0 0 0 0
+229	21135 10 0 0 0 0 1 0 0 0 0
+233	21145 10 0 0 0 0 1 0 0 0 0
+237	21155 10 0 0 0 0 1 0 0 0 0
+238	21165 71 20 258 0 3.548928702304 4 64 64 256 16384
+240	21236 67 20 258 0 3.548928702304 4 0 0 0 0
+241	21303 144 0 258 0 3.548928702304 9 0 1 4 4
+245	21447 10 0 0 0 0 1 0 0 0 0
+249	21457 99 59 220 0.548813502304 3.548813502304 4 0 3 6 14
+251	21556 99 62 224 0.548813502304 3.548813502304 4 1 1 4 4
+253	21655 49 62 224 0.548813502304 3.548813502304 2 1 1 2 2
+254	21704 25 221 221 3.548813502304 3.548813502304 1 1 1 1 1
+255	21729 129 66 310 0.548871102304 3.549240702304 5 64 94 350 25220
+256	21858 67 35 301 0.0000576 3.549159102304 3 64 64 192 12288
+257	21925 67 35 301 0.0000576 3.549159102304 3 64 64 192 12288
+260	21992 129 64 307 0.548813502304 3.549159102304 5 64 94 350 25220
+264	22121 129 63 306 0.548813502304 3.549159102304 5 28 76 188 8912
+265	22250 26 303 303 3.549159102304 3.549159102304 1 28 28 28 784
+272	22276 67 37 245 0.0000576 3.548928702304 3 64 64 192 12288
+273	22343 67 37 245 0.0000576 3.548928702304 3 64 64 192 12288
+281	22410 26 248 248 3.548928702304 3.548928702304 1 28 28 28 784
+288	22436 88 43 267 0.0000576 3.548986302304 4 64 64 256 16384
+289	22524 88 43 267 0.0000576 3.548986302304 4 64 64 256 16384
+297	22612 26 270 270 3.548986302304 3.548986302304 1 28 28 28 784
+303	22638 26 280 280 3.549043902304 3.549043902304 1 64 64 64 4096
+304	22664 114 41 331 0.0000576 3.549403902304 5 64 94 350 25220
+305	22778 114 41 331 0.0000576 3.549403902304 5 64 94 350 25220
+308	22892 52 276 339 3.548986302304 3.549403902304 2 64 94 158 12932
+312	22944 52 275 338 3.548986302304 3.549403902304 2 28 76 104 6560
+313	22996 52 269 333 3.548986302304 3.549403902304 2 28 76 104 6560
+315	23048 153 230 313 3.548871102304 3.549240702304 6 0 94 222 17028
+316	23201 153 249 324 3.548928702304 3.549322302304 6 0 94 222 17028

@@ -1,0 +1,345 @@
+version 2
+run no8021Q-0-20130917-13:31:06-11749
+attr configname no8021Q
+attr datetime 20130917-13:31:06
+attr experiment no8021Q
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network SubstationSidhu2007
+attr processid 11749
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 138  SubstationSidhu2007.T1.breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 142  SubstationSidhu2007.T1.breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 175  SubstationSidhu2007.T1.breaker[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 179  SubstationSidhu2007.T1.breaker[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 212  SubstationSidhu2007.T1.control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 216  SubstationSidhu2007.T1.control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 249  SubstationSidhu2007.T1.control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 253  SubstationSidhu2007.T1.control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 356  SubstationSidhu2007.T1.mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 360  SubstationSidhu2007.T1.mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 393  SubstationSidhu2007.T2.breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 397  SubstationSidhu2007.T2.breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 430  SubstationSidhu2007.T2.breaker[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 434  SubstationSidhu2007.T2.breaker[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 467  SubstationSidhu2007.T2.control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 471  SubstationSidhu2007.T2.control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 504  SubstationSidhu2007.T2.control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 508  SubstationSidhu2007.T2.control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 611  SubstationSidhu2007.T2.mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 615  SubstationSidhu2007.T2.mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 648  SubstationSidhu2007.S1.breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 652  SubstationSidhu2007.S1.breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 685  SubstationSidhu2007.S1.control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 689  SubstationSidhu2007.S1.control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 770  SubstationSidhu2007.S1.mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 774  SubstationSidhu2007.S1.mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 807  SubstationSidhu2007.F1.breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 811  SubstationSidhu2007.F1.breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 844  SubstationSidhu2007.F1.control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 848  SubstationSidhu2007.F1.control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 881  SubstationSidhu2007.F1.control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 885  SubstationSidhu2007.F1.control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 977  SubstationSidhu2007.F1.mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 981  SubstationSidhu2007.F1.mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1014  SubstationSidhu2007.F2.breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1018  SubstationSidhu2007.F2.breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1051  SubstationSidhu2007.F2.control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1055  SubstationSidhu2007.F2.control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1088  SubstationSidhu2007.F2.control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1092  SubstationSidhu2007.F2.control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1184  SubstationSidhu2007.F2.mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1188  SubstationSidhu2007.F2.mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1221  SubstationSidhu2007.F3.breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1225  SubstationSidhu2007.F3.breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1258  SubstationSidhu2007.F3.control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1262  SubstationSidhu2007.F3.control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1295  SubstationSidhu2007.F3.control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1299  SubstationSidhu2007.F3.control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1391  SubstationSidhu2007.F3.mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1395  SubstationSidhu2007.F3.mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1428  SubstationSidhu2007.F4.breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1432  SubstationSidhu2007.F4.breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1465  SubstationSidhu2007.F4.control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1469  SubstationSidhu2007.F4.control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1502  SubstationSidhu2007.F4.control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1506  SubstationSidhu2007.F4.control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1598  SubstationSidhu2007.F4.mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1602  SubstationSidhu2007.F4.mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1635  SubstationSidhu2007.F5.breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1639  SubstationSidhu2007.F5.breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1672  SubstationSidhu2007.F5.control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1676  SubstationSidhu2007.F5.control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1709  SubstationSidhu2007.F5.control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1713  SubstationSidhu2007.F5.control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1805  SubstationSidhu2007.F5.mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1809  SubstationSidhu2007.F5.mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1842  SubstationSidhu2007.F6.breaker[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1846  SubstationSidhu2007.F6.breaker[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1879  SubstationSidhu2007.F6.control[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1883  SubstationSidhu2007.F6.control[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1916  SubstationSidhu2007.F6.control[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 1920  SubstationSidhu2007.F6.control[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 2012  SubstationSidhu2007.F6.mu.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 2016  SubstationSidhu2007.F6.mu.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 2046  SubstationSidhu2007.server.queue.p7  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 2050  SubstationSidhu2007.server.queue.p6  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 2054  SubstationSidhu2007.server.queue.p5  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 2058  SubstationSidhu2007.server.queue.p4  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 2062  SubstationSidhu2007.server.queue.p3  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 2066  SubstationSidhu2007.server.queue.p2  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 2070  SubstationSidhu2007.server.queue.p1  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 2074  SubstationSidhu2007.server.queue.p0  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+138	0	0	0
+142	0	0	0
+175	0	0	0
+179	0	0	0
+212	0	0	0
+216	0	0	0
+249	0	0	0
+253	0	0	0
+356	0	0	0
+360	0	0	0
+393	0	0	0
+397	0	0	0
+430	0	0	0
+434	0	0	0
+467	0	0	0
+471	0	0	0
+504	0	0	0
+508	0	0	0
+611	0	0	0
+615	0	0	0
+648	0	0	0
+652	0	0	0
+685	0	0	0
+689	0	0	0
+770	0	0	0
+774	0	0	0
+807	0	0	0
+811	0	0	0
+844	0	0	0
+848	0	0	0
+881	0	0	0
+885	0	0	0
+977	0	0	0
+981	0	0	0
+1014	0	0	0
+1018	0	0	0
+1051	0	0	0
+1055	0	0	0
+1088	0	0	0
+1092	0	0	0
+1184	0	0	0
+1188	0	0	0
+1221	0	0	0
+1225	0	0	0
+1258	0	0	0
+1262	0	0	0
+1295	0	0	0
+1299	0	0	0
+1391	0	0	0
+1395	0	0	0
+1428	0	0	0
+1432	0	0	0
+1465	0	0	0
+1469	0	0	0
+1502	0	0	0
+1506	0	0	0
+1598	0	0	0
+1602	0	0	0
+1635	0	0	0
+1639	0	0	0
+1672	0	0	0
+1676	0	0	0
+1709	0	0	0
+1713	0	0	0
+1805	0	0	0
+1809	0	0	0
+1842	0	0	0
+1846	0	0	0
+1879	0	0	0
+1883	0	0	0
+1916	0	0	0
+1920	0	0	0
+2012	0	0	0
+2016	0	0	0
+2046	0	0	0
+2050	0	0	0
+2054	0	0	0
+2058	0	0	0
+2062	0	0	0
+2066	0	0	0
+2070	0	0	0
+2074	0	0	0

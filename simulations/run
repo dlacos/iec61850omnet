@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/iec61860model -n .:../src $*
+# for shared lib, use: opp_run -l ../src/iec61850model -n .:../src $*

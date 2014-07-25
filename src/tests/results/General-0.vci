@@ -1,0 +1,760 @@
+file 19036200 1374676623                                        
+version 2
+run General-0-20130724-11:34:33-31358
+attr configname General
+attr datetime 20130724-11:34:33
+attr experiment General
+attr inifile switchTest.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network SwitchTest
+attr processid 31358
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 24  SwitchTest.ied1.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 28  SwitchTest.ied1.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 57  SwitchTest.ied3.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 61  SwitchTest.ied3.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 90  SwitchTest.ied2.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 94  SwitchTest.ied2.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 123  SwitchTest.ied4.queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 127  SwitchTest.ied4.queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 15  SwitchTest.ied1.iec61850trafgen  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 114  SwitchTest.ied4.iec61850trafgen  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 177  SwitchTest.s2.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 188  SwitchTest.s2.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 199  SwitchTest.s2.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 210  SwitchTest.s3.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 221  SwitchTest.s3.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 232  SwitchTest.s3.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 243  SwitchTest.s3.eth[3]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 254  SwitchTest.s1.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 265  SwitchTest.s1.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 276  SwitchTest.s1.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 11  SwitchTest.ied1.encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 110  SwitchTest.ied4.encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 25  SwitchTest.ied1.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 27  SwitchTest.ied1.queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 124  SwitchTest.ied4.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 126  SwitchTest.ied4.queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 5  SwitchTest.ied1.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 104  SwitchTest.ied4.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 172  SwitchTest.s2.eth[0]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 183  SwitchTest.s2.eth[1]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 194  SwitchTest.s2.eth[2]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 205  SwitchTest.s3.eth[0]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 216  SwitchTest.s3.eth[1]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 227  SwitchTest.s3.eth[2]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 145  SwitchTest.host1.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 146  SwitchTest.host1.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 238  SwitchTest.s3.eth[3]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 249  SwitchTest.s1.eth[0]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 260  SwitchTest.s1.eth[1]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 161  SwitchTest.router.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 162  SwitchTest.router.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 271  SwitchTest.s1.eth[2]  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 250  SwitchTest.s1.eth[0]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 251  SwitchTest.s1.eth[0]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 1  SwitchTest.ied1.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 2  SwitchTest.ied1.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 67  SwitchTest.ied2.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 68  SwitchTest.ied2.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 261  SwitchTest.s1.eth[1]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 262  SwitchTest.s1.eth[1]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 34  SwitchTest.ied3.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 35  SwitchTest.ied3.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 100  SwitchTest.ied4.mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 101  SwitchTest.ied4.mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 173  SwitchTest.s2.eth[0]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 174  SwitchTest.s2.eth[0]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 206  SwitchTest.s3.eth[0]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 207  SwitchTest.s3.eth[0]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 0  SwitchTest.ied1.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 99  SwitchTest.ied4.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 184  SwitchTest.s2.eth[1]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 185  SwitchTest.s2.eth[1]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 228  SwitchTest.s3.eth[2]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 229  SwitchTest.s3.eth[2]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 138  SwitchTest.host1.pingApp[0]  pingTxSeq:vector  ETV
+attr interpolationmode  none
+attr title  "ping tx seq, vector"
+vector 20  SwitchTest.ied1.mms  numActiveSessions:vector  ETV
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, vector"
+vector 53  SwitchTest.ied3.mms  numActiveSessions:vector  ETV
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, vector"
+vector 86  SwitchTest.ied2.mms  numActiveSessions:vector  ETV
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, vector"
+vector 119  SwitchTest.ied4.mms  numActiveSessions:vector  ETV
+attr interpolationmode  sample-hold
+attr source  sum(connect)
+attr title  "number of active sessions, vector"
+vector 324  SwitchTest.ied1.tcp  tcpRcvQueueBytes  ETV
+vector 311  SwitchTest.ied1.tcp  "advertised window"  ETV
+vector 310  SwitchTest.ied1.tcp  "receive window"  ETV
+vector 313  SwitchTest.ied1.tcp  "sent ack"  ETV
+vector 348  SwitchTest.ied3.tcp  tcpRcvQueueBytes  ETV
+vector 335  SwitchTest.ied3.tcp  "advertised window"  ETV
+vector 334  SwitchTest.ied3.tcp  "receive window"  ETV
+vector 337  SwitchTest.ied3.tcp  "sent ack"  ETV
+vector 372  SwitchTest.ied2.tcp  tcpRcvQueueBytes  ETV
+vector 359  SwitchTest.ied2.tcp  "advertised window"  ETV
+vector 358  SwitchTest.ied2.tcp  "receive window"  ETV
+vector 361  SwitchTest.ied2.tcp  "sent ack"  ETV
+vector 396  SwitchTest.ied4.tcp  tcpRcvQueueBytes  ETV
+vector 383  SwitchTest.ied4.tcp  "advertised window"  ETV
+vector 382  SwitchTest.ied4.tcp  "receive window"  ETV
+vector 385  SwitchTest.ied4.tcp  "sent ack"  ETV
+vector 140  SwitchTest.host1.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 142  SwitchTest.host1.networkLayer.arp  initiatedResolution:vector  ETV
+attr title  "ARP initiated resolutions, vector"
+vector 29  SwitchTest.ied1.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 31  SwitchTest.ied1.networkLayer.arp  initiatedResolution:vector  ETV
+attr title  "ARP initiated resolutions, vector"
+vector 62  SwitchTest.ied3.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 64  SwitchTest.ied3.networkLayer.arp  initiatedResolution:vector  ETV
+attr title  "ARP initiated resolutions, vector"
+vector 95  SwitchTest.ied2.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 97  SwitchTest.ied2.networkLayer.arp  initiatedResolution:vector  ETV
+attr title  "ARP initiated resolutions, vector"
+vector 128  SwitchTest.ied4.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 130  SwitchTest.ied4.networkLayer.arp  initiatedResolution:vector  ETV
+attr title  "ARP initiated resolutions, vector"
+vector 153  SwitchTest.host1.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 149  SwitchTest.host1.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 44  SwitchTest.ied3.encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 77  SwitchTest.ied2.encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 58  SwitchTest.ied3.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 60  SwitchTest.ied3.queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 91  SwitchTest.ied2.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 93  SwitchTest.ied2.queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 38  SwitchTest.ied3.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 71  SwitchTest.ied2.mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 144  SwitchTest.host1.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 239  SwitchTest.s3.eth[3]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 240  SwitchTest.s3.eth[3]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 33  SwitchTest.ied3.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 66  SwitchTest.ied2.mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 217  SwitchTest.s3.eth[1]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 218  SwitchTest.s3.eth[1]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 195  SwitchTest.s2.eth[2]  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 196  SwitchTest.s2.eth[2]  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 283  SwitchTest.s3.relay  "buffer level"  ETV
+vector 282  SwitchTest.s2.relay  "buffer level"  ETV
+vector 154  SwitchTest.host1.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 284  SwitchTest.s1.relay  "buffer level"  ETV
+vector 12  SwitchTest.ied1.encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 45  SwitchTest.ied3.encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 78  SwitchTest.ied2.encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 111  SwitchTest.ied4.encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 170  SwitchTest.router.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 290  SwitchTest.host1.tcp  "rcvd seq"  ETV
+vector 291  SwitchTest.host1.tcp  "rcvd ack"  ETV
+vector 287  SwitchTest.host1.tcp  "advertised window"  ETV
+vector 285  SwitchTest.host1.tcp  "send window"  ETV
+vector 300  SwitchTest.host1.tcp  tcpRcvQueueBytes  ETV
+vector 286  SwitchTest.host1.tcp  "receive window"  ETV
+vector 289  SwitchTest.host1.tcp  "sent ack"  ETV
+vector 338  SwitchTest.ied3.tcp  "rcvd seq"  ETV
+vector 339  SwitchTest.ied3.tcp  "rcvd ack"  ETV
+vector 333  SwitchTest.ied3.tcp  "send window"  ETV
+vector 51  SwitchTest.ied3.mms  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 336  SwitchTest.ied3.tcp  "sent seq"  ETV
+vector 340  SwitchTest.ied3.tcp  "unacked bytes"  ETV
+vector 410  SwitchTest.host1.tcp  "rcvd seq"  ETV
+vector 411  SwitchTest.host1.tcp  "rcvd ack"  ETV
+vector 407  SwitchTest.host1.tcp  "advertised window"  ETV
+vector 405  SwitchTest.host1.tcp  "send window"  ETV
+vector 420  SwitchTest.host1.tcp  tcpRcvQueueBytes  ETV
+vector 406  SwitchTest.host1.tcp  "receive window"  ETV
+vector 409  SwitchTest.host1.tcp  "sent ack"  ETV
+vector 292  SwitchTest.host1.tcp  "unacked bytes"  ETV
+vector 293  SwitchTest.host1.tcp  "rcvd dupAcks"  ETV
+vector 152  SwitchTest.host1.eth[0].mac  droppedPkNotForUs:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, vector(packetBytes)"
+vector 41  SwitchTest.ied3.mac  droppedPkNotForUs:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, vector(packetBytes)"
+vector 434  SwitchTest.host1.tcp  "rcvd seq"  ETV
+vector 435  SwitchTest.host1.tcp  "rcvd ack"  ETV
+vector 431  SwitchTest.host1.tcp  "advertised window"  ETV
+vector 429  SwitchTest.host1.tcp  "send window"  ETV
+vector 444  SwitchTest.host1.tcp  tcpRcvQueueBytes  ETV
+vector 430  SwitchTest.host1.tcp  "receive window"  ETV
+vector 433  SwitchTest.host1.tcp  "sent ack"  ETV
+vector 458  SwitchTest.host1.tcp  "rcvd seq"  ETV
+vector 459  SwitchTest.host1.tcp  "rcvd ack"  ETV
+vector 455  SwitchTest.host1.tcp  "advertised window"  ETV
+vector 453  SwitchTest.host1.tcp  "send window"  ETV
+vector 468  SwitchTest.host1.tcp  tcpRcvQueueBytes  ETV
+vector 454  SwitchTest.host1.tcp  "receive window"  ETV
+vector 457  SwitchTest.host1.tcp  "sent ack"  ETV
+vector 139  SwitchTest.host1.pingApp[0]  pingRxSeq:vector  ETV
+attr interpolationmode  none
+attr title  "ping rx seq, vector"
+vector 113  SwitchTest.ied4.iec61850trafgen  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 115  SwitchTest.ied4.iec61850trafgen  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+vector 14  SwitchTest.ied1.iec61850trafgen  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rcvdPk
+attr title  "packets received, vector(packetBytes)"
+vector 16  SwitchTest.ied1.iec61850trafgen  endToEndDelay:vector  ETV
+attr interpolationmode  none
+attr source  messageAge(rcvdPk)
+attr title  "end-to-end delay, vector"
+attr unit  s
+vector 352  SwitchTest.ied3.tcp  "measured RTT"  ETV
+vector 353  SwitchTest.ied3.tcp  "smoothed RTT"  ETV
+vector 354  SwitchTest.ied3.tcp  RTTVAR  ETV
+vector 355  SwitchTest.ied3.tcp  RTO  ETV
+vector 350  SwitchTest.ied3.tcp  cwnd  ETV
+vector 341  SwitchTest.ied3.tcp  "rcvd dupAcks"  ETV
+vector 386  SwitchTest.ied4.tcp  "rcvd seq"  ETV
+vector 387  SwitchTest.ied4.tcp  "rcvd ack"  ETV
+vector 381  SwitchTest.ied4.tcp  "send window"  ETV
+vector 117  SwitchTest.ied4.mms  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 384  SwitchTest.ied4.tcp  "sent seq"  ETV
+vector 388  SwitchTest.ied4.tcp  "unacked bytes"  ETV
+vector 436  SwitchTest.host1.tcp  "unacked bytes"  ETV
+vector 437  SwitchTest.host1.tcp  "rcvd dupAcks"  ETV
+vector 400  SwitchTest.ied4.tcp  "measured RTT"  ETV
+vector 401  SwitchTest.ied4.tcp  "smoothed RTT"  ETV
+vector 402  SwitchTest.ied4.tcp  RTTVAR  ETV
+vector 403  SwitchTest.ied4.tcp  RTO  ETV
+vector 398  SwitchTest.ied4.tcp  cwnd  ETV
+vector 389  SwitchTest.ied4.tcp  "rcvd dupAcks"  ETV
+vector 135  SwitchTest.host1.pingApp[0]  rtt:vector  ETV
+attr interpolationmode  none
+attr title  "ping round-trip time, vector"
+attr unit  s
+vector 362  SwitchTest.ied2.tcp  "rcvd seq"  ETV
+vector 363  SwitchTest.ied2.tcp  "rcvd ack"  ETV
+vector 357  SwitchTest.ied2.tcp  "send window"  ETV
+vector 84  SwitchTest.ied2.mms  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 360  SwitchTest.ied2.tcp  "sent seq"  ETV
+vector 364  SwitchTest.ied2.tcp  "unacked bytes"  ETV
+vector 412  SwitchTest.host1.tcp  "unacked bytes"  ETV
+vector 314  SwitchTest.ied1.tcp  "rcvd seq"  ETV
+vector 315  SwitchTest.ied1.tcp  "rcvd ack"  ETV
+vector 309  SwitchTest.ied1.tcp  "send window"  ETV
+vector 18  SwitchTest.ied1.mms  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 312  SwitchTest.ied1.tcp  "sent seq"  ETV
+vector 316  SwitchTest.ied1.tcp  "unacked bytes"  ETV
+vector 413  SwitchTest.host1.tcp  "rcvd dupAcks"  ETV
+vector 460  SwitchTest.host1.tcp  "unacked bytes"  ETV
+vector 376  SwitchTest.ied2.tcp  "measured RTT"  ETV
+vector 377  SwitchTest.ied2.tcp  "smoothed RTT"  ETV
+vector 378  SwitchTest.ied2.tcp  RTTVAR  ETV
+vector 379  SwitchTest.ied2.tcp  RTO  ETV
+vector 374  SwitchTest.ied2.tcp  cwnd  ETV
+vector 365  SwitchTest.ied2.tcp  "rcvd dupAcks"  ETV
+vector 461  SwitchTest.host1.tcp  "rcvd dupAcks"  ETV
+vector 328  SwitchTest.ied1.tcp  "measured RTT"  ETV
+vector 329  SwitchTest.ied1.tcp  "smoothed RTT"  ETV
+vector 330  SwitchTest.ied1.tcp  RTTVAR  ETV
+vector 331  SwitchTest.ied1.tcp  RTO  ETV
+vector 326  SwitchTest.ied1.tcp  cwnd  ETV
+vector 317  SwitchTest.ied1.tcp  "rcvd dupAcks"  ETV
+0	24886 154752 87 947643 0.00008208 60.25008208 6033 64 1018 6135110 6244979564
+1	179638 171137 54 947706 0.00000576 60.250329279999 5746 64 1018 5830348 5934073144
+2	350775 171137 54 947706 0.00000576 60.250329279999 5746 64 1018 5830348 5934073144
+5	521912 117878 37 947741 0 60.26 6034 64 1018 6136128 6246015888
+11	639790 123884 27 947727 0 60.26 6034 28 1000 6027436 6027064272
+12	763674 176523 9683 947710 3.000012479999 60.250329279999 5733 28 1000 5726224 5726007456
+14	940197 176338 11180 947714 3.000344639994 60.250329279999 5726 1000 1000 5726000 5726000000
+15	1116535 123735 5 947721 0 60.26 6027 1000 1000 6027000 6027000000
+16	1240270 233598 11180 947714 3.000344639994 60.250329279999 5726 0.000329279999 0.000344639994 1.885546554258 0.00062090289828521
+18	1473868 28 24443 24443 3.002895999791 3.002895999791 1 200 200 200 40000
+20	1473896 12 2870 2870 1 1 1 1 1 1 1
+24	1473908 9 0 0 0 0 1 0 0 0 0
+25	1473917 123885 31 947733 0 60.26 6034 64 1018 6136128 6246015888
+27	1597802 105863 31 947733 0 60.26 6034 0 8.208e-05 0.000165119999 1.104767998656e-08
+28	1703665 211628 0 947733 0 60.26 12069 0 1 6034 6034
+29	1915293 36 2910 9534 1 3 3 1 1 3 3
+31	1915329 12 2910 2910 1 1 1 1 1 1 1
+33	1915341 147 2965 10454 1.00000576 3.000066399995 6 64 258 578 87044
+34	1915488 204 57 23376 0.00000576 3.002633759792 8 64 64 512 32768
+35	1915692 204 57 23376 0.00000576 3.002633759792 8 64 64 512 32768
+38	1915896 119 2949 10016 1 3.000044159996 6 64 258 578 87044
+41	1916015 29 10655 10655 3.000170879999 3.000170879999 1 1026 1026 1026 1052676
+44	1916044 118 2925 9983 1 3.000037439997 6 28 240 408 63488
+45	1916162 158 9684 23384 3.000012479999 3.002633759792 6 28 44 196 6672
+51	1916320 27 9973 9973 3.000037439997 3.000037439997 1 200 200 200 40000
+53	1916347 12 2871 2871 1 1 1 1 1 1 1
+57	1916359 9 0 0 0 0 1 0 0 0 0
+58	1916368 118 2938 9987 1 3.000037439997 6 64 258 578 87044
+60	1916486 123 2938 10008 1 3.000044159996 6 0 6.719999e-06 6.719999e-06 4.5158386560001e-11
+61	1916609 232 0 10008 0 3.000044159996 13 0 1 6 6
+62	1916841 36 2911 9535 1 3 3 1 1 3 3
+64	1916877 12 2911 2911 1 1 1 1 1 1 1
+66	1916889 176362 2966 947627 1.00000576 60.250059359999 5933 64 258 818430 112945884
+67	2093251 154047 55 947609 0.00000576 60.25004672 5946 64 138 819068 112936664
+68	2247298 154047 55 947609 0.00000576 60.25004672 5946 64 138 819068 112936664
+71	2401345 153699 2950 947623 1 60.25004672 5933 64 258 818430 112945884
+77	2555044 153699 2926 947618 1 60.25004672 5933 28 240 711556 85398672
+78	2708743 153738 9685 947611 3.000012479999 60.25004672 5933 28 120 711344 85341856
+84	2862481 28 24193 24193 3.002796319794 3.002796319794 1 200 200 200 40000
+86	2862509 12 2872 2872 1 1 1 1 1 1 1
+90	2862521 9 0 0 0 0 1 0 0 0 0
+91	2862530 153699 2939 947620 1 60.25004672 5933 64 258 818430 112945884
+93	3016229 141869 2939 947620 1 60.25004672 5933 0 1.2639999e-05 2.5279998e-05 2.3997436128e-10
+94	3158098 283687 0 947620 0 60.25004672 11867 0 2 5935 5937
+95	3441785 36 2912 9536 1 3 3 1 1 3 3
+97	3441821 12 2912 2912 1 1 1 1 1 1 1
+99	3441833 160759 88 947644 0.00008208 60.25008208 6032 64 1018 6135046 6244975468
+100	3602592 182602 58 947707 0.00000576 60.250329279999 5745 64 1018 5830284 5934069048
+101	3785194 182602 58 947707 0.00000576 60.250329279999 5745 64 1018 5830284 5934069048
+104	3967796 129919 38 947742 0 60.26 6033 64 1018 6136064 6246011792
+110	4097715 129890 28 947728 0 60.26 6033 28 1000 6027408 6027063488
+111	4227605 182229 9686 947711 3.000012479999 60.250329279999 5732 28 1000 5726196 5726006672
+113	4409834 182064 11118 947715 3.000335039999 60.250329279999 5726 1000 1000 5726000 5726000000
+114	4591898 129762 6 947722 0 60.26 6027 1000 1000 6027000 6027000000
+115	4721660 239324 11118 947715 3.000335039999 60.250329279999 5726 0.000329279999 0.000335999998 1.885536954263 0.00062089637336067
+117	4960984 29 23334 23334 3.002627039793 3.002627039793 1 200 200 200 40000
+119	4961013 13 2873 2873 1 1 1 1 1 1 1
+123	4961026 10 0 0 0 0 1 0 0 0 0
+124	4961036 129891 32 947734 0 60.26 6033 64 1018 6136064 6246011792
+126	5090927 111872 32 947734 0 60.26 6033 0 8.208e-05 0.000176639999 1.267338238656e-08
+127	5202799 223644 0 947734 0 60.26 12067 0 1 6033 6033
+128	5426443 39 2913 9537 1 3 3 1 1 3 3
+130	5426482 13 2913 2913 1 1 1 1 1 1 1
+135	5426495 233977 24002 947670 3.002752479801 60.250094399999 5735 9.4399999e-05 0.092752479801 1.0187262321618 0.031137560969556
+138	5660472 126801 2869 947720 1 60.26 5927 0 5926 17561701 69386280651
+139	5787273 186932 10885 947670 3.000283999997 60.250094399999 5926 0 5925 17555775 69351163175
+140	5974205 66 2909 10839 1 3.000265439998 4 1 1 4 4
+142	5974271 40 2909 10839 1 3.000265439998 2 1 1 2 2
+144	5974311 159616 2963 947745 1.00000576 60.26001168 5941 64 138 818822 112931132
+145	6133927 182939 47 947665 0.00000576 60.250094399999 5955 64 258 820420 113223400
+146	6316866 182939 47 947665 0.00000576 60.250094399999 5955 64 258 820420 113223400
+149	6499805 124569 2923 947735 1 60.26 5941 64 138 818822 112931132
+152	6624374 30 10652 10652 3.000170879999 3.000170879999 1 1026 1026 1026 1052676
+153	6624404 124569 2916 947732 1 60.26 5941 28 120 711744 85367648
+154	6748973 182563 9675 947667 3.000012479999 60.250094399999 5942 28 240 712528 85582080
+161	6931536 176 51 23844 0.00000576 3.002715039793 7 64 64 448 28672
+162	6931712 176 51 23844 0.00000576 3.002715039793 7 64 64 448 28672
+170	6931888 109 9736 23846 3.000018239999 3.002715039793 4 28 28 112 3136
+172	6931997 342343 41 947672 0.00000576 60.25016416 11693 64 1018 6649868 6047138840
+173	7274340 342683 59 947690 0.00000576 60.250247199999 11693 64 1018 6649480 6047013904
+174	7617023 342683 59 947690 0.00000576 60.250247199999 11693 64 1018 6649480 6047013904
+177	7959706 342043 7 947651 0 60.25008208 11693 64 1018 6649868 6047138840
+183	8301749 182629 42 947704 0.00000576 60.250329279999 5746 64 1018 5830348 5934073144
+184	8484378 166818 89 947645 0.00008208 60.25008208 6033 64 1018 6135110 6244979564
+185	8651196 166818 89 947645 0.00008208 60.25008208 6033 64 1018 6135110 6244979564
+188	8818014 182606 8 947696 0 60.250247199999 5746 64 1018 5830348 5934073144
+194	9000620 159993 43 947608 0.00000576 60.25004672 5946 64 138 819068 112936664
+195	9160613 182295 2968 947628 1.00000576 60.250059359999 5933 64 258 818430 112945884
+196	9342908 182295 2968 947628 1.00000576 60.250059359999 5933 64 258 818430 112945884
+199	9525203 159940 9 947604 0 60.25003504 5946 64 138 819068 112936664
+205	9685143 319661 44 947673 0.00000576 60.25016416 11693 64 1018 6649480 6047013904
+206	10004804 365270 60 947691 0.00000576 60.250247199999 11694 64 1018 6649932 6047142936
+207	10370074 365270 60 947691 0.00000576 60.250247199999 11694 64 1018 6649932 6047142936
+210	10735344 319406 10 947749 0 60.26001168 11694 64 1018 6649618 6047032948
+216	11054750 242 45 23374 0.00000576 3.002633759792 9 64 1018 1530 1069092
+217	11054992 153 2967 10455 1.00000576 3.000066399995 6 64 258 578 87044
+218	11055145 153 2967 10455 1.00000576 3.000066399995 6 64 258 578 87044
+221	11055298 221 11 23360 0 3.002627999792 9 64 1018 1530 1069092
+227	11055519 182602 46 947705 0.00000576 60.250329279999 5745 64 1018 5830284 5934069048
+228	11238121 166791 90 947646 0.00008208 60.25008208 6032 64 1018 6135046 6244975468
+229	11404912 166791 90 947646 0.00008208 60.25008208 6032 64 1018 6135046 6244975468
+232	11571703 182585 12 947697 0 60.250247199999 5745 64 1018 5830284 5934069048
+238	11754288 182969 48 947666 0.00000576 60.250094399999 5956 64 1018 821438 114259724
+239	11937257 159616 2964 947746 1.00000576 60.26001168 5941 64 138 818822 112931132
+240	12096873 159616 2964 947746 1.00000576 60.26001168 5941 64 138 818822 112931132
+243	12256489 182948 13 947659 0 60.250082719999 5956 64 1018 821438 114259724
+249	12439437 342683 49 947688 0.00000576 60.250247199999 11693 64 1018 6649480 6047013904
+250	12782120 342343 53 947674 0.00000576 60.25016416 11693 64 1018 6649868 6047138840
+251	13124463 342343 53 947674 0.00000576 60.25016416 11693 64 1018 6649868 6047138840
+254	13466806 319645 14 947681 0 60.25016416 11693 64 1018 6649480 6047013904
+260	13786451 365270 50 947689 0.00000576 60.250247199999 11694 64 1018 6649932 6047142936
+261	14151721 319661 56 947675 0.00000576 60.25016416 11693 64 1018 6649480 6047013904
+262	14471382 319661 56 947675 0.00000576 60.25016416 11693 64 1018 6649480 6047013904
+265	14791043 342330 15 947679 0 60.25016416 11694 64 1018 6649932 6047142936
+271	15133373 176 52 23845 0.00000576 3.002715039793 7 64 64 448 28672
+276	15133549 158 16 23791 0 3.002709279793 7 64 64 448 28672
+282	15133707 1308464 9613 947694 3.00000576 60.250247199999 46644 0 1018 13295380 12093906984
+283	16442171 1308613 9610 947748 3.00000576 60.26001168 46666 0 1018 13296802 12094141076
+284	17750784 1279751 9676 947680 3.000012479999 60.25016416 46640 0 2036 24951224 35825702008
+285	19030535 59 9862 10040 3.000025919997 3.000054719997 2 7504 7504 15008 112620032
+286	19030594 59 9862 10489 3.000025919997 3.000087679995 2 7504 7504 15008 112620032
+287	19030653 94 9862 10489 3.000025919997 3.000087679995 3 257505 257705 772715 199029517075
+289	19030747 63 9862 10489 3.000025919997 3.000087679995 2 250001 250201 500202 125101040402
+290	19030810 95 9862 10489 3.000025919997 3.000087679995 3 250000 250001 750002 187501000002
+291	19030905 90 9862 10489 3.000025919997 3.000087679995 3 0 750007 1500014 1125021000098
+292	19030995 27 10040 10040 3.000054719997 3.000054719997 1 0 0 0 0
+293	19031022 27 10489 10489 3.000087679995 3.000087679995 1 0 0 0 0
+300	19031049 80 9862 10489 3.000025919997 3.000087679995 3 0 0 0 0
+309	19031129 60 24441 24602 3.002895999791 3.003011839789 2 7504 7504 15008 112620032
+310	19031189 76 2887 24445 1 3.002895999791 3 7504 7504 22512 168930048
+311	19031265 112 2887 24445 1 3.002895999791 4 7504 757571 2280217 1721797770139
+312	19031377 32 24445 24445 3.002895999791 3.002895999791 1 250001 250001 250001 62500500001
+313	19031409 77 2887 24445 1 3.002895999791 3 0 750067 1500134 1125201008978
+314	19031486 64 24441 24602 3.002895999791 3.003011839789 2 750066 750067 1500133 1125199508845
+315	19031550 64 24441 24602 3.002895999791 3.003011839789 2 250001 250201 500202 125101040402
+316	19031614 56 24445 24602 3.002895999791 3.003011839789 2 0 200 200 40000
+317	19031670 27 24602 24602 3.003011839789 3.003011839789 1 0 0 0 0
+324	19031697 67 2887 24445 1 3.002895999791 3 0 0 0 0
+326	19031764 30 24602 24602 3.003011839789 3.003011839789 1 1072 1072 1072 1149184
+328	19031794 40 24602 24602 3.003011839789 3.003011839789 1 0.000115839998 0.000115839998 0.000115839998 1.341890513664e-08
+329	19031834 39 24602 24602 3.003011839789 3.003011839789 1 1.4479999e-05 1.4479999e-05 1.4479999e-05 2.0967037104e-10
+330	19031873 36 24602 24602 3.003011839789 3.003011839789 1 0.65626448 0.65626448 0.65626448 0.43068306770967
+331	19031909 40 24602 24602 3.003011839789 3.003011839789 1 2.625072399999 2.625072399999 2.625072399999 6.8910051052365
+333	19031949 59 9971 23262 3.000037439997 3.002620319794 2 7504 7504 15008 112620032
+334	19032008 74 2888 9975 1 3.000037439997 3 7504 7504 22512 168930048
+335	19032082 109 2888 9975 1 3.000037439997 4 7504 757511 2280037 1721525055379
+336	19032191 31 9975 9975 3.000037439997 3.000037439997 1 250001 250001 250001 62500500001
+337	19032222 75 2888 9975 1 3.000037439997 3 0 750007 1500014 1125021000098
+338	19032297 63 9971 23262 3.000037439997 3.002620319794 2 750006 750007 1500013 1125019500085
+339	19032360 63 9971 23262 3.000037439997 3.002620319794 2 250001 250201 500202 125101040402
+340	19032423 55 9975 23262 3.000037439997 3.002620319794 2 0 200 200 40000
+341	19032478 27 23262 23262 3.002620319794 3.002620319794 1 0 0 0 0
+348	19032505 65 2888 9975 1 3.000037439997 3 0 0 0 0
+350	19032570 30 23262 23262 3.002620319794 3.002620319794 1 1072 1072 1072 1149184
+352	19032600 40 23262 23262 3.002620319794 3.002620319794 1 0.002582879797 0.002582879797 0.002582879797 6.6712680457508e-06
+353	19032640 40 23262 23262 3.002620319794 3.002620319794 1 0.000322859974 0.000322859974 0.000322859974 1.0423856281128e-07
+354	19032680 40 23262 23262 3.002620319794 3.002620319794 1 0.656572859975 0.656572859975 0.656572859975 0.43108792045575
+355	19032720 40 23262 23262 3.002620319794 3.002620319794 1 2.626614299874 2.626614299874 2.626614299874 6.8991026803026
+357	19032760 60 24191 24541 3.002796319794 3.002924959789 2 7504 7504 15008 112620032
+358	19032820 76 2889 24195 1 3.002796319794 3 7504 7504 22512 168930048
+359	19032896 112 2889 24195 1 3.002796319794 4 7504 757516 2280052 1721547780784
+360	19033008 32 24195 24195 3.002796319794 3.002796319794 1 250001 250001 250001 62500500001
+361	19033040 77 2889 24195 1 3.002796319794 3 0 750012 1500024 1125036000288
+362	19033117 64 24191 24541 3.002796319794 3.002924959789 2 750011 750012 1500023 1125034500265
+363	19033181 64 24191 24541 3.002796319794 3.002924959789 2 250001 250201 500202 125101040402
+364	19033245 56 24195 24541 3.002796319794 3.002924959789 2 0 200 200 40000
+365	19033301 27 24541 24541 3.002924959789 3.002924959789 1 0 0 0 0
+372	19033328 67 2889 24195 1 3.002796319794 3 0 0 0 0
+374	19033395 30 24541 24541 3.002924959789 3.002924959789 1 1072 1072 1072 1149184
+376	19033425 40 24541 24541 3.002924959789 3.002924959789 1 0.000128639995 0.000128639995 0.000128639995 1.65482483136e-08
+377	19033465 39 24541 24541 3.002924959789 3.002924959789 1 1.6079999e-05 1.6079999e-05 1.6079999e-05 2.5856636784e-10
+378	19033504 36 24541 24541 3.002924959789 3.002924959789 1 0.65626608 0.65626608 0.65626608 0.43068516775857
+379	19033540 40 24541 24541 3.002924959789 3.002924959789 1 2.625080399999 2.625080399999 2.625080399999 6.8910471064589
+381	19033580 60 23332 23735 3.002627039793 3.002700799806 2 7504 7504 15008 112620032
+382	19033640 76 2890 23336 1 3.002627039793 3 7504 7504 22512 168930048
+383	19033716 112 2890 23336 1 3.002627039793 4 7504 757549 2280151 1721697772219
+384	19033828 32 23336 23336 3.002627039793 3.002627039793 1 250001 250001 250001 62500500001
+385	19033860 77 2890 23336 1 3.002627039793 3 0 750045 1500090 1125135004050
+386	19033937 64 23332 23735 3.002627039793 3.002700799806 2 750044 750045 1500089 1125133503961
+387	19034001 64 23332 23735 3.002627039793 3.002700799806 2 250001 250201 500202 125101040402
+388	19034065 56 23336 23735 3.002627039793 3.002700799806 2 0 200 200 40000
+389	19034121 27 23735 23735 3.002700799806 3.002700799806 1 0 0 0 0
+396	19034148 67 2890 23336 1 3.002627039793 3 0 0 0 0
+398	19034215 30 23735 23735 3.002700799806 3.002700799806 1 1072 1072 1072 1149184
+400	19034245 39 23735 23735 3.002700799806 3.002700799806 1 7.3760013e-05 7.3760013e-05 7.3760013e-05 5.4405395177602e-09
+401	19034284 38 23735 23735 3.002700799806 3.002700799806 1 9.220001e-06 9.220001e-06 9.220001e-06 8.5008418440001e-11
+402	19034322 40 23735 23735 3.002700799806 3.002700799806 1 0.656259220002 0.656259220002 0.656259220002 0.43067616383763
+403	19034362 40 23735 23735 3.002700799806 3.002700799806 1 2.625046100009 2.625046100009 2.625046100009 6.8908670271725
+405	19034402 59 10025 24416 3.000047999998 3.00287967979 2 7504 7504 15008 112620032
+406	19034461 60 10025 24466 3.000047999998 3.002901919789 2 7504 7504 15008 112620032
+407	19034521 96 10025 24466 3.000047999998 3.002901919789 3 257505 257705 772715 199029517075
+409	19034617 64 10025 24466 3.000047999998 3.002901919789 2 250001 250201 500202 125101040402
+410	19034681 95 10025 24466 3.000047999998 3.002901919789 3 250000 250001 750002 187501000002
+411	19034776 90 10025 24466 3.000047999998 3.002901919789 3 0 750012 1500024 1125036000288
+412	19034866 26 24416 24416 3.00287967979 3.00287967979 1 0 0 0 0
+413	19034892 27 24466 24466 3.002901919789 3.002901919789 1 0 0 0 0
+420	19034919 81 10025 24466 3.000047999998 3.002901919789 3 0 0 0 0
+429	19035000 60 10681 23456 3.000177599998 3.002641759809 2 7504 7504 15008 112620032
+430	19035060 60 10681 23685 3.000177599998 3.002689279806 2 7504 7504 15008 112620032
+431	19035120 96 10681 23685 3.000177599998 3.002689279806 3 257505 257705 772715 199029517075
+433	19035216 64 10681 23685 3.000177599998 3.002689279806 2 250001 250201 500202 125101040402
+434	19035280 96 10681 23685 3.000177599998 3.002689279806 3 250000 250001 750002 187501000002
+435	19035376 91 10681 23685 3.000177599998 3.002689279806 3 0 750045 1500090 1125135004050
+436	19035467 27 23456 23456 3.002641759809 3.002641759809 1 0 0 0 0
+437	19035494 27 23685 23685 3.002689279806 3.002689279806 1 0 0 0 0
+444	19035521 81 10681 23685 3.000177599998 3.002689279806 3 0 0 0 0
+453	19035602 59 10837 24524 3.000265439998 3.00291999979 2 7504 7504 15008 112620032
+454	19035661 60 10837 24565 3.000265439998 3.002988799789 2 7504 7504 15008 112620032
+455	19035721 96 10837 24565 3.000265439998 3.002988799789 3 257505 257705 772715 199029517075
+457	19035817 64 10837 24565 3.000265439998 3.002988799789 2 250001 250201 500202 125101040402
+458	19035881 95 10837 24565 3.000265439998 3.002988799789 3 250000 250001 750002 187501000002
+459	19035976 90 10837 24565 3.000265439998 3.002988799789 3 0 750067 1500134 1125201008978
+460	19036066 26 24524 24524 3.00291999979 3.00291999979 1 0 0 0 0
+461	19036092 27 24565 24565 3.002988799789 3.002988799789 1 0 0 0 0
+468	19036119 81 10837 24565 3.000265439998 3.002988799789 3 0 0 0 0

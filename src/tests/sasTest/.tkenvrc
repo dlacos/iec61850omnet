@@ -1,0 +1,7 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "SasTest" "SasTest" "2" "607x320+-7+113:normal"
+inspector "SasTest.starZone.control[1]" "GenericIED" "2" "207x340+607+459:normal"
+inspector "SasTest.starZone.switch" "EnhancedSwitch" "2" "638x337+876+503:normal"
+inspector "SasTest.starZone" "StarZone" "2" "607x337+7+503:normal"
+inspector "simulation.scheduled-events.goose-21-99" "EthernetIIFrame" "1" "460x314+-4+64:normal"
+

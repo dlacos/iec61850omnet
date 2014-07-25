@@ -1,0 +1,3 @@
+# Partial Tkenv config file -- see $HOME/.tkenvrc as well
+inspector "simulation.scheduled-events.SYN" "IPv4Datagram" "1" "460x314+638+441:normal"
+

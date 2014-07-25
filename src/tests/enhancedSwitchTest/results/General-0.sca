@@ -1,0 +1,3927 @@
+version 2
+run General-0-20130910-10:04:17-30139
+attr configname General
+attr datetime 20130910-10:04:17
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network TwoSwitchesFourHosts
+attr processid 30139
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar TwoSwitchesFourHosts.eS1.relayUnit 	"processed frames" 	3
+scalar TwoSwitchesFourHosts.eS1.relayUnit 	"dropped frames" 	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p7 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p7 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p7 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p7 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p7 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p7 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p7 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p6 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p6 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p6 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p6 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p6 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p6 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p6 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p5 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p5 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p5 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p5 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p5 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p5 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p5 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p4 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p4 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p4 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p4 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p4 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p4 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p4 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p3 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p3 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p3 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p3 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p3 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p3 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p3 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p2 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p2 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p2 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p2 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p2 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p2 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p2 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p1 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p1 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p1 	queueingTime:histogram
+field count 5
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	5
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p1 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p1 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p1 	rcvdPk:count 	5
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p1 	rcvdPk:sum(packetBytes) 	350
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p0 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p0 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p0 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p0 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p0 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p0 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].queue.p0 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	"simulated time" 	3.549413502304
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	full-duplex 	1
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	"frames/sec sent" 	1.4086834336868
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	"frames/sec rcvd" 	1.4086834336868
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	"bits/sec sent" 	788.86272286463
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	"bits/sec rcvd" 	721.24591804766
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	"rx channel idle (%)" 	99.991885983422
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	"rx channel utilization (%)" 	0.0081140165780361
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	rxPkFromHL:count 	5
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	rxPkFromHL:sum(packetBytes) 	350
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	passedUpPk:count 	5
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	passedUpPk:sum(packetBytes) 	320
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	rxPkOk:count 	5
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	rxPkOk:sum(packetBytes) 	320
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	txPk:count 	5
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[0].mac 	txPk:sum(packetBytes) 	350
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p7 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p7 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p7 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p7 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p7 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p7 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p7 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p6 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p6 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p6 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p6 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p6 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p6 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p6 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p5 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p5 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p5 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p5 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p5 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p5 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p5 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p4 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p4 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p4 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p4 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p4 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p4 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p4 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p3 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p3 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p3 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p3 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p3 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p3 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p3 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p2 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p2 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p2 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p2 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p2 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p2 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p2 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p1 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p1 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p1 	queueingTime:histogram
+field count 3
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	3
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p1 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p1 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p1 	rcvdPk:count 	3
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p1 	rcvdPk:sum(packetBytes) 	192
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p0 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p0 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p0 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p0 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p0 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p0 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].queue.p0 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	"simulated time" 	3.549413502304
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	full-duplex 	1
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	"frames/sec sent" 	0.8452100602121
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	"frames/sec rcvd" 	1.4086834336868
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	"bits/sec sent" 	432.74755082859
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	"bits/sec rcvd" 	788.86272286463
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	"rx channel idle (%)" 	99.991209815374
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	"rx channel utilization (%)" 	0.0087901846262058
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	rxPkFromHL:count 	3
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	rxPkFromHL:sum(packetBytes) 	192
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	passedUpPk:count 	5
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	passedUpPk:sum(packetBytes) 	350
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	rxPkOk:count 	5
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	rxPkOk:sum(packetBytes) 	350
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	txPk:count 	3
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[1].mac 	txPk:sum(packetBytes) 	192
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p7 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p7 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p7 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p7 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p7 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p7 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p7 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p6 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p6 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p6 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p6 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p6 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p6 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p6 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p5 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p5 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p5 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p5 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p5 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p5 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p5 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p4 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p4 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p4 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p4 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p4 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p4 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p4 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p3 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p3 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p3 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p3 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p3 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p3 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p3 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p2 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p2 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p2 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p2 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p2 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p2 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p2 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p1 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p1 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p1 	queueingTime:histogram
+field count 3
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	3
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p1 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p1 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p1 	rcvdPk:count 	3
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p1 	rcvdPk:sum(packetBytes) 	192
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p0 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p0 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p0 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p0 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p0 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p0 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].queue.p0 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	"simulated time" 	3.549413502304
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	full-duplex 	1
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	"frames/sec sent" 	0.8452100602121
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	"frames/sec rcvd" 	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	"bits/sec sent" 	432.74755082859
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	"bits/sec rcvd" 	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	"rx channel idle (%)" 	100
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	"rx channel utilization (%)" 	0
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	rxPkFromHL:count 	3
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	rxPkFromHL:sum(packetBytes) 	192
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	txPk:count 	3
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TwoSwitchesFourHosts.eS1.eth1Q[2].mac 	txPk:sum(packetBytes) 	192
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.relayUnit 	"processed frames" 	3
+scalar TwoSwitchesFourHosts.eS2.relayUnit 	"dropped frames" 	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p7 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p7 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p7 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p7 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p7 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p7 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p7 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p6 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p6 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p6 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p6 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p6 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p6 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p6 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p5 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p5 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p5 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p5 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p5 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p5 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p5 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p4 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p4 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p4 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p4 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p4 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p4 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p4 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p3 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p3 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p3 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p3 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p3 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p3 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p3 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p2 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p2 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p2 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p2 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p2 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p2 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p2 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p1 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p1 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p1 	queueingTime:histogram
+field count 5
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	5
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p1 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p1 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p1 	rcvdPk:count 	5
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p1 	rcvdPk:sum(packetBytes) 	320
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p0 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p0 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p0 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p0 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p0 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p0 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].queue.p0 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	"simulated time" 	3.549413502304
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	full-duplex 	1
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	"frames/sec sent" 	1.4086834336868
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	"frames/sec rcvd" 	1.4086834336868
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	"bits/sec sent" 	721.24591804766
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	"bits/sec rcvd" 	788.86272286463
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	"rx channel idle (%)" 	99.991209815374
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	"rx channel utilization (%)" 	0.0087901846262058
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	rxPkFromHL:count 	5
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	rxPkFromHL:sum(packetBytes) 	320
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	passedUpPk:count 	5
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	passedUpPk:sum(packetBytes) 	350
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	rxPkOk:count 	5
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	rxPkOk:sum(packetBytes) 	350
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	txPk:count 	5
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[0].mac 	txPk:sum(packetBytes) 	320
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p7 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p7 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p7 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p7 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p7 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p7 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p7 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p6 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p6 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p6 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p6 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p6 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p6 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p6 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p5 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p5 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p5 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p5 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p5 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p5 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p5 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p4 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p4 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p4 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p4 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p4 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p4 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p4 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p3 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p3 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p3 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p3 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p3 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p3 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p3 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p2 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p2 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p2 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p2 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p2 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p2 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p2 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p1 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p1 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p1 	queueingTime:histogram
+field count 5
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	5
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p1 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p1 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p1 	rcvdPk:count 	5
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p1 	rcvdPk:sum(packetBytes) 	350
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p0 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p0 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p0 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p0 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p0 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p0 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].queue.p0 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	"simulated time" 	3.549413502304
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	full-duplex 	1
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	"frames/sec sent" 	1.4086834336868
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	"frames/sec rcvd" 	0.28173668673737
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	"bits/sec sent" 	788.86272286463
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	"bits/sec rcvd" 	144.24918360953
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	"rx channel idle (%)" 	99.998377196684
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	"rx channel utilization (%)" 	0.0016228033156072
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	rxPkFromHL:count 	5
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	rxPkFromHL:sum(packetBytes) 	350
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	passedUpPk:count 	1
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	passedUpPk:sum(packetBytes) 	64
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	rxPkOk:count 	1
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	rxPkOk:sum(packetBytes) 	64
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	txPk:count 	5
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[1].mac 	txPk:sum(packetBytes) 	350
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p7 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p7 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p7 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p7 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p7 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p7 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p7 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p6 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p6 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p6 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p6 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p6 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p6 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p6 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p5 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p5 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p5 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p5 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p5 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p5 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p5 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p4 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p4 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p4 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p4 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p4 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p4 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p4 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p3 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p3 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p3 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p3 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p3 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p3 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p3 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p2 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p2 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p2 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p2 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p2 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p2 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p2 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p1 	queueLength:max 	1
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p1 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p1 	queueingTime:histogram
+field count 4
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	4
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p1 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p1 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p1 	rcvdPk:count 	4
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p1 	rcvdPk:sum(packetBytes) 	256
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p0 	queueLength:max 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, max"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p0 	queueLength:timeavg 	0
+attr interpolationmode  sample-hold
+attr title  "queue length, timeavg"
+statistic TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p0 	queueingTime:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "queueing time, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p0 	dropPk:count 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p0 	dropPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkByQueue
+attr title  "dropped packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p0 	rcvdPk:count 	0
+attr interpolationmode  none
+attr title  "received packets, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].queue.p0 	rcvdPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr title  "received packets, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	"simulated time" 	3.549413502304
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	full-duplex 	1
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	"frames/sec sent" 	1.1269467469495
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	"frames/sec rcvd" 	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	"bits/sec sent" 	576.99673443813
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	"bits/sec rcvd" 	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	"rx channel idle (%)" 	100
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	"rx channel utilization (%)" 	0
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	rxPkFromHL:count 	4
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	rxPkFromHL:sum(packetBytes) 	256
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	txPk:count 	4
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TwoSwitchesFourHosts.eS2.eth1Q[2].mac 	txPk:sum(packetBytes) 	256
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host1.networkLayer.arp 	failedResolution:count 	1
+attr title  "ARP failed resolutions, count"
+scalar TwoSwitchesFourHosts.host1.networkLayer.arp 	initiatedResolution:count 	2
+attr title  "ARP initiated resolutions, count"
+scalar TwoSwitchesFourHosts.host1.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar TwoSwitchesFourHosts.host1.networkLayer.arp 	sentReq:count 	4
+attr title  "ARP request sent, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	"simulated time" 	3.549413502304
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	full-duplex 	1
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	"frames/sec sent" 	1.4086834336868
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	"frames/sec rcvd" 	0.8452100602121
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	"bits/sec sent" 	788.86272286463
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	"bits/sec rcvd" 	432.74755082859
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	"rx channel idle (%)" 	99.995131590053
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	"rx channel utilization (%)" 	0.0048684099468217
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	rxPkFromHL:count 	5
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	350
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	passedUpPk:count 	3
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	passedUpPk:sum(packetBytes) 	192
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	rxPkOk:count 	3
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	rxPkOk:sum(packetBytes) 	192
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	txPk:count 	5
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].mac 	txPk:sum(packetBytes) 	350
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host1.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar TwoSwitchesFourHosts.host1.eth[0].encap 	decapPk:count 	1
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].encap 	decapPk:sum(packetBytes) 	28
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host1.eth[0].encap 	encapPk:count 	5
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar TwoSwitchesFourHosts.host1.eth[0].encap 	encapPk:sum(packetBytes) 	188
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host1.pingApp[0] 	"Pings sent" 	4
+scalar TwoSwitchesFourHosts.host1.pingApp[0] 	"ping loss rate (%)" 	100
+scalar TwoSwitchesFourHosts.host1.pingApp[0] 	"ping out-of-order rate (%)" 	0
+scalar TwoSwitchesFourHosts.host1.pingApp[0] 	pingRxSeq:count 	0
+attr interpolationmode  none
+attr title  "ping rx seq, count"
+scalar TwoSwitchesFourHosts.host1.pingApp[0] 	pingTxSeq:count 	4
+attr interpolationmode  none
+attr title  "ping tx seq, count"
+scalar TwoSwitchesFourHosts.host1.pingApp[0] 	numOutOfOrderArrivals:last 	-nan
+attr interpolationmode  none
+attr title  "ping out-of-order arrivals, last"
+scalar TwoSwitchesFourHosts.host1.pingApp[0] 	numLost:last 	-nan
+attr interpolationmode  none
+attr title  "pings lost, last"
+statistic TwoSwitchesFourHosts.host1.pingApp[0] 	rtt:histogram
+field count 0
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  none
+attr title  "ping round-trip time, histogram"
+attr unit  s
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar TwoSwitchesFourHosts.host2.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar TwoSwitchesFourHosts.host2.networkLayer.arp 	initiatedResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar TwoSwitchesFourHosts.host2.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar TwoSwitchesFourHosts.host2.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	"simulated time" 	3.549413502304
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	full-duplex 	1
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	"frames/sec sent" 	0
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	"frames/sec rcvd" 	0.8452100602121
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	"bits/sec sent" 	0
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	"bits/sec rcvd" 	432.74755082859
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	"rx channel idle (%)" 	99.995131590053
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	"rx channel utilization (%)" 	0.0048684099468217
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	passedUpPk:count 	3
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	passedUpPk:sum(packetBytes) 	192
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	rxPkOk:count 	3
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	rxPkOk:sum(packetBytes) 	192
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host2.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar TwoSwitchesFourHosts.host2.eth[0].encap 	decapPk:count 	1
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].encap 	decapPk:sum(packetBytes) 	28
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host2.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar TwoSwitchesFourHosts.host2.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host3.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar TwoSwitchesFourHosts.host3.networkLayer.arp 	initiatedResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar TwoSwitchesFourHosts.host3.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar TwoSwitchesFourHosts.host3.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	"simulated time" 	3.549413502304
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	full-duplex 	1
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	"frames/sec sent" 	0
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	"frames/sec rcvd" 	1.1269467469495
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	"bits/sec sent" 	0
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	"bits/sec rcvd" 	576.99673443813
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	"rx channel idle (%)" 	99.993508786738
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	"rx channel utilization (%)" 	0.0064912132624289
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	passedUpPk:count 	4
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	passedUpPk:sum(packetBytes) 	256
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	rxPkOk:count 	4
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	rxPkOk:sum(packetBytes) 	256
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host3.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar TwoSwitchesFourHosts.host3.eth[0].encap 	decapPk:count 	1
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].encap 	decapPk:sum(packetBytes) 	28
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host3.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar TwoSwitchesFourHosts.host3.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host4.networkLayer.arp 	failedResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar TwoSwitchesFourHosts.host4.networkLayer.arp 	initiatedResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar TwoSwitchesFourHosts.host4.networkLayer.arp 	sentReplies:count 	0
+attr title  "ARP replies sent, count"
+scalar TwoSwitchesFourHosts.host4.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	"simulated time" 	3.549413502304
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	full-duplex 	1
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	"frames/sec sent" 	0.28173668673737
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	"frames/sec rcvd" 	1.4086834336868
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	"bits/sec sent" 	144.24918360953
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	"bits/sec rcvd" 	788.86272286463
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	"rx channel idle (%)" 	99.991209815374
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	"rx channel utilization (%)" 	0.0087901846262058
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	rxPkFromHL:count 	2
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	158
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	passedUpPk:count 	5
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	passedUpPk:sum(packetBytes) 	350
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	rxPkOk:count 	5
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	rxPkOk:sum(packetBytes) 	350
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	txPk:count 	1
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].mac 	txPk:sum(packetBytes) 	64
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host4.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar TwoSwitchesFourHosts.host4.eth[0].encap 	decapPk:count 	2
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].encap 	decapPk:sum(packetBytes) 	104
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar TwoSwitchesFourHosts.host4.eth[0].encap 	encapPk:count 	2
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar TwoSwitchesFourHosts.host4.eth[0].encap 	encapPk:sum(packetBytes) 	104
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
