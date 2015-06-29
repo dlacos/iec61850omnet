@@ -1,4 +1,4 @@
-file 69178 1377810442                                           
+file 71961 1435607600                                           
 version 2
 run General-0-20130829-18:05:22-13977
 attr configname General
@@ -15,485 +15,484 @@ attr replication #0
 attr resultdir results
 attr runnumber 0
 attr seedset 0
-
 vector 28  Star.ied.queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+28	22693 10 0 0 0 0 1 0 0 0 0
 vector 32  Star.ied.queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+32	24838 1961 0 3766 0 60 137 0 1 68 68
 vector 65  Star.ied1.queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+65	28154 10 0 0 0 0 1 0 0 0 0
 vector 69  Star.ied1.queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+69	28404 242 0 3110 0 46 17 0 1 8 8
 vector 102  Star.ied2.queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+102	30001 11 0 0 0 0 1 0 0 0 0
 vector 106  Star.ied2.queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+106	30268 259 0 3111 0 46 17 0 1 8 8
 vector 139  Star.ied3.queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+139	31945 11 0 0 0 0 1 0 0 0 0
 vector 143  Star.ied3.queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+143	32212 259 0 3112 0 46 17 0 1 8 8
 vector 153  Star.switch.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+153	36213 907 4 3759 0 60 47 64 74 3108 206312
 vector 164  Star.switch.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+164	40810 907 5 3760 0 60 47 64 74 3108 206312
 vector 175  Star.switch.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+175	43790 702 6 3228 0 46.000025919997 26 64 64 1664 106496
 vector 186  Star.switch1.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+186	48146 1111 7 3777 0 60.00000576 45 64 64 2880 184320
 vector 197  Star.switch1.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+197	53061 294 8 3323 0 46.000053119996 12 64 74 818 56052
 vector 208  Star.switch1.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+208	54067 298 9 3254 0 46.000038079998 12 64 74 818 56052
 vector 219  Star.switch2.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+219	58019 1092 10 3778 0 60.00000576 45 64 64 2880 184320
 vector 230  Star.switch2.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+230	59823 295 11 3348 0 46.000060639995 12 64 74 818 56052
 vector 241  Star.switch2.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+241	60830 295 12 3296 0 46.000045599997 12 64 74 818 56052
 vector 148  Star.switch.eth[0]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+148	32523 1206 21 3773 0.00000576 60.00000576 47 64 74 3108 206312
 vector 159  Star.switch.eth[1]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+159	37120 1206 22 3774 0.00000576 60.00000576 47 64 74 3108 206312
 vector 252  Star.server.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+252	61801 721 23 3282 0.00000576 46.000045119995 26 64 64 1664 106496
 vector 253  Star.server.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+253	62522 721 23 3282 0.00000576 46.000045119995 26 64 64 1664 106496
 vector 170  Star.switch.eth[2]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+170	41717 721 24 3283 0.00000576 46.000045119995 26 64 64 1664 106496
 vector 181  Star.switch1.eth[0]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+181	44492 1242 25 3729 0.00000576 58.000012479999 44 64 64 2816 180224
 vector 192  Star.switch1.eth[1]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+192	49257 314 26 3335 0.00000576 46.000059679996 12 64 74 818 56052
 vector 203  Star.switch1.eth[2]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+203	53355 322 27 3275 0.00000576 46.000044639998 12 64 74 818 56052
 vector 214  Star.switch2.eth[0]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+214	54365 1242 28 3730 0.00000576 58.000012479999 44 64 64 2816 180224
 vector 225  Star.switch2.eth[1]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+225	59111 322 29 3352 0.00000576 46.000067199995 12 64 74 818 56052
 vector 236  Star.switch2.eth[2]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+236	60118 322 30 3310 0.00000576 46.000052159997 12 64 74 818 56052
 vector 182  Star.switch1.eth[0]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+182	45734 1206 31 3775 0.00000576 60.00000576 47 64 74 3108 206312
 vector 183  Star.switch1.eth[0]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+183	46940 1206 31 3775 0.00000576 60.00000576 47 64 74 3108 206312
 vector 215  Star.switch2.eth[0]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+215	55607 1206 32 3776 0.00000576 60.00000576 47 64 74 3108 206312
 vector 216  Star.switch2.eth[0]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+216	56813 1206 32 3776 0.00000576 60.00000576 47 64 74 3108 206312
 vector 149  Star.switch.eth[0]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+149	33729 1242 33 3731 0.00000576 58.000012479999 44 64 64 2816 180224
 vector 150  Star.switch.eth[0]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+150	34971 1242 33 3731 0.00000576 58.000012479999 44 64 64 2816 180224
 vector 1  Star.ied.mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+1	18780 290 34 3336 0.00000576 46.000059679996 12 64 74 818 56052
 vector 2  Star.ied.mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+2	19070 290 34 3336 0.00000576 46.000059679996 12 64 74 818 56052
 vector 38  Star.ied1.mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+38	27034 310 35 3276 0.00000576 46.000044639998 12 64 74 818 56052
 vector 39  Star.ied1.mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+39	27344 310 35 3276 0.00000576 46.000044639998 12 64 74 818 56052
 vector 160  Star.switch.eth[1]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+160	38326 1242 36 3732 0.00000576 58.000012479999 44 64 64 2816 180224
 vector 161  Star.switch.eth[1]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+161	39568 1242 36 3732 0.00000576 58.000012479999 44 64 64 2816 180224
 vector 112  Star.ied3.mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+112	30774 322 37 3353 0.00000576 46.000067199995 12 64 74 818 56052
 vector 113  Star.ied3.mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+113	31096 322 37 3353 0.00000576 46.000067199995 12 64 74 818 56052
 vector 75  Star.ied2.mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+75	28881 310 38 3311 0.00000576 46.000052159997 12 64 74 818 56052
 vector 76  Star.ied2.mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+76	29191 310 38 3311 0.00000576 46.000052159997 12 64 74 818 56052
 vector 15  Star.ied.iec61850trafgen  sentPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  sentPk
-attr title  "packets sent, vector(packetBytes)"
+attr interpolationmode none
+attr source sentPk
+attr title "packets sent, vector(packetBytes)"
+15	21735 947 65 3758 1 60 60 100 100 6000 600000
 vector 21  Star.ied.mms  numActiveSessions:vector  ETV
-attr interpolationmode  sample-hold
-attr source  sum(connect)
-attr title  "number of active sessions, vector"
+attr interpolationmode sample-hold
+attr source sum(connect)
+attr title "number of active sessions, vector"
+21	22682 11 66 66 1 1 1 1 1 1 1
 vector 58  Star.ied1.mms  numActiveSessions:vector  ETV
-attr interpolationmode  sample-hold
-attr source  sum(connect)
-attr title  "number of active sessions, vector"
+attr interpolationmode sample-hold
+attr source sum(connect)
+attr title "number of active sessions, vector"
+58	28143 11 67 67 1 1 1 1 1 1 1
 vector 95  Star.ied2.mms  numActiveSessions:vector  ETV
-attr interpolationmode  sample-hold
-attr source  sum(connect)
-attr title  "number of active sessions, vector"
+attr interpolationmode sample-hold
+attr source sum(connect)
+attr title "number of active sessions, vector"
+95	29990 11 68 68 1 1 1 1 1 1 1
 vector 132  Star.ied3.mms  numActiveSessions:vector  ETV
-attr interpolationmode  sample-hold
-attr source  sum(connect)
-attr title  "number of active sessions, vector"
+attr interpolationmode sample-hold
+attr source sum(connect)
+attr title "number of active sessions, vector"
+132	31933 12 69 69 1 1 1 1 1 1 1
 vector 281  Star.ied.tcp  tcpRcvQueueBytes  ETV
+281	70948 71 80 3074 1 46 5 0 0 0 0
 vector 268  Star.ied.tcp  "advertised window"  ETV
+268	70791 86 80 3074 1 46 5 7504 7504 37520 281550080
 vector 267  Star.ied.tcp  "receive window"  ETV
+267	70705 86 80 3074 1 46 5 7504 7504 37520 281550080
 vector 270  Star.ied.tcp  "sent ack"  ETV
+270	70877 71 80 3074 1 46 5 0 0 0 0
 vector 305  Star.ied1.tcp  tcpRcvQueueBytes  ETV
+305	71262 71 81 3075 1 46 5 0 0 0 0
 vector 292  Star.ied1.tcp  "advertised window"  ETV
+292	71105 86 81 3075 1 46 5 7504 7504 37520 281550080
 vector 291  Star.ied1.tcp  "receive window"  ETV
+291	71019 86 81 3075 1 46 5 7504 7504 37520 281550080
 vector 294  Star.ied1.tcp  "sent ack"  ETV
+294	71191 71 81 3075 1 46 5 0 0 0 0
 vector 329  Star.ied2.tcp  tcpRcvQueueBytes  ETV
+329	71576 71 82 3076 1 46 5 0 0 0 0
 vector 316  Star.ied2.tcp  "advertised window"  ETV
+316	71419 86 82 3076 1 46 5 7504 7504 37520 281550080
 vector 315  Star.ied2.tcp  "receive window"  ETV
+315	71333 86 82 3076 1 46 5 7504 7504 37520 281550080
 vector 318  Star.ied2.tcp  "sent ack"  ETV
+318	71505 71 82 3076 1 46 5 0 0 0 0
 vector 353  Star.ied3.tcp  tcpRcvQueueBytes  ETV
+353	71890 71 83 3077 1 46 5 0 0 0 0
 vector 340  Star.ied3.tcp  "advertised window"  ETV
+340	71733 86 83 3077 1 46 5 7504 7504 37520 281550080
 vector 339  Star.ied3.tcp  "receive window"  ETV
+339	71647 86 83 3077 1 46 5 7504 7504 37520 281550080
 vector 342  Star.ied3.tcp  "sent ack"  ETV
+342	71819 71 83 3077 1 46 5 0 0 0 0
 vector 11  Star.ied.encap  encapPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  encapPk
-attr title  "packets encapsulated, vector(packetBytes)"
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+11	20427 1071 92 3764 1 60 68 28 100 6304 612032
 vector 33  Star.ied.networkLayer.arp  sentReq:vector  ETV
-attr title  "ARP request sent, vector"
+attr title "ARP request sent, vector"
+33	26799 36 106 358 1 3 3 1 1 3 3
 vector 35  Star.ied.networkLayer.arp  initiatedResolution:vector  ETV
-attr title  "ARP initiated resolutions, vector"
+attr title "ARP initiated resolutions, vector"
+35	26835 12 106 106 1 1 1 1 1 1 1
 vector 70  Star.ied1.networkLayer.arp  sentReq:vector  ETV
-attr title  "ARP request sent, vector"
+attr title "ARP request sent, vector"
+70	28646 36 107 359 1 3 3 1 1 3 3
 vector 72  Star.ied1.networkLayer.arp  initiatedResolution:vector  ETV
-attr title  "ARP initiated resolutions, vector"
+attr title "ARP initiated resolutions, vector"
+72	28682 12 107 107 1 1 1 1 1 1 1
 vector 107  Star.ied2.networkLayer.arp  sentReq:vector  ETV
-attr title  "ARP request sent, vector"
+attr title "ARP request sent, vector"
+107	30527 39 108 360 1 3 3 1 1 3 3
 vector 109  Star.ied2.networkLayer.arp  initiatedResolution:vector  ETV
-attr title  "ARP initiated resolutions, vector"
+attr title "ARP initiated resolutions, vector"
+109	30566 13 108 108 1 1 1 1 1 1 1
 vector 144  Star.ied3.networkLayer.arp  sentReq:vector  ETV
-attr title  "ARP request sent, vector"
+attr title "ARP request sent, vector"
+144	32471 39 109 361 1 3 3 1 1 3 3
 vector 146  Star.ied3.networkLayer.arp  initiatedResolution:vector  ETV
-attr title  "ARP initiated resolutions, vector"
+attr title "ARP initiated resolutions, vector"
+146	32510 13 109 109 1 1 1 1 1 1 1
 vector 29  Star.ied.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr title  "received packets, vector(packetBytes)"
+attr interpolationmode none
+attr title "received packets, vector(packetBytes)"
+29	22703 1072 110 3766 1 60 68 64 118 7592 868208
 vector 31  Star.ied.queue.dataQueue  queueingTime:vector  ETV
-attr interpolationmode  none
-attr title  "queueing time, vector"
+attr interpolationmode none
+attr title "queueing time, vector"
+31	23775 1063 110 3766 1 60 68 0 1.008e-005 7.056e-005 7.112448e-010
 vector 48  Star.ied1.encap  encapPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  encapPk
-attr title  "packets encapsulated, vector(packetBytes)"
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+48	27778 124 117 3100 1 46 8 28 44 304 12032
 vector 85  Star.ied2.encap  encapPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  encapPk
-attr title  "packets encapsulated, vector(packetBytes)"
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+85	29625 124 118 3101 1 46 8 28 44 304 12032
 vector 122  Star.ied3.encap  encapPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  encapPk
-attr title  "packets encapsulated, vector(packetBytes)"
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+122	31550 132 119 3102 1 46 8 28 44 304 12032
 vector 5  Star.ied.mac  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+5	19360 1067 125 3769 1 60 68 64 118 7592 868208
 vector 66  Star.ied1.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr title  "received packets, vector(packetBytes)"
+attr interpolationmode none
+attr title "received packets, vector(packetBytes)"
+66	28164 124 127 3110 1 46 8 64 64 512 32768
 vector 68  Star.ied1.queue.dataQueue  queueingTime:vector  ETV
-attr interpolationmode  none
-attr title  "queueing time, vector"
+attr interpolationmode none
+attr title "queueing time, vector"
+68	28288 116 127 3110 1 46 8 0 0 0 0
 vector 103  Star.ied2.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr title  "received packets, vector(packetBytes)"
+attr interpolationmode none
+attr title "received packets, vector(packetBytes)"
+103	30012 132 128 3111 1 46 8 64 64 512 32768
 vector 105  Star.ied2.queue.dataQueue  queueingTime:vector  ETV
-attr interpolationmode  none
-attr title  "queueing time, vector"
+attr interpolationmode none
+attr title "queueing time, vector"
+105	30144 124 128 3111 1 46 8 0 0 0 0
 vector 140  Star.ied3.queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr title  "received packets, vector(packetBytes)"
+attr interpolationmode none
+attr title "received packets, vector(packetBytes)"
+140	31956 132 129 3112 1 46 8 64 64 512 32768
 vector 142  Star.ied3.queue.dataQueue  queueingTime:vector  ETV
-attr interpolationmode  none
-attr title  "queueing time, vector"
+attr interpolationmode none
+attr title "queueing time, vector"
+142	32088 124 129 3112 1 46 8 0 0 0 0
 vector 42  Star.ied1.mac  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+42	27654 124 137 3122 1 46 8 64 64 512 32768
 vector 79  Star.ied2.mac  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+79	29501 124 138 3123 1 46 8 64 64 512 32768
 vector 116  Star.ied3.mac  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+116	31418 132 139 3124 1 46 8 64 64 512 32768
 vector 37  Star.ied1.mac  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+37	26847 187 159 3134 1.00000576 46.00000576 8 64 64 512 32768
 vector 74  Star.ied2.mac  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+74	28694 187 160 3135 1.00000576 46.00000576 8 64 64 512 32768
 vector 111  Star.ied3.mac  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+111	30579 195 161 3136 1.00000576 46.00000576 8 64 64 512 32768
 vector 204  Star.switch1.eth[2]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+204	53677 195 162 3137 1.00000576 46.00000576 8 64 64 512 32768
 vector 205  Star.switch1.eth[2]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+205	53872 195 162 3137 1.00000576 46.00000576 8 64 64 512 32768
 vector 237  Star.switch2.eth[2]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+237	60440 195 163 3138 1.00000576 46.00000576 8 64 64 512 32768
 vector 238  Star.switch2.eth[2]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+238	60635 195 163 3138 1.00000576 46.00000576 8 64 64 512 32768
 vector 226  Star.switch2.eth[1]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+226	59433 195 164 3139 1.00000576 46.00000576 8 64 64 512 32768
 vector 227  Star.switch2.eth[1]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+227	59628 195 164 3139 1.00000576 46.00000576 8 64 64 512 32768
 vector 0  Star.ied.mac  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+0	17169 1611 191 3752 1.00001008 59.00001008 67 64 118 7474 854284
 vector 193  Star.switch1.eth[1]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+193	49571 1745 192 3753 1.00001008 59.00001008 67 64 118 7474 854284
 vector 194  Star.switch1.eth[1]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+194	51316 1745 192 3753 1.00001008 59.00001008 67 64 118 7474 854284
 vector 264  Star.switch1.relay  "buffer level"  ETV
+264	67947 1394 412 3322 3.00000576 46.000053119996 52 0 74 1764 120296
 vector 265  Star.switch2.relay  "buffer level"  ETV
+265	69341 1364 413 3347 3.00000576 46.000060639995 52 0 128 2404 202216
 vector 12  Star.ied.encap  decapPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  decapPk
-attr title  "packets decapsulated, vector(packetBytes)"
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+12	21498 237 452 3338 3.00001152 46.000059679996 9 28 56 392 18816
 vector 86  Star.ied2.encap  decapPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  decapPk
-attr title  "packets decapsulated, vector(packetBytes)"
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+86	29749 241 469 3313 3.000012479999 46.000052159997 9 28 56 392 18816
 vector 123  Star.ied3.encap  decapPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  decapPk
-attr title  "packets decapsulated, vector(packetBytes)"
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+123	31682 251 470 3355 3.000012479999 46.000067199995 9 28 56 392 18816
 vector 263  Star.switch.relay  "buffer level"  ETV
+263	65271 2676 494 3330 3.000018239999 46.000054079995 96 0 128 4552 388048
 vector 49  Star.ied1.encap  decapPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  decapPk
-attr title  "packets decapsulated, vector(packetBytes)"
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+49	27902 241 513 3278 3.000022559999 46.000044639998 9 28 56 392 18816
 vector 261  Star.server.eth[0].encap  decapPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  decapPk
-attr title  "packets decapsulated, vector(packetBytes)"
+attr interpolationmode none
+attr source decapPk
+attr title "packets decapsulated, vector(packetBytes)"
+261	64595 676 521 3284 3.000023999999 46.000045119995 24 28 44 992 41856
 vector 260  Star.server.eth[0].encap  encapPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  encapPk
-attr title  "packets encapsulated, vector(packetBytes)"
+attr interpolationmode none
+attr source encapPk
+attr title "packets encapsulated, vector(packetBytes)"
+260	63919 676 524 3288 3.000023999999 46.000045119995 24 28 56 1232 65856
 vector 256  Star.server.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+256	63243 676 525 3289 3.000023999999 46.000045119995 24 64 74 1736 125904
 vector 251  Star.server.eth[0].mac  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+251	61125 676 562 3325 3.000029759999 46.000054079995 24 64 74 1736 125904
 vector 171  Star.switch.eth[2]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+171	42438 676 563 3326 3.000029759999 46.000054079995 24 64 74 1736 125904
 vector 172  Star.switch.eth[2]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
-0	16785 1544 191 3752 1.00001008 59.00001008 67 64 118 7474 854284
-1	18329 278 34 3336 0.00000576 46.000059679996 12 64 74 818 56052
-2	18607 278 34 3336 0.00000576 46.000059679996 12 64 74 818 56052
-5	18885 999 125 3769 1 60 68 64 118 7592 868208
-11	19884 1003 92 3764 1 60 68 28 100 6304 612032
-12	20887 228 452 3338 3.00001152 46.000059679996 9 28 56 392 18816
-15	21115 887 65 3758 1 60 60 100 100 6000 600000
-21	22002 10 66 66 1 1 1 1 1 1 1
-28	22012 9 0 0 0 0 1 0 0 0 0
-29	22021 1004 110 3766 1 60 68 64 118 7592 868208
-31	23025 995 110 3766 1 60 68 0 1.008e-05 7.056e-05 7.112448e-10
-32	24020 1824 0 3766 0 60 137 0 1 68 68
-33	25844 33 106 358 1 3 3 1 1 3 3
-35	25877 11 106 106 1 1 1 1 1 1 1
-37	25888 179 159 3134 1.00000576 46.00000576 8 64 64 512 32768
-38	26067 298 35 3276 0.00000576 46.000044639998 12 64 74 818 56052
-39	26365 298 35 3276 0.00000576 46.000044639998 12 64 74 818 56052
-42	26663 116 137 3122 1 46 8 64 64 512 32768
-48	26779 116 117 3100 1 46 8 28 44 304 12032
-49	26895 232 513 3278 3.000022559999 46.000044639998 9 28 56 392 18816
-58	27127 10 67 67 1 1 1 1 1 1 1
-65	27137 9 0 0 0 0 1 0 0 0 0
-66	27146 116 127 3110 1 46 8 64 64 512 32768
-68	27262 108 127 3110 1 46 8 0 0 0 0
-69	27370 225 0 3110 0 46 17 0 1 8 8
-70	27595 33 107 359 1 3 3 1 1 3 3
-72	27628 11 107 107 1 1 1 1 1 1 1
-74	27639 179 160 3135 1.00000576 46.00000576 8 64 64 512 32768
-75	27818 298 38 3311 0.00000576 46.000052159997 12 64 74 818 56052
-76	28116 298 38 3311 0.00000576 46.000052159997 12 64 74 818 56052
-79	28414 116 138 3123 1 46 8 64 64 512 32768
-85	28530 116 118 3101 1 46 8 28 44 304 12032
-86	28646 232 469 3313 3.000012479999 46.000052159997 9 28 56 392 18816
-95	28878 10 68 68 1 1 1 1 1 1 1
-102	28888 10 0 0 0 0 1 0 0 0 0
-103	28898 124 128 3111 1 46 8 64 64 512 32768
-105	29022 116 128 3111 1 46 8 0 0 0 0
-106	29138 242 0 3111 0 46 17 0 1 8 8
-107	29380 36 108 360 1 3 3 1 1 3 3
-109	29416 12 108 108 1 1 1 1 1 1 1
-111	29428 187 161 3136 1.00000576 46.00000576 8 64 64 512 32768
-112	29615 310 37 3353 0.00000576 46.000067199995 12 64 74 818 56052
-113	29925 310 37 3353 0.00000576 46.000067199995 12 64 74 818 56052
-116	30235 124 139 3124 1 46 8 64 64 512 32768
-122	30359 124 119 3102 1 46 8 28 44 304 12032
-123	30483 242 470 3355 3.000012479999 46.000067199995 9 28 56 392 18816
-132	30725 11 69 69 1 1 1 1 1 1 1
-139	30736 10 0 0 0 0 1 0 0 0 0
-140	30746 124 129 3112 1 46 8 64 64 512 32768
-142	30870 116 129 3112 1 46 8 0 0 0 0
-143	30986 242 0 3112 0 46 17 0 1 8 8
-144	31228 36 109 361 1 3 3 1 1 3 3
-146	31264 12 109 109 1 1 1 1 1 1 1
-148	31276 1159 21 3773 0.00000576 60.00000576 47 64 74 3108 206312
-149	32435 1198 33 3731 0.00000576 58.000012479999 44 64 64 2816 180224
-150	33633 1198 33 3731 0.00000576 58.000012479999 44 64 64 2816 180224
-153	34831 860 4 3759 0 60 47 64 74 3108 206312
-159	35691 1159 22 3774 0.00000576 60.00000576 47 64 74 3108 206312
-160	36850 1198 36 3732 0.00000576 58.000012479999 44 64 64 2816 180224
-161	38048 1198 36 3732 0.00000576 58.000012479999 44 64 64 2816 180224
-164	39246 860 5 3760 0 60 47 64 74 3108 206312
-170	40106 695 24 3283 0.00000576 46.000045119995 26 64 64 1664 106496
-171	40801 652 563 3326 3.000029759999 46.000054079995 24 64 74 1736 125904
-172	41453 652 563 3326 3.000029759999 46.000054079995 24 64 74 1736 125904
-175	42105 676 6 3228 0 46.000025919997 26 64 64 1664 106496
-181	42781 1198 25 3729 0.00000576 58.000012479999 44 64 64 2816 180224
-182	43979 1159 31 3775 0.00000576 60.00000576 47 64 74 3108 206312
-183	45138 1159 31 3775 0.00000576 60.00000576 47 64 74 3108 206312
-186	46297 1066 7 3777 0 60.00000576 45 64 64 2880 184320
-192	47363 302 26 3335 0.00000576 46.000059679996 12 64 74 818 56052
-193	47665 1678 192 3753 1.00001008 59.00001008 67 64 118 7474 854284
-194	49343 1678 192 3753 1.00001008 59.00001008 67 64 118 7474 854284
-197	51021 282 8 3323 0 46.000053119996 12 64 74 818 56052
-203	51303 310 27 3275 0.00000576 46.000044639998 12 64 74 818 56052
-204	51613 187 162 3137 1.00000576 46.00000576 8 64 64 512 32768
-205	51800 187 162 3137 1.00000576 46.00000576 8 64 64 512 32768
-208	51987 286 9 3254 0 46.000038079998 12 64 74 818 56052
-214	52273 1198 28 3730 0.00000576 58.000012479999 44 64 64 2816 180224
-215	53471 1159 32 3776 0.00000576 60.00000576 47 64 74 3108 206312
-216	54630 1159 32 3776 0.00000576 60.00000576 47 64 74 3108 206312
-219	55789 1047 10 3778 0 60.00000576 45 64 64 2880 184320
-225	56836 310 29 3352 0.00000576 46.000067199995 12 64 74 818 56052
-226	57146 187 164 3139 1.00000576 46.00000576 8 64 64 512 32768
-227	57333 187 164 3139 1.00000576 46.00000576 8 64 64 512 32768
-230	57520 283 11 3348 0 46.000060639995 12 64 74 818 56052
-236	57803 310 30 3310 0.00000576 46.000052159997 12 64 74 818 56052
-237	58113 187 163 3138 1.00000576 46.00000576 8 64 64 512 32768
-238	58300 187 163 3138 1.00000576 46.00000576 8 64 64 512 32768
-241	58487 283 12 3296 0 46.000045599997 12 64 74 818 56052
-251	58770 652 562 3325 3.000029759999 46.000054079995 24 64 74 1736 125904
-252	59422 695 23 3282 0.00000576 46.000045119995 26 64 64 1664 106496
-253	60117 695 23 3282 0.00000576 46.000045119995 26 64 64 1664 106496
-256	60812 652 525 3289 3.000023999999 46.000045119995 24 64 74 1736 125904
-260	61464 652 524 3288 3.000023999999 46.000045119995 24 28 56 1232 65856
-261	62116 652 521 3284 3.000023999999 46.000045119995 24 28 44 992 41856
-263	62768 2580 494 3330 3.000018239999 46.000054079995 96 0 128 4552 388048
-264	65348 1342 412 3322 3.00000576 46.000053119996 52 0 74 1764 120296
-265	66690 1312 413 3347 3.00000576 46.000060639995 52 0 128 2404 202216
-267	68002 81 80 3074 1 46 5 7504 7504 37520 281550080
-268	68083 81 80 3074 1 46 5 7504 7504 37520 281550080
-270	68164 66 80 3074 1 46 5 0 0 0 0
-281	68230 66 80 3074 1 46 5 0 0 0 0
-291	68296 81 81 3075 1 46 5 7504 7504 37520 281550080
-292	68377 81 81 3075 1 46 5 7504 7504 37520 281550080
-294	68458 66 81 3075 1 46 5 0 0 0 0
-305	68524 66 81 3075 1 46 5 0 0 0 0
-315	68590 81 82 3076 1 46 5 7504 7504 37520 281550080
-316	68671 81 82 3076 1 46 5 7504 7504 37520 281550080
-318	68752 66 82 3076 1 46 5 0 0 0 0
-329	68818 66 82 3076 1 46 5 0 0 0 0
-339	68884 81 83 3077 1 46 5 7504 7504 37520 281550080
-340	68965 81 83 3077 1 46 5 7504 7504 37520 281550080
-342	69046 66 83 3077 1 46 5 0 0 0 0
-353	69112 66 83 3077 1 46 5 0 0 0 0
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+172	43114 676 563 3326 3.000029759999 46.000054079995 24 64 74 1736 125904

@@ -1,4 +1,4 @@
-file 31987 1377192536                                           
+file 32672 1435607599                                           
 version 2
 run General-0-20130822-14:07:59-6270
 attr configname General
@@ -15,672 +15,671 @@ attr replication #0
 attr resultdir results
 attr runnumber 0
 attr seedset 0
-
 vector 61  Substation.iSubstationTopology.feederBay[0].breaker[0].queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+61	30403 10 0 0 0 0 1 0 0 0 0
 vector 65  Substation.iSubstationTopology.feederBay[0].breaker[0].queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+65	30413 10 0 0 0 0 1 0 0 0 0
 vector 98  Substation.iSubstationTopology.feederBay[0].control[0].queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+98	30465 10 0 0 0 0 1 0 0 0 0
 vector 102  Substation.iSubstationTopology.feederBay[0].control[0].queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+102	30475 11 0 0 0 0 1 0 0 0 0
 vector 135  Substation.iSubstationTopology.feederBay[0].control[1].queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+135	30530 11 0 0 0 0 1 0 0 0 0
 vector 139  Substation.iSubstationTopology.feederBay[0].control[1].queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+139	30541 11 0 0 0 0 1 0 0 0 0
 vector 231  Substation.iSubstationTopology.feederBay[0].mu.queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+231	30894 11 0 0 0 0 1 0 0 0 0
 vector 235  Substation.iSubstationTopology.feederBay[0].mu.queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+235	30905 11 0 0 0 0 1 0 0 0 0
 vector 268  Substation.iSubstationTopology.feederBay[1].breaker[0].queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+268	30960 11 0 0 0 0 1 0 0 0 0
 vector 272  Substation.iSubstationTopology.feederBay[1].breaker[0].queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+272	30971 11 0 0 0 0 1 0 0 0 0
 vector 305  Substation.iSubstationTopology.feederBay[1].control[0].queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+305	31026 11 0 0 0 0 1 0 0 0 0
 vector 309  Substation.iSubstationTopology.feederBay[1].control[0].queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+309	31037 11 0 0 0 0 1 0 0 0 0
 vector 342  Substation.iSubstationTopology.feederBay[1].control[1].queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+342	31092 11 0 0 0 0 1 0 0 0 0
 vector 346  Substation.iSubstationTopology.feederBay[1].control[1].queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+346	31103 11 0 0 0 0 1 0 0 0 0
 vector 438  Substation.iSubstationTopology.feederBay[1].mu.queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+438	31460 11 0 0 0 0 1 0 0 0 0
 vector 442  Substation.iSubstationTopology.feederBay[1].mu.queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+442	31471 11 0 0 0 0 1 0 0 0 0
 vector 475  Substation.iSubstationTopology.transformerBay[0].breaker[0].queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+475	31528 11 0 0 0 0 1 0 0 0 0
 vector 479  Substation.iSubstationTopology.transformerBay[0].breaker[0].queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+479	31539 11 0 0 0 0 1 0 0 0 0
 vector 512  Substation.iSubstationTopology.transformerBay[0].control[0].queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+512	31596 11 0 0 0 0 1 0 0 0 0
 vector 516  Substation.iSubstationTopology.transformerBay[0].control[0].queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+516	31607 11 0 0 0 0 1 0 0 0 0
 vector 549  Substation.iSubstationTopology.transformerBay[0].control[1].queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+549	31664 11 0 0 0 0 1 0 0 0 0
 vector 553  Substation.iSubstationTopology.transformerBay[0].control[1].queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+553	31675 11 0 0 0 0 1 0 0 0 0
 vector 645  Substation.iSubstationTopology.transformerBay[0].mu.queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+645	32034 11 0 0 0 0 1 0 0 0 0
 vector 649  Substation.iSubstationTopology.transformerBay[0].mu.queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+649	32045 11 0 0 0 0 1 0 0 0 0
 vector 682  Substation.iSubstationTopology.transformerBay[1].breaker[0].queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+682	32102 11 0 0 0 0 1 0 0 0 0
 vector 686  Substation.iSubstationTopology.transformerBay[1].breaker[0].queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+686	32113 11 0 0 0 0 1 0 0 0 0
 vector 719  Substation.iSubstationTopology.transformerBay[1].control[0].queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+719	32170 11 0 0 0 0 1 0 0 0 0
 vector 723  Substation.iSubstationTopology.transformerBay[1].control[0].queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+723	32181 11 0 0 0 0 1 0 0 0 0
 vector 756  Substation.iSubstationTopology.transformerBay[1].control[1].queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+756	32238 11 0 0 0 0 1 0 0 0 0
 vector 760  Substation.iSubstationTopology.transformerBay[1].control[1].queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+760	32249 11 0 0 0 0 1 0 0 0 0
 vector 852  Substation.iSubstationTopology.transformerBay[1].mu.queue.pauseQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+852	32606 11 0 0 0 0 1 0 0 0 0
 vector 856  Substation.iSubstationTopology.transformerBay[1].mu.queue.dataQueue  queueLength:vector  ETV
-attr interpolationmode  sample-hold
-attr title  "queue length, vector"
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+856	32617 11 0 0 0 0 1 0 0 0 0
 vector 5  Substation.iSubstationTopology.switch.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+5	30243 10 7 7 0 0 1 64 64 64 4096
 vector 16  Substation.iSubstationTopology.switch.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+16	30318 11 8 8 0 0 1 64 64 64 4096
 vector 27  Substation.iSubstationTopology.switch.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+27	30350 11 9 9 0 0 1 64 64 64 4096
 vector 149  Substation.iSubstationTopology.feederBay[0].switch.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+149	30574 13 10 10 0 0 1 64 64 64 4096
 vector 160  Substation.iSubstationTopology.feederBay[0].switch.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+160	30609 13 11 11 0 0 1 64 64 64 4096
 vector 171  Substation.iSubstationTopology.feederBay[0].switch.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+171	30644 13 12 12 0 0 1 64 64 64 4096
 vector 182  Substation.iSubstationTopology.feederBay[0].switch.eth[3]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+182	30723 13 13 13 0 0 1 64 64 64 4096
 vector 193  Substation.iSubstationTopology.feederBay[0].switch.eth[4]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+193	30802 13 14 14 0 0 1 64 64 64 4096
 vector 204  Substation.iSubstationTopology.feederBay[0].switch.eth[5]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+204	30837 13 15 15 0 0 1 64 64 64 4096
 vector 356  Substation.iSubstationTopology.feederBay[1].switch.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+356	31136 13 16 16 0 0 1 64 64 64 4096
 vector 367  Substation.iSubstationTopology.feederBay[1].switch.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+367	31171 13 17 17 0 0 1 64 64 64 4096
 vector 378  Substation.iSubstationTopology.feederBay[1].switch.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+378	31206 13 18 18 0 0 1 64 64 64 4096
 vector 389  Substation.iSubstationTopology.feederBay[1].switch.eth[3]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+389	31285 13 19 19 0 0 1 64 64 64 4096
 vector 400  Substation.iSubstationTopology.feederBay[1].switch.eth[4]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+400	31366 13 20 20 0 0 1 64 64 64 4096
 vector 411  Substation.iSubstationTopology.feederBay[1].switch.eth[5]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+411	31401 13 21 21 0 0 1 64 64 64 4096
 vector 563  Substation.iSubstationTopology.transformerBay[0].switch.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+563	31708 13 22 22 0 0 1 64 64 64 4096
 vector 574  Substation.iSubstationTopology.transformerBay[0].switch.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+574	31743 13 23 23 0 0 1 64 64 64 4096
 vector 585  Substation.iSubstationTopology.transformerBay[0].switch.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+585	31778 13 24 24 0 0 1 64 64 64 4096
 vector 596  Substation.iSubstationTopology.transformerBay[0].switch.eth[3]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+596	31859 13 25 25 0 0 1 64 64 64 4096
 vector 607  Substation.iSubstationTopology.transformerBay[0].switch.eth[4]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+607	31940 13 26 26 0 0 1 64 64 64 4096
 vector 618  Substation.iSubstationTopology.transformerBay[0].switch.eth[5]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+618	31975 13 27 27 0 0 1 64 64 64 4096
 vector 770  Substation.iSubstationTopology.transformerBay[1].switch.eth[0]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+770	32282 13 28 28 0 0 1 64 64 64 4096
 vector 781  Substation.iSubstationTopology.transformerBay[1].switch.eth[1]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+781	32317 13 29 29 0 0 1 64 64 64 4096
 vector 792  Substation.iSubstationTopology.transformerBay[1].switch.eth[2]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+792	32352 13 30 30 0 0 1 64 64 64 4096
 vector 803  Substation.iSubstationTopology.transformerBay[1].switch.eth[3]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+803	32433 13 31 31 0 0 1 64 64 64 4096
 vector 814  Substation.iSubstationTopology.transformerBay[1].switch.eth[4]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+814	32512 13 32 32 0 0 1 64 64 64 4096
 vector 825  Substation.iSubstationTopology.transformerBay[1].switch.eth[5]  rxPkFromHL:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkFromHL
-attr title  "packet bytes from higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkFromHL
+attr title "packet bytes from higher layer, vector(packetBytes)"
+825	32547 13 33 33 0 0 1 64 64 64 4096
 vector 0  Substation.iSubstationTopology.switch.eth[0]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+0	30183 20 60 60 0.00000576 0.00000576 1 64 64 64 4096
 vector 11  Substation.iSubstationTopology.switch.eth[1]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+11	30253 21 61 61 0.00000576 0.00000576 1 64 64 64 4096
 vector 869  Substation.iSubstationTopology.workstation.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+869	32628 22 62 62 0.00000576 0.00000576 1 64 64 64 4096
 vector 870  Substation.iSubstationTopology.workstation.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+870	32650 22 62 62 0.00000576 0.00000576 1 64 64 64 4096
 vector 22  Substation.iSubstationTopology.switch.eth[2]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+22	30329 21 63 63 0.00000576 0.00000576 1 64 64 64 4096
 vector 144  Substation.iSubstationTopology.feederBay[0].switch.eth[0]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+144	30552 22 64 64 0.00000576 0.00000576 1 64 64 64 4096
 vector 155  Substation.iSubstationTopology.feederBay[0].switch.eth[1]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+155	30587 22 65 65 0.00000576 0.00000576 1 64 64 64 4096
 vector 166  Substation.iSubstationTopology.feederBay[0].switch.eth[2]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+166	30622 22 66 66 0.00000576 0.00000576 1 64 64 64 4096
 vector 177  Substation.iSubstationTopology.feederBay[0].switch.eth[3]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+177	30657 22 67 67 0.00000576 0.00000576 1 64 64 64 4096
 vector 188  Substation.iSubstationTopology.feederBay[0].switch.eth[4]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+188	30736 22 68 68 0.00000576 0.00000576 1 64 64 64 4096
 vector 199  Substation.iSubstationTopology.feederBay[0].switch.eth[5]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+199	30815 22 69 69 0.00000576 0.00000576 1 64 64 64 4096
 vector 351  Substation.iSubstationTopology.feederBay[1].switch.eth[0]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+351	31114 22 70 70 0.00000576 0.00000576 1 64 64 64 4096
 vector 362  Substation.iSubstationTopology.feederBay[1].switch.eth[1]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+362	31149 22 71 71 0.00000576 0.00000576 1 64 64 64 4096
 vector 373  Substation.iSubstationTopology.feederBay[1].switch.eth[2]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+373	31184 22 72 72 0.00000576 0.00000576 1 64 64 64 4096
 vector 384  Substation.iSubstationTopology.feederBay[1].switch.eth[3]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+384	31219 22 73 73 0.00000576 0.00000576 1 64 64 64 4096
 vector 395  Substation.iSubstationTopology.feederBay[1].switch.eth[4]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+395	31298 22 74 74 0.00000576 0.00000576 1 64 64 64 4096
 vector 406  Substation.iSubstationTopology.feederBay[1].switch.eth[5]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+406	31379 22 75 75 0.00000576 0.00000576 1 64 64 64 4096
 vector 558  Substation.iSubstationTopology.transformerBay[0].switch.eth[0]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+558	31686 22 76 76 0.00000576 0.00000576 1 64 64 64 4096
 vector 569  Substation.iSubstationTopology.transformerBay[0].switch.eth[1]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+569	31721 22 77 77 0.00000576 0.00000576 1 64 64 64 4096
 vector 580  Substation.iSubstationTopology.transformerBay[0].switch.eth[2]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+580	31756 22 78 78 0.00000576 0.00000576 1 64 64 64 4096
 vector 591  Substation.iSubstationTopology.transformerBay[0].switch.eth[3]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+591	31791 22 79 79 0.00000576 0.00000576 1 64 64 64 4096
 vector 602  Substation.iSubstationTopology.transformerBay[0].switch.eth[4]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+602	31872 22 80 80 0.00000576 0.00000576 1 64 64 64 4096
 vector 613  Substation.iSubstationTopology.transformerBay[0].switch.eth[5]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+613	31953 22 81 81 0.00000576 0.00000576 1 64 64 64 4096
 vector 765  Substation.iSubstationTopology.transformerBay[1].switch.eth[0]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+765	32260 22 82 82 0.00000576 0.00000576 1 64 64 64 4096
 vector 776  Substation.iSubstationTopology.transformerBay[1].switch.eth[1]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+776	32295 22 83 83 0.00000576 0.00000576 1 64 64 64 4096
 vector 787  Substation.iSubstationTopology.transformerBay[1].switch.eth[2]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+787	32330 22 84 84 0.00000576 0.00000576 1 64 64 64 4096
 vector 798  Substation.iSubstationTopology.transformerBay[1].switch.eth[3]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+798	32365 22 85 85 0.00000576 0.00000576 1 64 64 64 4096
 vector 809  Substation.iSubstationTopology.transformerBay[1].switch.eth[4]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+809	32446 22 86 86 0.00000576 0.00000576 1 64 64 64 4096
 vector 820  Substation.iSubstationTopology.transformerBay[1].switch.eth[5]  txPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  txPk
-attr title  "packets transmitted, vector(packetBytes)"
+attr interpolationmode none
+attr source txPk
+attr title "packets transmitted, vector(packetBytes)"
+820	32525 22 87 87 0.00000576 0.00000576 1 64 64 64 4096
 vector 178  Substation.iSubstationTopology.feederBay[0].switch.eth[3]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+178	30679 22 88 88 0.00000576 0.00000576 1 64 64 64 4096
 vector 179  Substation.iSubstationTopology.feederBay[0].switch.eth[3]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+179	30701 22 88 88 0.00000576 0.00000576 1 64 64 64 4096
 vector 810  Substation.iSubstationTopology.transformerBay[1].switch.eth[4]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+810	32468 22 89 89 0.00000576 0.00000576 1 64 64 64 4096
 vector 811  Substation.iSubstationTopology.transformerBay[1].switch.eth[4]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+811	32490 22 89 89 0.00000576 0.00000576 1 64 64 64 4096
 vector 71  Substation.iSubstationTopology.feederBay[0].control[0].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+71	30423 21 90 90 0.00000576 0.00000576 1 64 64 64 4096
 vector 72  Substation.iSubstationTopology.feederBay[0].control[0].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+72	30444 21 90 90 0.00000576 0.00000576 1 64 64 64 4096
 vector 108  Substation.iSubstationTopology.feederBay[0].control[1].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+108	30486 22 91 91 0.00000576 0.00000576 1 64 64 64 4096
 vector 109  Substation.iSubstationTopology.feederBay[0].control[1].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+109	30508 22 91 91 0.00000576 0.00000576 1 64 64 64 4096
 vector 34  Substation.iSubstationTopology.feederBay[0].breaker[0].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+34	30361 21 92 92 0.00000576 0.00000576 1 64 64 64 4096
 vector 35  Substation.iSubstationTopology.feederBay[0].breaker[0].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+35	30382 21 92 92 0.00000576 0.00000576 1 64 64 64 4096
 vector 1  Substation.iSubstationTopology.switch.eth[0]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+1	30203 20 93 93 0.00000576 0.00000576 1 64 64 64 4096
 vector 2  Substation.iSubstationTopology.switch.eth[0]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+2	30223 20 93 93 0.00000576 0.00000576 1 64 64 64 4096
 vector 385  Substation.iSubstationTopology.feederBay[1].switch.eth[3]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+385	31241 22 94 94 0.00000576 0.00000576 1 64 64 64 4096
 vector 386  Substation.iSubstationTopology.feederBay[1].switch.eth[3]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+386	31263 22 94 94 0.00000576 0.00000576 1 64 64 64 4096
 vector 211  Substation.iSubstationTopology.feederBay[0].mu.mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+211	30850 22 95 95 0.00000576 0.00000576 1 64 64 64 4096
 vector 212  Substation.iSubstationTopology.feederBay[0].mu.mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+212	30872 22 95 95 0.00000576 0.00000576 1 64 64 64 4096
 vector 278  Substation.iSubstationTopology.feederBay[1].control[0].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+278	30982 22 96 96 0.00000576 0.00000576 1 64 64 64 4096
 vector 279  Substation.iSubstationTopology.feederBay[1].control[0].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+279	31004 22 96 96 0.00000576 0.00000576 1 64 64 64 4096
 vector 315  Substation.iSubstationTopology.feederBay[1].control[1].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+315	31048 22 97 97 0.00000576 0.00000576 1 64 64 64 4096
 vector 316  Substation.iSubstationTopology.feederBay[1].control[1].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+316	31070 22 97 97 0.00000576 0.00000576 1 64 64 64 4096
 vector 241  Substation.iSubstationTopology.feederBay[1].breaker[0].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+241	30916 22 98 98 0.00000576 0.00000576 1 64 64 64 4096
 vector 242  Substation.iSubstationTopology.feederBay[1].breaker[0].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+242	30938 22 98 98 0.00000576 0.00000576 1 64 64 64 4096
 vector 189  Substation.iSubstationTopology.feederBay[0].switch.eth[4]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+189	30758 22 99 99 0.00000576 0.00000576 1 64 64 64 4096
 vector 190  Substation.iSubstationTopology.feederBay[0].switch.eth[4]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+190	30780 22 99 99 0.00000576 0.00000576 1 64 64 64 4096
 vector 592  Substation.iSubstationTopology.transformerBay[0].switch.eth[3]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+592	31813 23 100 100 0.00000576 0.00000576 1 64 64 64 4096
 vector 593  Substation.iSubstationTopology.transformerBay[0].switch.eth[3]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+593	31836 23 100 100 0.00000576 0.00000576 1 64 64 64 4096
 vector 418  Substation.iSubstationTopology.feederBay[1].mu.mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+418	31414 23 101 101 0.00000576 0.00000576 1 64 64 64 4096
 vector 419  Substation.iSubstationTopology.feederBay[1].mu.mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+419	31437 23 101 101 0.00000576 0.00000576 1 64 64 64 4096
 vector 485  Substation.iSubstationTopology.transformerBay[0].control[0].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+485	31550 23 102 102 0.00000576 0.00000576 1 64 64 64 4096
 vector 486  Substation.iSubstationTopology.transformerBay[0].control[0].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+486	31573 23 102 102 0.00000576 0.00000576 1 64 64 64 4096
 vector 522  Substation.iSubstationTopology.transformerBay[0].control[1].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+522	31618 23 103 103 0.00000576 0.00000576 1 64 64 64 4096
 vector 523  Substation.iSubstationTopology.transformerBay[0].control[1].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+523	31641 23 103 103 0.00000576 0.00000576 1 64 64 64 4096
 vector 448  Substation.iSubstationTopology.transformerBay[0].breaker[0].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+448	31482 23 104 104 0.00000576 0.00000576 1 64 64 64 4096
 vector 449  Substation.iSubstationTopology.transformerBay[0].breaker[0].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+449	31505 23 104 104 0.00000576 0.00000576 1 64 64 64 4096
 vector 396  Substation.iSubstationTopology.feederBay[1].switch.eth[4]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+396	31320 23 105 105 0.00000576 0.00000576 1 64 64 64 4096
 vector 397  Substation.iSubstationTopology.feederBay[1].switch.eth[4]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+397	31343 23 105 105 0.00000576 0.00000576 1 64 64 64 4096
 vector 799  Substation.iSubstationTopology.transformerBay[1].switch.eth[3]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+799	32387 23 106 106 0.00000576 0.00000576 1 64 64 64 4096
 vector 800  Substation.iSubstationTopology.transformerBay[1].switch.eth[3]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+800	32410 23 106 106 0.00000576 0.00000576 1 64 64 64 4096
 vector 625  Substation.iSubstationTopology.transformerBay[0].mu.mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+625	31988 23 107 107 0.00000576 0.00000576 1 64 64 64 4096
 vector 626  Substation.iSubstationTopology.transformerBay[0].mu.mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+626	32011 23 107 107 0.00000576 0.00000576 1 64 64 64 4096
 vector 692  Substation.iSubstationTopology.transformerBay[1].control[0].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+692	32124 23 108 108 0.00000576 0.00000576 1 64 64 64 4096
 vector 693  Substation.iSubstationTopology.transformerBay[1].control[0].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+693	32147 23 108 108 0.00000576 0.00000576 1 64 64 64 4096
 vector 729  Substation.iSubstationTopology.transformerBay[1].control[1].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+729	32192 23 109 109 0.00000576 0.00000576 1 64 64 64 4096
 vector 730  Substation.iSubstationTopology.transformerBay[1].control[1].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+730	32215 23 109 109 0.00000576 0.00000576 1 64 64 64 4096
 vector 655  Substation.iSubstationTopology.transformerBay[1].breaker[0].mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+655	32056 23 110 110 0.00000576 0.00000576 1 64 64 64 4096
 vector 656  Substation.iSubstationTopology.transformerBay[1].breaker[0].mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+656	32079 23 110 110 0.00000576 0.00000576 1 64 64 64 4096
 vector 603  Substation.iSubstationTopology.transformerBay[0].switch.eth[4]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+603	31894 23 111 111 0.00000576 0.00000576 1 64 64 64 4096
 vector 604  Substation.iSubstationTopology.transformerBay[0].switch.eth[4]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+604	31917 23 111 111 0.00000576 0.00000576 1 64 64 64 4096
 vector 12  Substation.iSubstationTopology.switch.eth[1]  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+12	30274 22 112 112 0.00000576 0.00000576 1 64 64 64 4096
 vector 13  Substation.iSubstationTopology.switch.eth[1]  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+13	30296 22 112 112 0.00000576 0.00000576 1 64 64 64 4096
 vector 832  Substation.iSubstationTopology.transformerBay[1].mu.mac  rxPkOk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  rxPkOk
-attr title  "packets received OK, vector(packetBytes)"
+attr interpolationmode none
+attr source rxPkOk
+attr title "packets received OK, vector(packetBytes)"
+832	32560 23 113 113 0.00000576 0.00000576 1 64 64 64 4096
 vector 833  Substation.iSubstationTopology.transformerBay[1].mu.mac  passedUpPk:vector(packetBytes)  ETV
-attr interpolationmode  none
-attr source  packetSentToUpper
-attr title  "packets passed to higher layer, vector(packetBytes)"
-0	29638 19 60 60 0.00000576 0.00000576 1 64 64 64 4096
-1	29657 19 93 93 0.00000576 0.00000576 1 64 64 64 4096
-2	29676 19 93 93 0.00000576 0.00000576 1 64 64 64 4096
-5	29695 9 7 7 0 0 1 64 64 64 4096
-11	29704 20 61 61 0.00000576 0.00000576 1 64 64 64 4096
-12	29724 21 112 112 0.00000576 0.00000576 1 64 64 64 4096
-13	29745 21 112 112 0.00000576 0.00000576 1 64 64 64 4096
-16	29766 10 8 8 0 0 1 64 64 64 4096
-22	29776 20 63 63 0.00000576 0.00000576 1 64 64 64 4096
-27	29796 10 9 9 0 0 1 64 64 64 4096
-34	29806 20 92 92 0.00000576 0.00000576 1 64 64 64 4096
-35	29826 20 92 92 0.00000576 0.00000576 1 64 64 64 4096
-61	29846 9 0 0 0 0 1 0 0 0 0
-65	29855 9 0 0 0 0 1 0 0 0 0
-71	29864 20 90 90 0.00000576 0.00000576 1 64 64 64 4096
-72	29884 20 90 90 0.00000576 0.00000576 1 64 64 64 4096
-98	29904 9 0 0 0 0 1 0 0 0 0
-102	29913 10 0 0 0 0 1 0 0 0 0
-108	29923 21 91 91 0.00000576 0.00000576 1 64 64 64 4096
-109	29944 21 91 91 0.00000576 0.00000576 1 64 64 64 4096
-135	29965 10 0 0 0 0 1 0 0 0 0
-139	29975 10 0 0 0 0 1 0 0 0 0
-144	29985 21 64 64 0.00000576 0.00000576 1 64 64 64 4096
-149	30006 12 10 10 0 0 1 64 64 64 4096
-155	30018 21 65 65 0.00000576 0.00000576 1 64 64 64 4096
-160	30039 12 11 11 0 0 1 64 64 64 4096
-166	30051 21 66 66 0.00000576 0.00000576 1 64 64 64 4096
-171	30072 12 12 12 0 0 1 64 64 64 4096
-177	30084 21 67 67 0.00000576 0.00000576 1 64 64 64 4096
-178	30105 21 88 88 0.00000576 0.00000576 1 64 64 64 4096
-179	30126 21 88 88 0.00000576 0.00000576 1 64 64 64 4096
-182	30147 12 13 13 0 0 1 64 64 64 4096
-188	30159 21 68 68 0.00000576 0.00000576 1 64 64 64 4096
-189	30180 21 99 99 0.00000576 0.00000576 1 64 64 64 4096
-190	30201 21 99 99 0.00000576 0.00000576 1 64 64 64 4096
-193	30222 12 14 14 0 0 1 64 64 64 4096
-199	30234 21 69 69 0.00000576 0.00000576 1 64 64 64 4096
-204	30255 12 15 15 0 0 1 64 64 64 4096
-211	30267 21 95 95 0.00000576 0.00000576 1 64 64 64 4096
-212	30288 21 95 95 0.00000576 0.00000576 1 64 64 64 4096
-231	30309 10 0 0 0 0 1 0 0 0 0
-235	30319 10 0 0 0 0 1 0 0 0 0
-241	30329 21 98 98 0.00000576 0.00000576 1 64 64 64 4096
-242	30350 21 98 98 0.00000576 0.00000576 1 64 64 64 4096
-268	30371 10 0 0 0 0 1 0 0 0 0
-272	30381 10 0 0 0 0 1 0 0 0 0
-278	30391 21 96 96 0.00000576 0.00000576 1 64 64 64 4096
-279	30412 21 96 96 0.00000576 0.00000576 1 64 64 64 4096
-305	30433 10 0 0 0 0 1 0 0 0 0
-309	30443 10 0 0 0 0 1 0 0 0 0
-315	30453 21 97 97 0.00000576 0.00000576 1 64 64 64 4096
-316	30474 21 97 97 0.00000576 0.00000576 1 64 64 64 4096
-342	30495 10 0 0 0 0 1 0 0 0 0
-346	30505 10 0 0 0 0 1 0 0 0 0
-351	30515 21 70 70 0.00000576 0.00000576 1 64 64 64 4096
-356	30536 12 16 16 0 0 1 64 64 64 4096
-362	30548 21 71 71 0.00000576 0.00000576 1 64 64 64 4096
-367	30569 12 17 17 0 0 1 64 64 64 4096
-373	30581 21 72 72 0.00000576 0.00000576 1 64 64 64 4096
-378	30602 12 18 18 0 0 1 64 64 64 4096
-384	30614 21 73 73 0.00000576 0.00000576 1 64 64 64 4096
-385	30635 21 94 94 0.00000576 0.00000576 1 64 64 64 4096
-386	30656 21 94 94 0.00000576 0.00000576 1 64 64 64 4096
-389	30677 12 19 19 0 0 1 64 64 64 4096
-395	30689 21 74 74 0.00000576 0.00000576 1 64 64 64 4096
-396	30710 22 105 105 0.00000576 0.00000576 1 64 64 64 4096
-397	30732 22 105 105 0.00000576 0.00000576 1 64 64 64 4096
-400	30754 12 20 20 0 0 1 64 64 64 4096
-406	30766 21 75 75 0.00000576 0.00000576 1 64 64 64 4096
-411	30787 12 21 21 0 0 1 64 64 64 4096
-418	30799 22 101 101 0.00000576 0.00000576 1 64 64 64 4096
-419	30821 22 101 101 0.00000576 0.00000576 1 64 64 64 4096
-438	30843 10 0 0 0 0 1 0 0 0 0
-442	30853 10 0 0 0 0 1 0 0 0 0
-448	30863 22 104 104 0.00000576 0.00000576 1 64 64 64 4096
-449	30885 22 104 104 0.00000576 0.00000576 1 64 64 64 4096
-475	30907 10 0 0 0 0 1 0 0 0 0
-479	30917 10 0 0 0 0 1 0 0 0 0
-485	30927 22 102 102 0.00000576 0.00000576 1 64 64 64 4096
-486	30949 22 102 102 0.00000576 0.00000576 1 64 64 64 4096
-512	30971 10 0 0 0 0 1 0 0 0 0
-516	30981 10 0 0 0 0 1 0 0 0 0
-522	30991 22 103 103 0.00000576 0.00000576 1 64 64 64 4096
-523	31013 22 103 103 0.00000576 0.00000576 1 64 64 64 4096
-549	31035 10 0 0 0 0 1 0 0 0 0
-553	31045 10 0 0 0 0 1 0 0 0 0
-558	31055 21 76 76 0.00000576 0.00000576 1 64 64 64 4096
-563	31076 12 22 22 0 0 1 64 64 64 4096
-569	31088 21 77 77 0.00000576 0.00000576 1 64 64 64 4096
-574	31109 12 23 23 0 0 1 64 64 64 4096
-580	31121 21 78 78 0.00000576 0.00000576 1 64 64 64 4096
-585	31142 12 24 24 0 0 1 64 64 64 4096
-591	31154 21 79 79 0.00000576 0.00000576 1 64 64 64 4096
-592	31175 22 100 100 0.00000576 0.00000576 1 64 64 64 4096
-593	31197 22 100 100 0.00000576 0.00000576 1 64 64 64 4096
-596	31219 12 25 25 0 0 1 64 64 64 4096
-602	31231 21 80 80 0.00000576 0.00000576 1 64 64 64 4096
-603	31252 22 111 111 0.00000576 0.00000576 1 64 64 64 4096
-604	31274 22 111 111 0.00000576 0.00000576 1 64 64 64 4096
-607	31296 12 26 26 0 0 1 64 64 64 4096
-613	31308 21 81 81 0.00000576 0.00000576 1 64 64 64 4096
-618	31329 12 27 27 0 0 1 64 64 64 4096
-625	31341 22 107 107 0.00000576 0.00000576 1 64 64 64 4096
-626	31363 22 107 107 0.00000576 0.00000576 1 64 64 64 4096
-645	31385 10 0 0 0 0 1 0 0 0 0
-649	31395 10 0 0 0 0 1 0 0 0 0
-655	31405 22 110 110 0.00000576 0.00000576 1 64 64 64 4096
-656	31427 22 110 110 0.00000576 0.00000576 1 64 64 64 4096
-682	31449 10 0 0 0 0 1 0 0 0 0
-686	31459 10 0 0 0 0 1 0 0 0 0
-692	31469 22 108 108 0.00000576 0.00000576 1 64 64 64 4096
-693	31491 22 108 108 0.00000576 0.00000576 1 64 64 64 4096
-719	31513 10 0 0 0 0 1 0 0 0 0
-723	31523 10 0 0 0 0 1 0 0 0 0
-729	31533 22 109 109 0.00000576 0.00000576 1 64 64 64 4096
-730	31555 22 109 109 0.00000576 0.00000576 1 64 64 64 4096
-756	31577 10 0 0 0 0 1 0 0 0 0
-760	31587 10 0 0 0 0 1 0 0 0 0
-765	31597 21 82 82 0.00000576 0.00000576 1 64 64 64 4096
-770	31618 12 28 28 0 0 1 64 64 64 4096
-776	31630 21 83 83 0.00000576 0.00000576 1 64 64 64 4096
-781	31651 12 29 29 0 0 1 64 64 64 4096
-787	31663 21 84 84 0.00000576 0.00000576 1 64 64 64 4096
-792	31684 12 30 30 0 0 1 64 64 64 4096
-798	31696 21 85 85 0.00000576 0.00000576 1 64 64 64 4096
-799	31717 22 106 106 0.00000576 0.00000576 1 64 64 64 4096
-800	31739 22 106 106 0.00000576 0.00000576 1 64 64 64 4096
-803	31761 12 31 31 0 0 1 64 64 64 4096
-809	31773 21 86 86 0.00000576 0.00000576 1 64 64 64 4096
-810	31794 21 89 89 0.00000576 0.00000576 1 64 64 64 4096
-811	31815 21 89 89 0.00000576 0.00000576 1 64 64 64 4096
-814	31836 12 32 32 0 0 1 64 64 64 4096
-820	31848 21 87 87 0.00000576 0.00000576 1 64 64 64 4096
-825	31869 12 33 33 0 0 1 64 64 64 4096
-832	31881 22 113 113 0.00000576 0.00000576 1 64 64 64 4096
-833	31903 22 113 113 0.00000576 0.00000576 1 64 64 64 4096
-852	31925 10 0 0 0 0 1 0 0 0 0
-856	31935 10 0 0 0 0 1 0 0 0 0
-869	31945 21 62 62 0.00000576 0.00000576 1 64 64 64 4096
-870	31966 21 62 62 0.00000576 0.00000576 1 64 64 64 4096
+attr interpolationmode none
+attr source packetSentToUpper
+attr title "packets passed to higher layer, vector(packetBytes)"
+833	32583 23 113 113 0.00000576 0.00000576 1 64 64 64 4096
